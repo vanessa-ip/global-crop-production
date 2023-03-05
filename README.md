@@ -1,12 +1,13 @@
-## Global Crop Production 
+## Global Crop Production
 
+![crop_map](images/rice_crop_map.png)
 ### Table of Contents
 - [Background](https://github.com/vanessa-ip/global-crop-production#background)
-- [Business Task](https://github.com/vanessa-ip/global-crop-production#business-task)
+- [Business task](https://github.com/vanessa-ip/global-crop-production#business-task)
 - [Data source](https://github.com/vanessa-ip/global-crop-production#data-source)
 - [Entity relationships](https://github.com/vanessa-ip/global-crop-production#entity-relationships)
 - [Case study questions](https://github.com/vanessa-ip/global-crop-production#case-study-questions)
-- [Solutions on Github]()
+- [Solutions on Github](https://github.com/vanessa-ip/global-crop-production/blob/main/global-crop-production-analysis)
 
 ### Background
 
@@ -15,13 +16,15 @@ Improvements in crop yields are crucial for feeding a growing population, reduci
 ### Business Task
 The exploratory data analysis of global crop yield aims to identify current and past yield trends and patterns across all countries, which can provide valuable insights to policymakers, agricultural practitioners, and food companies. 
 
-This analysis can help these stakeholders understand the strengths of each country and the availability of different crop types, informing decisions and planning around resource utilization, sustainability practices, international trade, food supply chain, and technological innovation. By learning from countries that are efficient at production, this analysis can also support efforts to reduce land use while intensifying yield.
+This analysis will help these stakeholders understand the availability of different crop types and learn from countries that are efficient at production, informing decisions and planning around resource utilization, sustainability practices, international trade, operations of the food supply chain, and technological innovation in reducing land use while intensifying yield.
 
 ### Data Source
 - [Crop Yields (2022) - published online at OurWorldInData.org ](https://ourworldindata.org/crop-yields)
-- [Land Use (2013) - published online at OurWorldInData.org](https://ourworldindata.org/land-use)
+- [Land Use (2019) - published online at OurWorldInData.org](https://ourworldindata.org/land-use)
 
 ### Entity Relationships 
+
+![entity relationships](images/entity_relationship.png)
 
 ### Case Study Questions
 1. In 2018, for each crop type, which country produced the highest actual yield and which country 
