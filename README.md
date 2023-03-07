@@ -7,14 +7,14 @@
 - [Data source](https://github.com/vanessa-ip/global-crop-production#data-source)
 - [Entity relationships](https://github.com/vanessa-ip/global-crop-production#entity-relationships)
 - [Case study questions](https://github.com/vanessa-ip/global-crop-production#case-study-questions)
-- [Solutions on Github](https://github.com/vanessa-ip/global-crop-production/blob/main/global-crop-production-analysis)
+- [Solutions on Github](https://github.com/vanessa-ip/global-crop-production/blob/main/global-crop-production-analysis.md)
 
 ### Background
 
 Improvements in crop yields are crucial for feeding a growing population, reducing global poverty rates, and minimizing the environmental impact of food production. With the world's population projected to exceed 9 billion by 2050 (United Nations - Department of Economic and Social Affairs, 2017, The World Population Prospects: The 2017 Revision), it is essential to optimize crop yield.
 
 ### Business Task
-The exploratory data analysis of global crop yield aims to identify current and past yield trends and patterns across all countries, which can provide valuable insights to policymakers, agricultural practitioners, and food companies. 
+The descriptive analyses of global crop yield aims to identify current and past yield trends and patterns across all countries, which can provide valuable insights to policymakers, agricultural practitioners, and food companies. 
 
 This analysis will help these stakeholders understand the availability of different crop types and learn from countries that are efficient at production, informing decisions and planning around resource utilization, sustainability practices, international trade, operations of the food supply chain, and technological innovation in reducing land use while intensifying yield.
 

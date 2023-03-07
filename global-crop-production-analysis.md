@@ -4,17 +4,10 @@
 - [Preparing the data](/global-crop-production-analysis.md#preparing-the-data)
 - [Definitions](/global-crop-production-analysis.md#definitions)
 - [Data analysis](/global-crop-production-analysis.md#data-analysis)
-  - [Question 1](/global-crop-production-analysis.md#question-1)
-  - [Question 2](/global-crop-production-analysis.md#question-2)
-  - [Question 3](/global-crop-production-analysis.md#question-3)
-  - [Question 4](/global-crop-production-analysis.md#question-4)
-  - [Question 5](/global-crop-production-analysis.md#question-5)
-  - [Question 6](/global-crop-production-analysis.md#question-6)
-  - [Question 7](/global-crop-production-analysis.md#question-7)
-  - [Question 8](/global-crop-production-analysis.md#question-8) 
-  - [Question 9](/global-crop-production-analysis.md#question-9)
-  - [Question 10](/global-crop-production-analysis.md#question-10)
+  - [Segment by crop](/global-crop-production-analysis.md#segment-by-crop)
+  - [Segment by country](/global-crop-production-analysis.md#segment-by-country)
 - [Conclusion](/global-crop-production-analysis.md#conclusion)
+- [Recommendations](/global-crop-production-analysis.md#recommendations)
 
 ## Definitions
 
@@ -30,79 +23,11 @@ assessments for the year 2000. Attainable yield pre-2000 may be lower; and post-
 areas of similar climate. They are more conservative than biophysical ‘potential yields’, but should be achievable using current technologies and management
 (e.g. fertilizers and irrigation).
 
+---
+
 ## Preparing the Data
 
 1. Unpivot the original table to transform all the separate 'crop'_attainable and 'crop'_yield_gap columns into two columns: yield (FLOAT64) for the numeric values, and crop (STRING) for the different types of crops
-
-```SQL
-SELECT Entity, Year, yield, crop
-FROM `crop-yields-world-data.crop_yields.crops`
-unpivot(
-  yield for crop in (barley_yield_gap, rye_yield_gap, millet_yield_gap, sorghum_yield_gap, maize_yield_gap,
-  cassava_yield_gap, soybeans_yield_gap, rapeseed_yield_gap, sugarbeet_yield_gap, potato_yield_gap, oilpalm_yield_gap,
-  groundnut_yield_gap, rice_yield_gap, sunflower_yield_gap, cotton_yield_gap, sugarcane_yield_gap, wheat_yield_gap)
-) sub
-UNION ALL
-SELECT Entity, Year, yield, crop
-FROM `crop-yields-world-data.crop_yields.crops`
-unpivot(
-  yield for crop in (barley_attainable, rye_attainable, millet_attainable, sorghum_attainable, maize_attainable,
-  cassava_attainable, soybean_attainable, rapeseed_attainable, sugarbeet_attainable, potato_attainable, oilpalm_attainable,
-  groundnut_attainable, rice_attainable, sunflower_attainable, cotton_attainable, sugarcane_attainable, wheat_attainable)
-) sub
-UNION ALL
-SELECT Entity, Year, (barley_attainable - barley_yield_gap) as yield, "barley_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (rye_attainable - rye_yield_gap) as yield, "rye_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (millet_attainable - millet_yield_gap) as yield, "millet_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (sorghum_attainable - sorghum_yield_gap) as yield, "sorghum_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (maize_attainable - maize_yield_gap) as yield, "maize_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (cassava_attainable - cassava_yield_gap) as yield, "cassava_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (soybean_attainable - soybeans_yield_gap) as yield, "soybean_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (rapeseed_attainable - rapeseed_yield_gap) as yield, "rapeseed_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (sugarbeet_attainable - sugarbeet_yield_gap) as yield, "sugarbeet_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (potato_attainable - potato_yield_gap) as yield, "potato_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (oilpalm_attainable - oilpalm_yield_gap) as yield, "oilpalm_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (groundnut_attainable - groundnut_yield_gap) as yield, "groundnut_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (rice_attainable - rice_yield_gap) as yield, "rice_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (sunflower_attainable - sunflower_yield_gap) as yield, "sunflower_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (cotton_attainable - cotton_yield_gap) as yield, "cotton_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (sugarcane_attainable - sugarcane_yield_gap) as yield, "sugarcane_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-UNION ALL
-SELECT Entity, Year, (wheat_attainable - wheat_yield_gap) as yield, "wheat_yield" as crop
-FROM `crop-yields-world-data.crop_yields.crops`
-```
-<br>
 
 The original table [crops.csv](csv/crops.csv)
 
@@ -115,7 +40,123 @@ The original table [crops.csv](csv/crops.csv)
 |  4 | Belarus | 1996 |              5.44 |                     0 |                    0 |                       0 |             9.25 |  ... |
 |  ... | ...     | ...  |             ...   |                   ... |                  ... |                     ... |              ... |  ... |
 
-<br>
+
+Steps:
+```SQL
+-- unpivot 'crop'_yield_gap columns into the new crop column using yield values 
+SELECT Entity, 
+    Year, 
+    yield, 
+    crop
+FROM `crop-yields-world-data.crop_yields.crops`
+unpivot(
+  yield for crop in (barley_yield_gap, rye_yield_gap, millet_yield_gap, sorghum_yield_gap, maize_yield_gap,
+  cassava_yield_gap, soybeans_yield_gap, rapeseed_yield_gap, sugarbeet_yield_gap, potato_yield_gap, oilpalm_yield_gap,
+  groundnut_yield_gap, rice_yield_gap, sunflower_yield_gap, cotton_yield_gap, sugarcane_yield_gap, wheat_yield_gap)
+) sub
+
+UNION ALL
+
+-- unpivot 'crop'_attainable columns into the new crop column using yield values 
+SELECT Entity, 
+    Year, 
+    yield, 
+    crop
+FROM `crop-yields-world-data.crop_yields.crops`
+unpivot(
+  yield for crop in (barley_attainable, rye_attainable, millet_attainable, sorghum_attainable, maize_attainable,
+  cassava_attainable, soybean_attainable, rapeseed_attainable, sugarbeet_attainable, potato_attainable, oilpalm_attainable,
+  groundnut_attainable, rice_attainable, sunflower_attainable, cotton_attainable, sugarcane_attainable, wheat_attainable)
+) sub
+
+UNION ALL 
+
+-- calculate the actual yield (attainable yield - yield gap) for each crop below, and create a row for the actual yield per country per year 
+SELECT Entity, Year, (barley_attainable - barley_yield_gap) as yield, "barley_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (rye_attainable - rye_yield_gap) as yield, "rye_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (millet_attainable - millet_yield_gap) as yield, "millet_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (sorghum_attainable - sorghum_yield_gap) as yield, "sorghum_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (maize_attainable - maize_yield_gap) as yield, "maize_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (cassava_attainable - cassava_yield_gap) as yield, "cassava_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (soybean_attainable - soybeans_yield_gap) as yield, "soybean_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (rapeseed_attainable - rapeseed_yield_gap) as yield, "rapeseed_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (sugarbeet_attainable - sugarbeet_yield_gap) as yield, "sugarbeet_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (potato_attainable - potato_yield_gap) as yield, "potato_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (oilpalm_attainable - oilpalm_yield_gap) as yield, "oilpalm_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (groundnut_attainable - groundnut_yield_gap) as yield, "groundnut_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (rice_attainable - rice_yield_gap) as yield, "rice_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (sunflower_attainable - sunflower_yield_gap) as yield, "sunflower_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (cotton_attainable - cotton_yield_gap) as yield, "cotton_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (sugarcane_attainable - sugarcane_yield_gap) as yield, "sugarcane_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+
+UNION ALL
+
+SELECT Entity, Year, (wheat_attainable - wheat_yield_gap) as yield, "wheat_yield" as crop
+FROM `crop-yields-world-data.crop_yields.crops`
+```
+
+Result:
 
 The transformed table [unpivot_crops.csv](csv/unpivot_crops.csv)
 
@@ -128,219 +169,389 @@ The transformed table [unpivot_crops.csv](csv/unpivot_crops.csv)
 |   4 | Belarus | 1996 |  2.07 | rye_yield |
 | ... | ...     |  ... | ...   | ...    |
 
-## Data Analysis
+Both tables are used in the following analyses. 
 
-### Question 1
+---
 
-**In 2018, for each crop type, which country produced the highest actual yield and which country 
-produced the lowest actual yield?** 
+## Data Analysis 
 
-(Do not include countries with zero crop yield because they did not participate in production. Show the countries that have the same actual yield. Order by the type of crop, then max yield.)
+### Segment by Crop
+<br>
 
-This question assesses the spread of yield volume per crop across all the countries. This helps us understand which countries are the highest and lower producers for each crop in 2018.
+**QUESTION 1** 
 
+**In the most recent year of the dataset (2018), what is the total actual yield per crop type and their percentage share among all types?** 
+
+Steps: 
 ```SQL
-WITH high_crop_yield as (
-  SELECT Entity, round(yield,2) as actual_yield, crop, dense_rank() over(partition by crop order by yield DESC) as r 
+-- find the global actual yield of each crop type in 2018
+SELECT crop, 
+ROUND(SUM(yield),2) as global_yield,
+ROUND((SUM(yield)/SUM(SUM(yield)) OVER()),2) as pct_share
+FROM `crop-yields-world-data.crop_yields.unpivot_crops`
+WHERE crop LIKE "%yield" AND Year = 2018 
+GROUP BY crop ORDER BY global_yield DESC
+```
+Result:
+
+In 2018, sugarcane is the highest crop yield in the world, followed by potato and sugar beet. 
+
+|    | crop            |   global_yield |   pct_share |
+|---:|:----------------|---------------:|------------:|
+|  0 | sugarcane_yield |        4589.72 |        0.35 |
+|  1 | potato_yield    |        2450.04 |        0.19 |
+|  2 | sugarbeet_yield |        2442.07 |        0.19 |
+|  3 | cassava_yield   |         690.99 |        0.05 |
+|  4 | maize_yield     |         527.14 |        0.04 |
+|  5 | oilpalm_yield   |         420.94 |        0.03 |
+|  6 | rice_yield      |         387.82 |        0.03 |
+|  7 | wheat_yield     |         328.48 |        0.03 |
+|  8 | barley_yield    |         243.67 |        0.02 |
+|  9 | sorghum_yield   |         172.18 |        0.01 |
+| 10 | soybean_yield   |         149    |        0.01 |
+| 11 | rye_yield       |         146.27 |        0.01 |
+| 12 | groundnut_yield |         136.39 |        0.01 |
+| 13 | rapeseed_yield  |         122.47 |        0.01 |
+| 14 | cotton_yield    |         114.08 |        0.01 |
+| 15 | sunflower_yield |          97.14 |        0.01 |
+| 16 | millet_yield    |          83.76 |        0.01 |
+
+<br>
+
+**QUESTION 2**
+
+**Expanding on question 1, for each crop type, what is the decade-to-decade growth rate of actual yield, and the total growth rate of actual yield from the decade of 1969-1978 to 2009-2018?**  
+
+Steps: 
+```SQL
+WITH cte_decades as ( -- find the global actual yield of each crop type in each decade and combine results using UNION ALL 
+  SELECT crop, -- find global actual yield of each crop between 2009 - 2018
+  ROUND(SUM(yield),2) as global_yield,
+  ROUND((SUM(yield)/SUM(SUM(yield)) OVER()),2) as pct_share_of_crops, 
+  "2009 - 2018" AS decade
   FROM `crop-yields-world-data.crop_yields.unpivot_crops`
-  WHERE Year = 2018 AND crop LIKE "%yield"),
+  WHERE crop LIKE "%yield" AND Year BETWEEN 2009 AND 2018 
+  GROUP BY crop
 
-r_high as (
-  SELECT * FROM high_crop_yield WHERE r = 1),
+  UNION ALL
 
-low_crop_yield as (
-  SELECT Entity, round(yield,2) as actual_yield, crop, dense_rank() over(partition by crop order by yield) as r 
+  SELECT crop,  -- find global actual yield of each crop between 1999 - 2008
+  ROUND(SUM(yield),2) as global_yield,
+  ROUND((SUM(yield)/SUM(SUM(yield)) OVER()),2) as pct_share_of_crops, 
+  "1999 - 2008" AS decade
   FROM `crop-yields-world-data.crop_yields.unpivot_crops`
-  WHERE Year = 2018 AND crop LIKE "%yield" AND yield != 0),
+  WHERE crop LIKE "%yield" AND Year BETWEEN 1999 AND 2008 
+  GROUP BY crop 
 
-r_low as (
-  SELECT * FROM low_crop_yield WHERE r = 1)
+  UNION ALL
 
-SELECT Entity, actual_yield, crop FROM r_high
-UNION ALL
-SELECT Entity, actual_yield, crop FROM r_low 
-ORDER BY crop, actual_yield DESC
+  SELECT crop,  -- find global actual yield of each crop between 1989 - 1998
+  ROUND(SUM(yield),2) as global_yield,
+  ROUND((SUM(yield)/SUM(SUM(yield)) OVER()),2) as pct_share_of_crops, 
+  "1989 - 1998" AS decade
+  FROM `crop-yields-world-data.crop_yields.unpivot_crops`
+  WHERE crop LIKE "%yield" AND Year BETWEEN 1989 AND 1998 
+  GROUP BY crop 
+
+  UNION ALL
+
+  SELECT crop,  -- find global actual yield of each crop between 1979 - 1988
+  ROUND(SUM(yield),2) as global_yield,
+  ROUND((SUM(yield)/SUM(SUM(yield)) OVER()),2) as pct_share_of_crops, 
+  "1979 - 1988" AS decade
+  FROM `crop-yields-world-data.crop_yields.unpivot_crops`
+  WHERE crop LIKE "%yield" AND Year BETWEEN 1979 AND 1988 
+  GROUP BY crop 
+
+  UNION ALL
+
+  SELECT crop,  -- find global actual yield of each crop between 1969 - 1978
+  ROUND(SUM(yield),2) as global_yield,
+  ROUND((SUM(yield)/SUM(SUM(yield)) OVER()),2) as pct_share_of_crops, 
+  "1969 - 1978" AS decade
+  FROM `crop-yields-world-data.crop_yields.unpivot_crops`
+  WHERE crop LIKE "%yield" AND Year BETWEEN 1969 AND 1978 
+  GROUP BY crop 
+  ORDER BY crop
+)
+, lag_yields as ( -- create a new column to LAG the global actual yield per crop 
+SELECT *, 
+LAG(global_yield) OVER(PARTITION BY crop order by decade) as lag_global_yield, 
+FROM cte_decades 
+)
+, yield_growth_overtime as ( -- calculate the decade-to-decade growth rate of actual yield per crop 
+SELECT crop, 
+global_yield, 
+ROUND(((global_yield/lag_global_yield)-1),2) as yield_growth,
+pct_share_of_crops, 
+decade FROM lag_yields
+)
+-- calculate the decade-to-decade running total of yield growth to find the total yield growth per crop
+SELECT crop, global_yield, yield_growth, 
+ROUND((SUM(yield_growth) 
+    OVER(PARTITION BY crop ORDER BY decade ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)),2) 
+    as running_total_yield_growth,
+pct_share_of_crops, decade FROM yield_growth_overtime ORDER BY crop
+```                                                                   
+Result:                                                                    
+    
+
+|    | crop            | global_yield | yield_growth |   running_total_yield_growth | pct_share_of_crops | decade          |
+|---:|:----------------|-------------:|-------------:|-----------------------------:|-------------------:|:----------------|
+|  0 | barley_yield    |       1135.8 |          nan |                       nan    |               0.01 | 1969 - 1978     |
+|  1 | barley_yield    |      1373.11 |         0.21 |                         0.21 |               0.02 | 1979 - 1988     |
+|  2 | barley_yield    |      1829.07 |         0.33 |                         0.54 |               0.02 | 1989 - 1998     |
+|  3 | barley_yield    |      2168.74 |         0.19 |                         0.73 |               0.02 | 1999 - 2008     |
+|  4 | **barley_yield**    |  **2418.67** |     **0.12** |                         **0.85** |           **0.02** | **2009 - 2018** |
+|  5 | cassava_yield   |      4698.11 |          nan |                       nan    |               0.06 | 1969 - 1978     |
+|  6 | cassava_yield   |      4988.96 |         0.06 |                         0.06 |               0.06 | 1979 - 1988     |
+|  7 | cassava_yield   |      5372.35 |         0.08 |                         0.14 |               0.05 | 1989 - 1998     |
+|  8 | cassava_yield   |      6257.07 |         0.16 |                         0.3  |               0.05 | 1999 - 2008     |
+|  9 | **cassava_yield**   |      **6741.28** |         **0.08** |                         **0.38** |               **0.05** | **2009 - 2018**     |
+| 10 | cotton_yield    |       731.15 |          nan |                       nan    |               0.01 | 1969 - 1978     |
+| 11 | cotton_yield    |       844.79 |         0.16 |                         0.16 |               0.01 | 1979 - 1988     |
+| 12 | cotton_yield    |      1001.16 |         0.19 |                         0.35 |               0.01 | 1989 - 1998     |
+| 13 | cotton_yield    |       1104.2 |          0.1 |                         0.45 |               0.01 | 1999 - 2008     |
+| 14 | **cotton_yield**    |      **1160.55** |         **0.05** |                         **0.5**  |               **0.01** | **2009 - 2018**     |
+| 15 | groundnut_yield |       836.23 |          nan |                       nan    |               0.01 | 1969 - 1978     |
+| 16 | groundnut_yield |       896.28 |         0.07 |                         0.07 |               0.01 | 1979 - 1988     |
+| 17 | groundnut_yield |      1031.48 |         0.15 |                         0.22 |               0.01 | 1989 - 1998     |
+| 18 | groundnut_yield |      1185.53 |         0.15 |                         0.37 |               0.01 | 1999 - 2008     |
+| 19 | groundnut_yield |      1334.04 |         0.13 |                         0.5  |               0.01 | 2009 - 2018     |
+| 20 | maize_yield     |       1908.2 |          nan |                       nan    |               0.02 | 1969 - 1978     |
+| 21 | maize_yield     |       2344.4 |         0.23 |                         0.23 |               0.03 | 1979 - 1988     |
+| 22 | maize_yield     |      3277.36 |          0.4 |                         0.63 |               0.03 | 1989 - 1998     |
+| 23 | maize_yield     |      4272.31 |          0.3 |                         0.93 |               0.04 | 1999 - 2008     |
+| 24 | maize_yield     |      4970.55 |         0.16 |                         1.09 |               0.04 | 2009 - 2018     |
+| 25 | millet_yield    |       456.66 |          nan |                       nan    |               0.01 | 1969 - 1978     |
+| 26 | millet_yield    |       465.99 |         0.02 |                         0.02 |               0.01 | 1979 - 1988     |
+| 27 | millet_yield    |       542.34 |         0.16 |                         0.18 |               0.01 | 1989 - 1998     |
+| 28 | millet_yield    |       690.84 |         0.27 |                         0.45 |               0.01 | 1999 - 2008     |
+| 29 | millet_yield    |       787.65 |         0.14 |                         0.59 |               0.01 | 2009 - 2018     |
+| 30 | oilpalm_yield   |      2924.93 |          nan |                       nan    |               0.04 | 1969 - 1978     |
+| 31 | oilpalm_yield   |      3606.49 |         0.23 |                         0.23 |               0.04 | 1979 - 1988     |
+| 32 | oilpalm_yield   |      4065.57 |         0.13 |                         0.36 |               0.04 | 1989 - 1998     |
+| 33 | oilpalm_yield   |      4373.28 |         0.08 |                         0.44 |               0.04 | 1999 - 2008     |
+| 34 | oilpalm_yield   |      4254.45 |        -0.03 |                         0.41 |               0.03 | 2009 - 2018     |
+| 35 | potato_yield    |      11149.1 |          nan |                       nan    |               0.14 | 1969 - 1978     |
+| 36 | potato_yield    |      13632.3 |         0.22 |                         0.22 |               0.15 | 1979 - 1988     |
+| 37 | potato_yield    |      17563.6 |         0.29 |                         0.51 |               0.16 | 1989 - 1998     |
+| 38 | potato_yield    |      21233.5 |         0.21 |                         0.72 |               0.18 | 1999 - 2008     |
+| 39 | potato_yield    |      24046.2 |         0.13 |                         0.85 |               0.19 | 2009 - 2018     |
+| 40 | rapeseed_yield  |       441.18 |          nan |                       nan    |               0.01 | 1969 - 1978     |
+| 41 | rapeseed_yield  |       553.06 |         0.25 |                         0.25 |               0.01 | 1979 - 1988     |
+| 42 | rapeseed_yield  |          776 |          0.4 |                         0.65 |               0.01 | 1989 - 1998     |
+| 43 | rapeseed_yield  |      1041.05 |         0.34 |                         0.99 |               0.01 | 1999 - 2008     |
+| 44 | rapeseed_yield  |       1208.5 |         0.16 |                         1.15 |               0.01 | 2009 - 2018     |
+| 45 | rice_yield      |      2120.57 |          nan |                       nan    |               0.03 | 1969 - 1978     |
+| 46 | rice_yield      |      2439.68 |         0.15 |                         0.15 |               0.03 | 1979 - 1988     |
+| 47 | rice_yield      |      2832.72 |         0.16 |                         0.31 |               0.03 | 1989 - 1998     |
+| 48 | rice_yield      |      3261.36 |         0.15 |                         0.46 |               0.03 | 1999 - 2008     |
+| 49 | rice_yield      |      3783.39 |         0.16 |                         0.62 |               0.03 | 2009 - 2018     |
+| 50 | rye_yield       |       594.94 |          nan |                       nan    |               0.01 | 1969 - 1978     |
+| 51 | rye_yield       |       690.53 |         0.16 |                         0.16 |               0.01 | 1979 - 1988     |
+| 52 | rye_yield       |      1024.76 |         0.48 |                         0.64 |               0.01 | 1989 - 1998     |
+| 53 | rye_yield       |      1289.61 |         0.26 |                         0.9  |               0.01 | 1999 - 2008     |
+| 54 | rye_yield       |      1451.67 |         0.13 |                         1.03 |               0.01 | 2009 - 2018     |
+| 55 | sorghum_yield   |       851.03 |          nan |                       nan    |               0.01 | 1969 - 1978     |
+| 56 | sorghum_yield   |      1016.73 |         0.19 |                         0.19 |               0.01 | 1979 - 1988     |
+| 57 | sorghum_yield   |      1250.07 |         0.23 |                         0.42 |               0.01 | 1989 - 1998     |
+| 58 | sorghum_yield   |      1444.99 |         0.16 |                         0.58 |               0.01 | 1999 - 2008     |
+| 59 | sorghum_yield   |      1611.84 |         0.12 |                         0.7  |               0.01 | 2009 - 2018     |
+| 60 | soybean_yield   |       531.06 |          nan |                       nan    |               0.01 | 1969 - 1978     |
+| 61 | soybean_yield   |       734.35 |         0.38 |                         0.38 |               0.01 | 1979 - 1988     |
+| 62 | soybean_yield   |      1119.12 |         0.52 |                         0.9  |               0.01 | 1989 - 1998     |
+| 63 | soybean_yield   |      1287.11 |         0.15 |                         1.05 |               0.01 | 1999 - 2008     |
+| 64 | soybean_yield   |      1403.28 |         0.09 |                         1.14 |               0.01 | 2009 - 2018     |
+| 65 | sugarbeet_yield |      12211.7 |          nan |                       nan    |               0.15 | 1969 - 1978     |
+| 66 | sugarbeet_yield |      13309.9 |         0.09 |                         0.09 |               0.15 | 1979 - 1988     |
+| 67 | sugarbeet_yield |      18049.8 |         0.36 |                         0.45 |               0.17 | 1989 - 1998     |
+| 68 | sugarbeet_yield |      21443.8 |         0.19 |                         0.64 |               0.18 | 1999 - 2008     |
+| 69 | sugarbeet_yield |      23032.8 |         0.07 |                         0.71 |               0.18 | 2009 - 2018     |
+| 70 | sugarcane_yield |      38011.7 |          nan |                       nan    |               0.47 | 1969 - 1978     |
+| 71 | sugarcane_yield |      41050.5 |         0.08 |                         0.08 |               0.45 | 1979 - 1988     |
+| 72 | sugarcane_yield |      43895.1 |         0.07 |                         0.15 |               0.41 | 1989 - 1998     |
+| 73 | sugarcane_yield |      45210.2 |         0.03 |                         0.18 |               0.38 | 1999 - 2008     |
+| 74 | sugarcane_yield |      45074.5 |           -0 |                         0.18 |               0.35 | 2009 - 2018     |
+| 75 | sunflower_yield |        389.7 |          nan |                       nan    |                  0 | 1969 - 1978     |
+| 76 | sunflower_yield |       489.57 |         0.26 |                         0.26 |               0.01 | 1979 - 1988     |
+| 77 | sunflower_yield |       689.09 |         0.41 |                         0.67 |               0.01 | 1989 - 1998     |
+| 78 | sunflower_yield |       829.22 |          0.2 |                         0.87 |               0.01 | 1999 - 2008     |
+| 79 | sunflower_yield |       915.01 |          0.1 |                         0.97 |               0.01 | 2009 - 2018     |
+| 80 | wheat_yield     |      1471.35 |          nan |                       nan    |               0.02 | 1969 - 1978     |
+| 81 | wheat_yield     |      1881.85 |         0.28 |                         0.28 |               0.02 | 1979 - 1988     |
+| 82 | wheat_yield     |      2549.04 |         0.35 |                         0.63 |               0.02 | 1989 - 1998     |
+| 83 | wheat_yield     |      2978.57 |         0.17 |                         0.8  |               0.02 | 1999 - 2008     |
+| 84 | wheat_yield     |      3271.08 |          0.1 |                         0.9  |               0.03 | 2009 - 2018     |
+
+
+<br>
+                                                               
+**QUESTION 3**
+
+**For each type of crop, count the number of countries that produce the crop. Compare the change in the number of countries producing a crop from the decade of 1969-1978 to 2009-2018.** 
+
+Steps:
+```SQL
+WITH num_countries_2018 as ( -- count the number of countries that produce for each crop from 2009-2018
+SELECT crop, count(DISTINCT Entity) as num_countries_2009_2018
+FROM `crop-yields-world-data.crop_yields.unpivot_crops`
+WHERE crop LIKE "%attainable" AND yield != 0 AND Year BETWEEN 2009 AND 2018
+GROUP BY crop ORDER BY num_countries_2009_2018 DESC
+)
+, num_countries_1978 as ( -- count the number of countries that produce for each crop from 1969-1978
+SELECT crop, count(DISTINCT Entity) as num_countries_1969_1978
+FROM `crop-yields-world-data.crop_yields.unpivot_crops`
+WHERE crop LIKE "%attainable" AND yield != 0 AND Year BETWEEN 1969 AND 1978
+GROUP BY crop ORDER BY num_countries_1969_1978 DESC
+)
+-- find the percentage change in number of countries producing for each crop from 1969-1978 to 2009-2018
+SELECT *, ROUND(((num_countries_2009_2018/num_countries_1969_1978)-1),2) as change_1969_to_2018
+ FROM num_countries_2018 INNER JOIN num_countries_1978 USING(crop)
+ ORDER BY num_countries_2009_2018 DESC
 ```
 
-**Answer 1:** 
+Result:
 
-|    | Entity         |   actual_yield | crop            |
-|---:|:---------------|---------------:|:----------------|
-|  0 | Netherlands    |           7.03 | barley_yield    |
-|  1 | Libya          |           0.51 | barley_yield    |
-|  2 | Niger          |          23.46 | cassava_yield   |
-|  3 | Guatemala      |           1.02 | cassava_yield   |
-|  4 | Australia      |           4.48 | cotton_yield    |
-|  5 | Indonesia      |           0.08 | cotton_yield    |
-|  6 | Israel         |           4.19 | groundnut_yield |
-|  7 | Mozambique     |           0.26 | groundnut_yield |
-|  8 | Jordan         |          11    | maize_yield     |
-|  9 | Zimbabwe       |           0.61 | maize_yield     |
-| 10 | Croatia        |           2.01 | millet_yield    |
-| 11 | Greece         |           2.01 | millet_yield    |
-| 12 | Turkey         |           2.01 | millet_yield    |
-| 13 | Austria        |           2.01 | millet_yield    |
-| 14 | Bulgaria       |           2.01 | millet_yield    |
-| 15 | France         |           2.01 | millet_yield    |
-| 16 | Zimbabwe       |           0.17 | millet_yield    |
-| 17 | Colombia       |          19.79 | oilpalm_yield   |
-| 18 | Suriname       |           2.43 | oilpalm_yield   |
-| 19 | United States  |          44.22 | potato_yield    |
-| 20 | Eritrea        |           1.21 | potato_yield    |
-| 21 | United Kingdom |           3.45 | rapeseed_yield  |
-| 22 | Tajikistan     |           0.54 | rapeseed_yield  |
-| 23 | Australia      |           9.38 | rice_yield      |
-| 24 | Mozambique     |           0.59 | rice_yield      |
-| 25 | Congo          |           0.59 | rice_yield      |
-| 26 | Luxembourg     |           5.59 | rye_yield       |
-| 27 | Ecuador        |           0.63 | rye_yield       |
-| 28 | Italy          |           5.28 | sorghum_yield   |
-| 29 | Namibia        |           0.19 | sorghum_yield   |
-| 30 | Italy          |           3.24 | soybean_yield   |
-| 31 | Tajikistan     |           0.34 | soybean_yield   |
-| 32 | France         |          75.17 | sugarbeet_yield |
-| 33 | Ecuador        |           6.2  | sugarbeet_yield |
-| 34 | Egypt          |         111.33 | sugarcane_yield |
-| 35 | Cameroon       |           9.44 | sugarcane_yield |
-| 36 | Switzerland    |           2.62 | sunflower_yield |
-| 37 | Algeria        |           0.45 | sunflower_yield |
-| 38 | Netherlands    |           8.5  | wheat_yield     |
-| 39 | Ireland        |           8.5  | wheat_yield     |
-| 40 | Honduras       |           0.56 | wheat_yield     |
+<br> 
 
-### Question 2
 
-**In 2018, for each crop type, which country had the highest yield ratio, and which country had the lowest yield ratio?**
+**QUESTION 4**
 
-(Yield ratio = yield / attainable yield. Order by type of crop, then highest ratio.)
+**For each crop, what is the average yield efficiency in the decade of 2009-2018?** The yield efficiency is the ratio of actual yield / attainable yield.
 
-The question assesses the spread of crop yield efficiency, in other words, how successful or how efficient was the production of a crop compared to its attainable yield measure. This helps us understand which countries have the highest and lowest yield efficiency in 2018.
+Steps:
 
 ```SQL
-WITH high_crop_yield as (
-  SELECT Entity, round(yield,2) as actual_yield, 
-  SUBSTR(crop, 0, (STRPOS(crop, '_')-1)) as crop, 
-  dense_rank() over(partition by crop order by yield DESC) as r 
+WITH act_yields as ( -- filter for the actual yield values in 2009-2018
+  SELECT Entity,
+  Year,
+  SUBSTR(crop, 0, (STRPOS(crop, '_')-1)) as crop, -- edit the crop name for joining later
+  yield as act_yield,
   FROM `crop-yields-world-data.crop_yields.unpivot_crops`
-  WHERE Year = 2018 AND crop LIKE "%yield"
-  )
-, r_high as (
-  SELECT * FROM high_crop_yield WHERE r = 1
+  WHERE (Year BETWEEN 2009 AND 2018) AND (crop LIKE "%yield")
 )
-, low_crop_yield as (
-  SELECT Entity, round(yield,2) as actual_yield, 
-  SUBSTR(crop, 0, (STRPOS(crop, '_')-1)) as crop, dense_rank() over(partition by crop order by yield) as r 
-  FROM `crop-yields-world-data.crop_yields.unpivot_crops`
-  WHERE Year = 2018 AND crop LIKE "%yield" AND yield != 0
-)
-, r_low as (
-  SELECT * FROM low_crop_yield WHERE r = 1
-)
-, att_yields as (
-  SELECT DISTINCT Entity, round(yield,2) as att_yield, 
-  SUBSTR(crop, 0, (STRPOS(crop, '_')-1)) as crop
-  FROM `crop-yields-world-data.crop_yields.unpivot_crops`
-  WHERE crop like "%attainable" ORDER BY Entity, crop
-)
-SELECT Entity, actual_yield, att_yield, round((actual_yield/att_yield),2) as ratio, crop FROM r_high
-LEFT JOIN att_yields USING(Entity, crop)
-UNION ALL
-SELECT Entity, actual_yield, att_yield, round((actual_yield/att_yield),2) as ratio, crop FROM r_low 
-LEFT JOIN att_yields USING(Entity, crop)
-ORDER BY crop, actual_yield DESC
-```
-**Answer 2:**
-
-|    | Entity         |   actual_yield |   att_yield |   ratio | crop      |
-|---:|:---------------|---------------:|------------:|--------:|:----------|
-|  0 | Netherlands    |           7.03 |        7.03 |    1    | barley    |
-|  1 | Libya          |           0.51 |        2.35 |    0.22 | barley    |
-|  2 | Niger          |          23.46 |       32.26 |    0.73 | cassava   |
-|  3 | Guatemala      |           1.02 |       18.14 |    0.06 | cassava   |
-|  4 | Australia      |           4.48 |        4.48 |    1    | cotton    |
-|  5 | Indonesia      |           0.08 |        2.03 |    0.04 | cotton    |
-|  6 | Israel         |           4.19 |        4.19 |    1    | groundnut |
-|  7 | Mozambique     |           0.26 |        2.1  |    0.12 | groundnut |
-|  8 | Jordan         |          11    |       11    |    1    | maize     |
-|  9 | Zimbabwe       |           0.61 |        5.06 |    0.12 | maize     |
-| 10 | Croatia        |           2.01 |        2.01 |    1    | millet    |
-| 11 | Greece         |           2.01 |        2.01 |    1    | millet    |
-| 12 | Turkey         |           2.01 |        2.01 |    1    | millet    |
-| 13 | Austria        |           2.01 |        2.01 |    1    | millet    |
-| 14 | Bulgaria       |           2.01 |        2.01 |    1    | millet    |
-| 15 | France         |           2.01 |        2.01 |    1    | millet    |
-| 16 | Zimbabwe       |           0.17 |        1.99 |    0.09 | millet    |
-| 17 | Colombia       |          19.79 |       19.79 |    1    | oilpalm   |
-| 18 | Suriname       |           2.43 |       19.65 |    0.12 | oilpalm   |
-| 19 | United States  |          44.22 |       44.22 |    1    | potato    |
-| 20 | Eritrea        |           1.21 |       24.62 |    0.05 | potato    |
-| 21 | United Kingdom |           3.45 |        3.48 |    0.99 | rapeseed  |
-| 22 | Tajikistan     |           0.54 |        2.32 |    0.23 | rapeseed  |
-| 23 | Australia      |           9.38 |        9.38 |    1    | rice      |
-| 24 | Mozambique     |           0.59 |        5.32 |    0.11 | rice      |
-| 25 | Congo          |           0.59 |        5.95 |    0.1  | rice      |
-| 26 | Luxembourg     |           5.59 |        6.38 |    0.88 | rye       |
-| 27 | Ecuador        |           0.63 |        5.14 |    0.12 | rye       |
-| 28 | Italy          |           5.28 |        5.28 |    1    | sorghum   |
-| 29 | Namibia        |           0.19 |        3.35 |    0.06 | sorghum   |
-| 30 | Italy          |           3.24 |        3.24 |    1    | soybean   |
-| 31 | Tajikistan     |           0.34 |        2.85 |    0.12 | soybean   |
-| 32 | France         |          75.17 |       75.17 |    1    | sugarbeet |
-| 33 | Ecuador        |           6.2  |       67.58 |    0.09 | sugarbeet |
-| 34 | Egypt          |         111.33 |      116.28 |    0.96 | sugarcane |
-| 35 | Cameroon       |           9.44 |       91.13 |    0.1  | sugarcane |
-| 36 | Switzerland    |           2.62 |        2.62 |    1    | sunflower |
-| 37 | Algeria        |           0.45 |        1.87 |    0.24 | sunflower |
-| 38 | Netherlands    |           8.5  |        8.5  |    1    | wheat     |
-| 39 | Ireland        |           8.5  |        8.5  |    1    | wheat     |
-| 40 | Honduras       |           0.56 |        3.64 |    0.15 | wheat     |
-
-### Question 3
-
-**For each country, what is the average yield ratio of each crop in the decade of 2008 - 2018?** 
-
-(Order by crop, then the average yield ratio.)
-
-This question assesses a country's yield efficiency per crop in a decade. 
-
-```SQL
-WITH act_yields as (
-  SELECT Entity, Year, SUBSTR(crop, 0, (STRPOS(crop, '_')-1)) as crop, yield as actual_yield
-  FROM `crop-yields-world-data.crop_yields.unpivot_crops`
-  WHERE (Year BETWEEN 2008 AND 2018) AND (crop LIKE "%yield")
-  ORDER BY Entity, crop, Year
-  )
-, att_yields as (
-  SELECT distinct Entity, SUBSTR(crop, 0, (STRPOS(crop, '_')-1)) as crop, yield as attainable_yield
+, att_yields as ( -- filter for attainable yield values
+  SELECT distinct Entity, 
+  SUBSTR(crop, 0, (STRPOS(crop, '_')-1)) as crop, -- edit the crop name for joining later
+  yield as att_yield
   FROM `crop-yields-world-data.crop_yields.unpivot_crops`
   WHERE crop LIKE "%attainable"
   ORDER BY Entity
+) 
+, eff_ratio as ( -- join the actual and attainable yield cte's and calculate the efficiency ratio
+  SELECT Entity, crop, Year, NULLIF(act_yield, 0)/NULLIF(att_yield, 0) as ratio,
+  FROM act_yields
+  INNER JOIN att_yields 
+  USING(Entity, crop)
 )
-, yearly_ratios as (
-  SELECT Entity, Year, crop, actual_yield, attainable_yield,
-  ROUND(( NULLIF(actual_yield,0) / NULLIF(attainable_yield,0) ),2) as ratio
-  FROM act_yields 
-  LEFT JOIN att_yields 
-  Using(Entity, crop) ORDER BY Entity
-)
-SELECT Entity, crop, 
-round((avg(avg(ratio)) OVER(PARTITION BY crop, Entity)),2) as avg_act_to_att_yield,
---round((SUM(SUM(actual_yield)) OVER(PARTITION BY crop, Entity)),2) as sum_actual_yield
-FROM yearly_ratios 
-GROUP BY Entity, crop ORDER BY Entity, avg_act_to_att_yield DESC
+-- find the average ratio per crop
+SELECT crop, ROUND((avg(avg(ratio)) OVER(PARTITION BY crop)),2) as avg_ratio_per_crop 
+FROM eff_ratio GROUP BY crop ORDER BY avg_ratio_per_crop DESC
 ```
 
-**Answer 3:**
+Result:
 
-Refer to [table results](/csv/q3_avg_ratio_per_country_decade.csv)
 
-Refer to interactive [Tableau dashboard]()
+**QUESTION 5**
 
-### Question 4
-### Question 5
-### Question 6
-### Question 7
-### Question 8
-### Question 9
-### Question 10
+**Expanding on question 4, for each crop, what is the change of the yield efficiency from the decade of 1969-1978 to 2009-2018?** 
+
+Steps:
+
+```SQL
+WITH act_yields_2018 as ( -- filter for the actual yield values in 2009-2018
+  SELECT Entity,
+Year,
+SUBSTR(crop, 0, (STRPOS(crop, '_')-1)) as crop, -- edit the crop name for joining later
+yield as act_yield,
+FROM `crop-yields-world-data.crop_yields.unpivot_crops`
+WHERE (Year BETWEEN 2009 AND 2018) AND (crop LIKE "%yield")
+)
+, att_yields as ( -- filter for attainable yield values 
+  SELECT distinct Entity, 
+SUBSTR(crop, 0, (STRPOS(crop, '_')-1)) as crop, -- edit the crop name for joining later
+yield as att_yield
+FROM `crop-yields-world-data.crop_yields.unpivot_crops`
+WHERE crop LIKE "%attainable"
+ORDER BY Entity
+) 
+, eff_ratio_2018 as ( -- join the actual and attainable yield cte's and calculate the efficiency ratio for 2009-2018
+  SELECT Entity, crop, Year, NULLIF(act_yield, 0)/NULLIF(att_yield, 0) as ratio,
+FROM act_yields_2018
+INNER JOIN att_yields 
+USING(Entity, crop)
+)
+, avg_eff_ratio_2018 as ( -- find the average ratio per crop in 2009-2018
+  SELECT crop, ROUND((avg(avg(ratio)) OVER(PARTITION BY crop)),2) as avg_ratio_per_crop_2018
+FROM eff_ratio_2018 GROUP BY crop ORDER BY avg_ratio_per_crop_2018 DESC
+)
+, act_yields_1978 as ( -- filter for the actual yield values in 1969-1978
+  SELECT Entity,
+Year,
+SUBSTR(crop, 0, (STRPOS(crop, '_')-1)) as crop, -- edit crop name for joining later
+yield as act_yield,
+FROM `crop-yields-world-data.crop_yields.unpivot_crops`
+WHERE (Year BETWEEN 1969 AND 1978) AND (crop LIKE "%yield")
+) 
+, eff_ratio_1978 as ( -- join the actual and attainble yield cte's and calculate the efficiency ratio for 1969-1978
+  SELECT Entity, crop, Year, NULLIF(act_yield, 0)/NULLIF(att_yield, 0) as ratio,
+FROM act_yields_1978
+INNER JOIN att_yields
+USING(Entity, crop)
+)
+, avg_eff_ratio_1978 as ( -- find the average ratio per crop in 1969-1978
+  SELECT crop, ROUND((avg(avg(ratio)) OVER(PARTITION BY crop)),2) as avg_ratio_per_crop_1978 
+FROM eff_ratio_1978 GROUP BY crop ORDER BY avg_ratio_per_crop_1978 DESC
+)
+-- join the avg_eff_ratio of 2009-2018 with 1969-1978 cte's, and calculate the change in ratio
+SELECT crop, 
+avg_ratio_per_crop_2018 as avg_ratio_per_crop_2009_2018,
+avg_ratio_per_crop_1978 as avg_ratio_per_crop_1969_1978,
+ROUND(((avg_ratio_per_crop_2018/avg_ratio_per_crop_1978)-1),2) as efficiency_ratio_growth
+FROM avg_eff_ratio_2018 
+INNER JOIN avg_eff_ratio_1978 
+USING(crop) 
+ORDER BY avg_ratio_per_crop_2018 DESC
+```
+
+Results:
+
+---
+
+### Segment by Country
+<br>
+
+**QUESTION 1** 
+
+**QUESTION 2** 
+
+**QUESTION 3** 
+
+**QUESTION 4** 
+
+**QUESTION 5** 
+
+
+
+
+
+
 ## Conclusion
+
+## Recommendations
+Policy makers and agricultural professionals would want to know about global crop yields for a variety of reasons:
+
+Food security: Global crop yields are an important indicator of the world's food supply. Policy makers and agricultural professionals need to know about global crop yields to ensure that there is enough food to meet the needs of the world's population.
+
+Economic development: Agriculture is a major sector of many countries' economies. Policy makers and agricultural professionals need to know about global crop yields to identify opportunities for economic development and to make informed decisions about investment in agriculture.
+
+Climate change: Climate change is having a significant impact on global crop yields. Policy makers and agricultural professionals need to know about global crop yields to identify the impact of climate change on agriculture and to develop strategies to mitigate its effects.
+
+Resource management: Agricultural production requires significant amounts of resources such as water and fertilizer. Policy makers and agricultural professionals need to know about
+
+global crop yields to manage resources effectively and ensure sustainable agriculture practices.
+
+Trade: Global crop yields are an important factor in global trade of agricultural commodities. Policy makers and agricultural professionals need to know about global crop yields to make informed decisions about trade policies and negotiations.
+
+Research and development: Understanding global crop yields can provide valuable insights for research and development in agriculture. By identifying factors that affect crop yields, agricultural professionals can develop new technologies and practices to improve productivity and efficiency.
