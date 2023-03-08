@@ -1,4 +1,4 @@
-Entity,crop,avg_act_to_att_yield
+Entity,crop,avg_ratio
 Afghanistan,millet,0.99
 Afghanistan,sunflower,0.82
 Afghanistan,wheat,0.48
@@ -8,14 +8,14 @@ Afghanistan,rice,0.31
 Afghanistan,potato,0.29
 Afghanistan,maize,0.19
 Afghanistan,sugarbeet,0.16
-Afghanistan,sorghum,
+Afghanistan,sugarcane,
 Afghanistan,soybean,
 Afghanistan,rapeseed,
+Afghanistan,sorghum,
 Afghanistan,cassava,
-Afghanistan,oilpalm,
 Afghanistan,rye,
+Afghanistan,oilpalm,
 Afghanistan,groundnut,
-Afghanistan,sugarcane,
 Albania,sunflower,0.91
 Albania,soybean,0.75
 Albania,maize,0.75
@@ -26,13 +26,13 @@ Albania,rye,0.4
 Albania,sugarbeet,0.33
 Albania,cotton,0.24
 Albania,rice,
-Albania,sugarcane,
-Albania,sorghum,
-Albania,millet,
 Albania,cassava,
-Albania,groundnut,
-Albania,rapeseed,
 Albania,oilpalm,
+Albania,sorghum,
+Albania,rapeseed,
+Albania,sugarcane,
+Albania,millet,
+Albania,groundnut,
 Algeria,sorghum,0.97
 Algeria,potato,0.91
 Algeria,rapeseed,0.84
@@ -46,10 +46,10 @@ Algeria,cotton,0.08
 Algeria,rye,
 Algeria,cassava,
 Algeria,oilpalm,
-Algeria,millet,
-Algeria,sugarcane,
 Algeria,soybean,
 Algeria,sugarbeet,
+Algeria,millet,
+Algeria,sugarcane,
 Angola,cassava,0.75
 Angola,oilpalm,0.62
 Angola,cotton,0.58
@@ -57,18 +57,18 @@ Angola,sunflower,0.45
 Angola,sugarcane,0.41
 Angola,potato,0.3
 Angola,wheat,0.24
-Angola,groundnut,0.17
 Angola,soybean,0.17
+Angola,groundnut,0.17
 Angola,rice,0.15
 Angola,maize,0.15
 Angola,millet,0.13
 Angola,sorghum,0.1
-Angola,barley,
-Angola,rye,
 Angola,rapeseed,
+Angola,rye,
+Angola,barley,
 Angola,sugarbeet,
-Argentina,soybean,0.95
 Argentina,potato,0.95
+Argentina,soybean,0.95
 Argentina,sunflower,0.94
 Argentina,barley,0.94
 Argentina,maize,0.92
@@ -90,18 +90,18 @@ Armenia,wheat,0.65
 Armenia,maize,0.59
 Armenia,potato,0.58
 Armenia,sugarbeet,0.25
-Armenia,cotton,
-Armenia,groundnut,
-Armenia,sunflower,
-Armenia,sorghum,
-Armenia,millet,
-Armenia,sugarcane,
-Armenia,rice,
 Armenia,soybean,
-Armenia,cassava,
-Armenia,oilpalm,
+Armenia,sunflower,
+Armenia,cotton,
+Armenia,millet,
+Armenia,rice,
+Armenia,sugarcane,
+Armenia,sorghum,
+Armenia,groundnut,
 Armenia,rapeseed,
-Australia,potato,1
+Armenia,oilpalm,
+Armenia,cassava,
+Australia,potato,1.0
 Australia,cotton,0.98
 Australia,rice,0.97
 Australia,groundnut,0.93
@@ -119,22 +119,22 @@ Australia,cassava,
 Australia,oilpalm,
 Australia,sugarbeet,
 Austria,millet,0.99
+Austria,maize,0.98
 Austria,sugarbeet,0.98
 Austria,sunflower,0.98
-Austria,maize,0.98
 Austria,soybean,0.92
 Austria,rapeseed,0.9
 Austria,barley,0.77
 Austria,rye,0.76
 Austria,potato,0.71
 Austria,wheat,0.64
-Austria,sorghum,
-Austria,cotton,
 Austria,oilpalm,
-Austria,sugarcane,
+Austria,groundnut,
+Austria,cotton,
+Austria,sorghum,
 Austria,rice,
 Austria,cassava,
-Austria,groundnut,
+Austria,sugarcane,
 Azerbaijan,sunflower,0.95
 Azerbaijan,barley,0.78
 Azerbaijan,millet,0.69
@@ -147,30 +147,30 @@ Azerbaijan,sorghum,0.42
 Azerbaijan,potato,0.38
 Azerbaijan,rice,0.27
 Azerbaijan,soybean,0.19
-Azerbaijan,cassava,
+Azerbaijan,sugarcane,
+Azerbaijan,rapeseed,
 Azerbaijan,groundnut,
 Azerbaijan,oilpalm,
-Azerbaijan,rapeseed,
-Azerbaijan,sugarcane,
+Azerbaijan,cassava,
+Bahrain,sugarcane,
 Bahrain,rice,
+Bahrain,sorghum,
+Bahrain,millet,
+Bahrain,potato,
+Bahrain,sunflower,
 Bahrain,sugarbeet,
-Bahrain,cotton,
 Bahrain,cassava,
-Bahrain,groundnut,
+Bahrain,oilpalm,
 Bahrain,rapeseed,
 Bahrain,soybean,
-Bahrain,rye,
+Bahrain,cotton,
 Bahrain,barley,
-Bahrain,sugarcane,
 Bahrain,maize,
 Bahrain,wheat,
-Bahrain,oilpalm,
-Bahrain,potato,
-Bahrain,millet,
-Bahrain,sorghum,
-Bahrain,sunflower,
-Bangladesh,maize,1
-Bangladesh,cotton,1
+Bahrain,rye,
+Bahrain,groundnut,
+Bangladesh,maize,1.0
+Bangladesh,cotton,1.0
 Bangladesh,rapeseed,0.99
 Bangladesh,rice,0.9
 Bangladesh,groundnut,0.87
@@ -178,31 +178,31 @@ Bangladesh,potato,0.81
 Bangladesh,sorghum,0.51
 Bangladesh,sugarcane,0.48
 Bangladesh,millet,0.46
-Bangladesh,soybean,
-Bangladesh,rye,
-Bangladesh,sunflower,
-Bangladesh,wheat,
-Bangladesh,barley,
-Bangladesh,oilpalm,
-Bangladesh,cassava,
 Bangladesh,sugarbeet,
-Barbados,sugarbeet,
-Barbados,rye,
-Barbados,maize,
-Barbados,groundnut,
+Bangladesh,rye,
+Bangladesh,barley,
+Bangladesh,sunflower,
+Bangladesh,soybean,
+Bangladesh,cassava,
+Bangladesh,wheat,
+Bangladesh,oilpalm,
 Barbados,cassava,
+Barbados,sugarbeet,
+Barbados,maize,
+Barbados,soybean,
+Barbados,rice,
+Barbados,rye,
+Barbados,wheat,
+Barbados,sunflower,
 Barbados,oilpalm,
 Barbados,cotton,
 Barbados,sorghum,
 Barbados,sugarcane,
-Barbados,rapeseed,
 Barbados,barley,
 Barbados,millet,
 Barbados,potato,
-Barbados,rice,
-Barbados,soybean,
-Barbados,sunflower,
-Barbados,wheat,
+Barbados,groundnut,
+Barbados,rapeseed,
 Belarus,potato,0.98
 Belarus,sugarbeet,0.84
 Belarus,barley,0.58
@@ -211,32 +211,32 @@ Belarus,rye,0.55
 Belarus,sunflower,0.53
 Belarus,wheat,0.52
 Belarus,rapeseed,0.45
-Belarus,groundnut,
+Belarus,cassava,
 Belarus,soybean,
+Belarus,groundnut,
 Belarus,cotton,
-Belarus,sorghum,
-Belarus,oilpalm,
 Belarus,millet,
 Belarus,sugarcane,
+Belarus,sorghum,
+Belarus,oilpalm,
 Belarus,rice,
-Belarus,cassava,
 Belize,rice,0.94
 Belize,cassava,0.87
 Belize,maize,0.83
-Belize,sorghum,0.64
 Belize,groundnut,0.64
+Belize,sorghum,0.64
 Belize,soybean,0.59
 Belize,potato,0.56
 Belize,sugarcane,0.54
 Belize,rapeseed,
-Belize,wheat,
-Belize,cotton,
-Belize,barley,
-Belize,rye,
 Belize,sugarbeet,
-Belize,millet,
 Belize,oilpalm,
+Belize,barley,
+Belize,cotton,
+Belize,wheat,
 Belize,sunflower,
+Belize,rye,
+Belize,millet,
 Benin,oilpalm,0.98
 Benin,cotton,0.85
 Benin,sorghum,0.77
@@ -248,12 +248,12 @@ Benin,potato,0.44
 Benin,soybean,0.43
 Benin,maize,0.37
 Benin,sugarcane,0.23
-Benin,wheat,
 Benin,rye,
+Benin,wheat,
 Benin,rapeseed,
-Benin,sugarbeet,
-Benin,barley,
 Benin,sunflower,
+Benin,barley,
+Benin,sugarbeet,
 Bhutan,millet,0.89
 Bhutan,rice,0.58
 Bhutan,soybean,0.34
@@ -262,15 +262,15 @@ Bhutan,sugarcane,0.31
 Bhutan,maize,0.31
 Bhutan,barley,0.29
 Bhutan,potato,0.28
-Bhutan,sorghum,
-Bhutan,cotton,
 Bhutan,oilpalm,
-Bhutan,cassava,
-Bhutan,sugarbeet,
-Bhutan,groundnut,
-Bhutan,rapeseed,
 Bhutan,sunflower,
 Bhutan,rye,
+Bhutan,cotton,
+Bhutan,groundnut,
+Bhutan,cassava,
+Bhutan,sorghum,
+Bhutan,sugarbeet,
+Bhutan,rapeseed,
 Bolivia,sorghum,0.92
 Bolivia,soybean,0.86
 Bolivia,sunflower,0.71
@@ -284,10 +284,10 @@ Bolivia,wheat,0.29
 Bolivia,barley,0.24
 Bolivia,rye,0.22
 Bolivia,potato,0.18
+Bolivia,rapeseed,
 Bolivia,millet,
 Bolivia,sugarbeet,
 Bolivia,oilpalm,
-Bolivia,rapeseed,
 Bosnia and Herzegovina,rapeseed,0.73
 Bosnia and Herzegovina,soybean,0.63
 Bosnia and Herzegovina,barley,0.51
@@ -298,17 +298,17 @@ Bosnia and Herzegovina,maize,0.47
 Bosnia and Herzegovina,sugarbeet,0.26
 Bosnia and Herzegovina,potato,0.24
 Bosnia and Herzegovina,sugarcane,
-Bosnia and Herzegovina,cotton,
 Bosnia and Herzegovina,cassava,
-Bosnia and Herzegovina,millet,
-Bosnia and Herzegovina,oilpalm,
-Bosnia and Herzegovina,rice,
-Bosnia and Herzegovina,sorghum,
 Bosnia and Herzegovina,groundnut,
-Brazil,cotton,1
-Brazil,potato,1
-Brazil,groundnut,0.98
+Bosnia and Herzegovina,cotton,
+Bosnia and Herzegovina,sorghum,
+Bosnia and Herzegovina,oilpalm,
+Bosnia and Herzegovina,millet,
+Bosnia and Herzegovina,rice,
+Brazil,cotton,1.0
+Brazil,potato,1.0
 Brazil,soybean,0.98
+Brazil,groundnut,0.98
 Brazil,sunflower,0.92
 Brazil,maize,0.92
 Brazil,sorghum,0.88
@@ -319,26 +319,26 @@ Brazil,cassava,0.8
 Brazil,wheat,0.63
 Brazil,oilpalm,0.59
 Brazil,sugarbeet,
+Brazil,rye,
 Brazil,millet,
 Brazil,barley,
-Brazil,rye,
 Brunei,cassava,0.61
 Brunei,rice,0.24
+Brunei,cotton,
 Brunei,soybean,
 Brunei,millet,
-Brunei,barley,
-Brunei,rye,
-Brunei,groundnut,
-Brunei,cotton,
-Brunei,wheat,
-Brunei,oilpalm,
-Brunei,sugarcane,
-Brunei,sunflower,
-Brunei,rapeseed,
-Brunei,sugarbeet,
 Brunei,maize,
 Brunei,sorghum,
+Brunei,rapeseed,
 Brunei,potato,
+Brunei,rye,
+Brunei,groundnut,
+Brunei,barley,
+Brunei,sugarbeet,
+Brunei,oilpalm,
+Brunei,sunflower,
+Brunei,wheat,
+Brunei,sugarcane,
 Bulgaria,sunflower,0.98
 Bulgaria,rapeseed,0.82
 Bulgaria,barley,0.8
@@ -352,11 +352,11 @@ Bulgaria,potato,0.45
 Bulgaria,rye,0.43
 Bulgaria,groundnut,0.36
 Bulgaria,cotton,0.28
+Bulgaria,sugarbeet,
 Bulgaria,cassava,
 Bulgaria,sugarcane,
 Bulgaria,oilpalm,
-Bulgaria,sugarbeet,
-Burkina Faso,sugarcane,1
+Burkina Faso,sugarcane,1.0
 Burkina Faso,cotton,0.98
 Burkina Faso,sorghum,0.82
 Burkina Faso,millet,0.73
@@ -366,12 +366,12 @@ Burkina Faso,groundnut,0.46
 Burkina Faso,rice,0.4
 Burkina Faso,potato,0.08
 Burkina Faso,cassava,0.04
-Burkina Faso,oilpalm,
 Burkina Faso,sugarbeet,
-Burkina Faso,sunflower,
 Burkina Faso,rapeseed,
-Burkina Faso,barley,
 Burkina Faso,rye,
+Burkina Faso,barley,
+Burkina Faso,oilpalm,
+Burkina Faso,sunflower,
 Burkina Faso,wheat,
 Burundi,sugarcane,0.69
 Burundi,millet,0.62
@@ -381,32 +381,32 @@ Burundi,rice,0.31
 Burundi,potato,0.29
 Burundi,soybean,0.27
 Burundi,cotton,0.26
-Burundi,maize,0.2
 Burundi,groundnut,0.2
+Burundi,maize,0.2
 Burundi,sorghum,0.19
 Burundi,wheat,0.18
-Burundi,rye,
+Burundi,barley,
 Burundi,sugarbeet,
+Burundi,rye,
 Burundi,sunflower,
 Burundi,rapeseed,
-Burundi,barley,
-Cambodia,cotton,1
-Cambodia,cassava,1
+Cambodia,cotton,1.0
+Cambodia,cassava,1.0
 Cambodia,maize,0.99
 Cambodia,groundnut,0.66
 Cambodia,rice,0.65
 Cambodia,soybean,0.55
 Cambodia,sugarcane,0.22
 Cambodia,barley,
-Cambodia,rye,
-Cambodia,potato,
-Cambodia,sorghum,
-Cambodia,oilpalm,
-Cambodia,rapeseed,
-Cambodia,millet,
 Cambodia,sunflower,
-Cambodia,sugarbeet,
+Cambodia,oilpalm,
 Cambodia,wheat,
+Cambodia,rye,
+Cambodia,sorghum,
+Cambodia,millet,
+Cambodia,potato,
+Cambodia,rapeseed,
+Cambodia,sugarbeet,
 Cameroon,oilpalm,0.95
 Cameroon,millet,0.9
 Cameroon,cassava,0.83
@@ -414,18 +414,18 @@ Cameroon,groundnut,0.66
 Cameroon,sorghum,0.58
 Cameroon,potato,0.47
 Cameroon,maize,0.46
-Cameroon,soybean,0.43
 Cameroon,cotton,0.43
+Cameroon,soybean,0.43
 Cameroon,wheat,0.33
 Cameroon,rice,0.22
 Cameroon,sugarcane,0.1
+Cameroon,rye,
+Cameroon,sugarbeet,
 Cameroon,sunflower,
 Cameroon,rapeseed,
-Cameroon,sugarbeet,
 Cameroon,barley,
-Cameroon,rye,
-Canada,rapeseed,1
-Canada,wheat,1
+Canada,rapeseed,1.0
+Canada,wheat,1.0
 Canada,sugarbeet,0.99
 Canada,barley,0.98
 Canada,maize,0.97
@@ -435,14 +435,14 @@ Canada,potato,0.87
 Canada,rye,0.72
 Canada,rice,
 Canada,oilpalm,
+Canada,sorghum,
+Canada,groundnut,
 Canada,sugarcane,
 Canada,cotton,
 Canada,millet,
-Canada,groundnut,
 Canada,cassava,
-Canada,sorghum,
-Chile,rapeseed,1
-Chile,sugarbeet,1
+Chile,rapeseed,1.0
+Chile,sugarbeet,1.0
 Chile,maize,0.99
 Chile,barley,0.98
 Chile,wheat,0.95
@@ -450,14 +450,14 @@ Chile,rye,0.89
 Chile,sunflower,0.74
 Chile,rice,0.65
 Chile,potato,0.65
+Chile,sorghum,
+Chile,soybean,
+Chile,sugarcane,
 Chile,cassava,
 Chile,groundnut,
 Chile,oilpalm,
 Chile,cotton,
 Chile,millet,
-Chile,sorghum,
-Chile,soybean,
-Chile,sugarcane,
 China,sunflower,0.99
 China,cotton,0.96
 China,wheat,0.96
@@ -466,17 +466,17 @@ China,barley,0.95
 China,sorghum,0.94
 China,rye,0.9
 China,sugarbeet,0.88
-China,rice,0.87
 China,groundnut,0.87
-China,cassava,0.84
+China,rice,0.87
 China,rapeseed,0.84
+China,cassava,0.84
 China,sugarcane,0.78
 China,oilpalm,0.67
 China,maize,0.65
 China,soybean,0.64
 China,potato,0.61
-Colombia,sorghum,1
-Colombia,oilpalm,1
+Colombia,oilpalm,1.0
+Colombia,sorghum,1.0
 Colombia,sugarcane,0.95
 Colombia,cotton,0.92
 Colombia,soybean,0.87
@@ -488,8 +488,8 @@ Colombia,cassava,0.47
 Colombia,barley,0.38
 Colombia,sugarbeet,0.36
 Colombia,wheat,0.28
-Colombia,sunflower,
 Colombia,millet,
+Colombia,sunflower,
 Colombia,rapeseed,
 Colombia,rye,
 Congo,cassava,0.7
@@ -501,15 +501,15 @@ Congo,groundnut,0.24
 Congo,maize,0.21
 Congo,rice,0.1
 Congo,sorghum,
-Congo,cotton,
+Congo,sugarbeet,
 Congo,barley,
-Congo,wheat,
-Congo,sunflower,
-Congo,soybean,
 Congo,rye,
 Congo,rapeseed,
-Congo,sugarbeet,
-Costa Rica,potato,1
+Congo,cotton,
+Congo,sunflower,
+Congo,soybean,
+Congo,wheat,
+Costa Rica,potato,1.0
 Costa Rica,cassava,0.81
 Costa Rica,sugarcane,0.8
 Costa Rica,oilpalm,0.79
@@ -517,15 +517,15 @@ Costa Rica,rice,0.76
 Costa Rica,groundnut,0.57
 Costa Rica,maize,0.54
 Costa Rica,cotton,0.43
-Costa Rica,millet,
-Costa Rica,soybean,
-Costa Rica,sunflower,
-Costa Rica,rapeseed,
-Costa Rica,rye,
-Costa Rica,wheat,
-Costa Rica,sorghum,
-Costa Rica,sugarbeet,
 Costa Rica,barley,
+Costa Rica,millet,
+Costa Rica,wheat,
+Costa Rica,sunflower,
+Costa Rica,rye,
+Costa Rica,soybean,
+Costa Rica,rapeseed,
+Costa Rica,sugarbeet,
+Costa Rica,sorghum,
 Cote d'Ivoire,sugarcane,0.89
 Cote d'Ivoire,groundnut,0.82
 Cote d'Ivoire,millet,0.63
@@ -537,13 +537,13 @@ Cote d'Ivoire,oilpalm,0.43
 Cote d'Ivoire,sorghum,0.41
 Cote d'Ivoire,cassava,0.4
 Cote d'Ivoire,barley,
-Cote d'Ivoire,rye,
-Cote d'Ivoire,sunflower,
-Cote d'Ivoire,wheat,
-Cote d'Ivoire,sugarbeet,
-Cote d'Ivoire,potato,
 Cote d'Ivoire,rapeseed,
-Croatia,sunflower,1
+Cote d'Ivoire,rye,
+Cote d'Ivoire,wheat,
+Cote d'Ivoire,sunflower,
+Cote d'Ivoire,potato,
+Cote d'Ivoire,sugarbeet,
+Croatia,sunflower,1.0
 Croatia,millet,0.96
 Croatia,rapeseed,0.88
 Croatia,soybean,0.81
@@ -554,11 +554,11 @@ Croatia,barley,0.66
 Croatia,sorghum,0.66
 Croatia,rye,0.51
 Croatia,potato,0.44
+Croatia,oilpalm,
+Croatia,cassava,
+Croatia,rice,
 Croatia,groundnut,
 Croatia,sugarcane,
-Croatia,cassava,
-Croatia,oilpalm,
-Croatia,rice,
 Croatia,cotton,
 Cuba,potato,0.95
 Cuba,rice,0.79
@@ -567,35 +567,35 @@ Cuba,groundnut,0.58
 Cuba,sorghum,0.54
 Cuba,sugarcane,0.5
 Cuba,cassava,0.42
-Cuba,sugarbeet,
-Cuba,wheat,
 Cuba,sunflower,
+Cuba,wheat,
+Cuba,millet,
+Cuba,cotton,
 Cuba,soybean,
+Cuba,rapeseed,
+Cuba,sugarbeet,
 Cuba,rye,
 Cuba,barley,
 Cuba,oilpalm,
-Cuba,cotton,
-Cuba,millet,
-Cuba,rapeseed,
+Cyprus,sunflower,
+Cyprus,barley,
+Cyprus,sorghum,
 Cyprus,cassava,
-Cyprus,groundnut,
-Cyprus,wheat,
 Cyprus,rapeseed,
 Cyprus,millet,
+Cyprus,groundnut,
+Cyprus,wheat,
 Cyprus,sugarbeet,
 Cyprus,sugarcane,
+Cyprus,soybean,
+Cyprus,rice,
 Cyprus,cotton,
 Cyprus,maize,
-Cyprus,rice,
-Cyprus,oilpalm,
-Cyprus,sorghum,
-Cyprus,soybean,
 Cyprus,rye,
 Cyprus,potato,
-Cyprus,barley,
-Cyprus,sunflower,
-Czechia,sunflower,1
-Czechia,sugarbeet,1
+Cyprus,oilpalm,
+Czechia,sugarbeet,1.0
+Czechia,sunflower,1.0
 Czechia,rye,0.91
 Czechia,rapeseed,0.91
 Czechia,potato,0.89
@@ -604,13 +604,13 @@ Czechia,wheat,0.81
 Czechia,maize,0.8
 Czechia,soybean,0.73
 Czechia,cotton,
-Czechia,groundnut,
-Czechia,rice,
+Czechia,sorghum,
 Czechia,cassava,
 Czechia,sugarcane,
+Czechia,rice,
+Czechia,groundnut,
 Czechia,oilpalm,
 Czechia,millet,
-Czechia,sorghum,
 Democratic Republic of Congo,cassava,0.55
 Democratic Republic of Congo,sugarcane,0.51
 Democratic Republic of Congo,millet,0.44
@@ -623,50 +623,50 @@ Democratic Republic of Congo,soybean,0.17
 Democratic Republic of Congo,maize,0.17
 Democratic Republic of Congo,cotton,0.16
 Democratic Republic of Congo,rice,0.13
+Democratic Republic of Congo,rye,
 Democratic Republic of Congo,rapeseed,
 Democratic Republic of Congo,barley,
 Democratic Republic of Congo,sugarbeet,
 Democratic Republic of Congo,sunflower,
-Democratic Republic of Congo,rye,
-Denmark,potato,1
-Denmark,sugarbeet,0.99
+Denmark,potato,1.0
 Denmark,rye,0.99
+Denmark,sugarbeet,0.99
 Denmark,rapeseed,0.98
 Denmark,wheat,0.96
 Denmark,barley,0.93
+Denmark,maize,
+Denmark,soybean,
+Denmark,cotton,
 Denmark,sorghum,
 Denmark,sugarcane,
-Denmark,cotton,
-Denmark,groundnut,
-Denmark,soybean,
-Denmark,sunflower,
-Denmark,oilpalm,
-Denmark,rice,
-Denmark,millet,
 Denmark,cassava,
-Denmark,maize,
-Dominica,cotton,
-Dominica,wheat,
-Dominica,cassava,
+Denmark,groundnut,
+Denmark,millet,
+Denmark,rice,
+Denmark,oilpalm,
+Denmark,sunflower,
 Dominica,groundnut,
-Dominica,rice,
-Dominica,barley,
-Dominica,sunflower,
-Dominica,rapeseed,
-Dominica,maize,
 Dominica,sugarbeet,
-Dominica,rye,
-Dominica,soybean,
-Dominica,oilpalm,
-Dominica,millet,
-Dominica,potato,
+Dominica,maize,
 Dominica,sugarcane,
 Dominica,sorghum,
+Dominica,barley,
+Dominica,rice,
+Dominica,sunflower,
+Dominica,cotton,
+Dominica,wheat,
+Dominica,oilpalm,
+Dominica,soybean,
+Dominica,rye,
+Dominica,cassava,
+Dominica,millet,
+Dominica,potato,
+Dominica,rapeseed,
 Ecuador,sugarcane,0.91
 Ecuador,rice,0.69
 Ecuador,oilpalm,0.65
-Ecuador,maize,0.57
 Ecuador,soybean,0.57
+Ecuador,maize,0.57
 Ecuador,cotton,0.53
 Ecuador,sorghum,0.52
 Ecuador,groundnut,0.47
@@ -677,25 +677,25 @@ Ecuador,barley,0.17
 Ecuador,rye,0.12
 Ecuador,sugarbeet,0.09
 Ecuador,rapeseed,
-Ecuador,sunflower,
 Ecuador,millet,
-Egypt,wheat,1
+Ecuador,sunflower,
+Egypt,wheat,1.0
 Egypt,sugarcane,0.99
 Egypt,cotton,0.73
 Egypt,barley,0.64
-Egypt,rice,
-Egypt,rapeseed,
-Egypt,sorghum,
+Egypt,cassava,
 Egypt,potato,
+Egypt,sunflower,
+Egypt,rye,
+Egypt,sorghum,
+Egypt,rice,
+Egypt,maize,
+Egypt,groundnut,
+Egypt,rapeseed,
+Egypt,sugarbeet,
+Egypt,soybean,
 Egypt,millet,
 Egypt,oilpalm,
-Egypt,groundnut,
-Egypt,soybean,
-Egypt,sugarbeet,
-Egypt,sunflower,
-Egypt,maize,
-Egypt,cassava,
-Egypt,rye,
 El Salvador,potato,0.99
 El Salvador,rice,0.98
 El Salvador,sugarcane,0.96
@@ -704,15 +704,15 @@ El Salvador,maize,0.76
 El Salvador,cotton,0.75
 El Salvador,soybean,0.67
 El Salvador,sorghum,0.62
+El Salvador,wheat,
 El Salvador,rye,
+El Salvador,sunflower,
 El Salvador,millet,
 El Salvador,rapeseed,
-El Salvador,wheat,
 El Salvador,sugarbeet,
+El Salvador,oilpalm,
 El Salvador,barley,
 El Salvador,groundnut,
-El Salvador,oilpalm,
-El Salvador,sunflower,
 Eritrea,barley,0.52
 Eritrea,groundnut,0.41
 Eritrea,maize,0.26
@@ -720,32 +720,32 @@ Eritrea,wheat,0.24
 Eritrea,millet,0.21
 Eritrea,sorghum,0.17
 Eritrea,potato,0.06
-Eritrea,cassava,
-Eritrea,sugarbeet,
-Eritrea,cotton,
-Eritrea,rice,
 Eritrea,oilpalm,
+Eritrea,cassava,
+Eritrea,sugarcane,
+Eritrea,rice,
+Eritrea,rapeseed,
+Eritrea,cotton,
 Eritrea,rye,
 Eritrea,soybean,
+Eritrea,sugarbeet,
 Eritrea,sunflower,
-Eritrea,rapeseed,
-Eritrea,sugarcane,
 Estonia,potato,0.97
 Estonia,rye,0.89
 Estonia,barley,0.75
 Estonia,wheat,0.66
 Estonia,rapeseed,0.57
-Estonia,sorghum,
-Estonia,maize,
-Estonia,groundnut,
-Estonia,oilpalm,
+Estonia,soybean,
 Estonia,rice,
 Estonia,sugarbeet,
-Estonia,soybean,
-Estonia,cassava,
-Estonia,cotton,
 Estonia,millet,
+Estonia,cassava,
+Estonia,maize,
+Estonia,sorghum,
+Estonia,groundnut,
+Estonia,oilpalm,
 Estonia,sunflower,
+Estonia,cotton,
 Estonia,sugarcane,
 Ethiopia,millet,0.93
 Ethiopia,rapeseed,0.88
@@ -753,37 +753,37 @@ Ethiopia,sugarcane,0.8
 Ethiopia,soybean,0.73
 Ethiopia,groundnut,0.55
 Ethiopia,maize,0.54
-Ethiopia,barley,0.52
 Ethiopia,sorghum,0.52
+Ethiopia,barley,0.52
 Ethiopia,wheat,0.51
 Ethiopia,potato,0.46
 Ethiopia,rice,0.37
 Ethiopia,cotton,0.33
-Ethiopia,sugarbeet,
 Ethiopia,sunflower,
-Ethiopia,oilpalm,
 Ethiopia,cassava,
 Ethiopia,rye,
-Finland,potato,1
-Finland,barley,1
+Ethiopia,sugarbeet,
+Ethiopia,oilpalm,
+Finland,potato,1.0
+Finland,barley,1.0
 Finland,rye,0.94
 Finland,wheat,0.81
 Finland,sugarbeet,0.79
 Finland,rapeseed,0.62
+Finland,sorghum,
 Finland,millet,
 Finland,soybean,
-Finland,sorghum,
-Finland,groundnut,
-Finland,cotton,
-Finland,cassava,
-Finland,maize,
 Finland,rice,
-Finland,sugarcane,
-Finland,sunflower,
+Finland,cotton,
 Finland,oilpalm,
-France,sorghum,1
-France,millet,1
-France,sugarbeet,1
+Finland,cassava,
+Finland,sunflower,
+Finland,sugarcane,
+Finland,groundnut,
+Finland,maize,
+France,sugarbeet,1.0
+France,sorghum,1.0
+France,millet,1.0
 France,rapeseed,0.98
 France,potato,0.96
 France,barley,0.95
@@ -793,28 +793,28 @@ France,maize,0.91
 France,rye,0.87
 France,soybean,0.86
 France,rice,0.56
+France,groundnut,
 France,cotton,
 France,cassava,
-France,groundnut,
-France,sugarcane,
 France,oilpalm,
+France,sugarcane,
+French Polynesia,cassava,
+French Polynesia,sugarbeet,
+French Polynesia,sorghum,
+French Polynesia,potato,
 French Polynesia,rapeseed,
 French Polynesia,sunflower,
-French Polynesia,wheat,
-French Polynesia,cotton,
-French Polynesia,oilpalm,
 French Polynesia,millet,
-French Polynesia,rye,
-French Polynesia,sorghum,
-French Polynesia,sugarbeet,
-French Polynesia,maize,
-French Polynesia,rice,
 French Polynesia,barley,
+French Polynesia,oilpalm,
+French Polynesia,cotton,
+French Polynesia,rice,
+French Polynesia,groundnut,
+French Polynesia,rye,
+French Polynesia,wheat,
 French Polynesia,soybean,
 French Polynesia,sugarcane,
-French Polynesia,groundnut,
-French Polynesia,cassava,
-French Polynesia,potato,
+French Polynesia,maize,
 Gabon,sugarcane,0.66
 Gabon,rice,0.49
 Gabon,groundnut,0.43
@@ -822,33 +822,33 @@ Gabon,maize,0.42
 Gabon,cassava,0.32
 Gabon,soybean,0.31
 Gabon,oilpalm,0.25
-Gabon,millet,
+Gabon,barley,
 Gabon,sorghum,
-Gabon,rapeseed,
+Gabon,sunflower,
 Gabon,potato,
-Gabon,rye,
+Gabon,rapeseed,
+Gabon,millet,
 Gabon,wheat,
 Gabon,cotton,
+Gabon,rye,
 Gabon,sugarbeet,
-Gabon,barley,
-Gabon,sunflower,
 Gambia,millet,0.72
 Gambia,oilpalm,0.63
-Gambia,groundnut,0.61
 Gambia,sorghum,0.61
+Gambia,groundnut,0.61
 Gambia,maize,0.36
 Gambia,cotton,0.36
 Gambia,rice,0.2
 Gambia,cassava,0.13
-Gambia,potato,
-Gambia,rye,
-Gambia,sunflower,
-Gambia,barley,
-Gambia,sugarbeet,
-Gambia,wheat,
-Gambia,rapeseed,
 Gambia,sugarcane,
 Gambia,soybean,
+Gambia,potato,
+Gambia,sunflower,
+Gambia,rapeseed,
+Gambia,rye,
+Gambia,wheat,
+Gambia,barley,
+Gambia,sugarbeet,
 Georgia,soybean,0.94
 Georgia,barley,0.33
 Georgia,potato,0.32
@@ -857,32 +857,32 @@ Georgia,rye,0.28
 Georgia,sunflower,0.27
 Georgia,maize,0.22
 Georgia,groundnut,0.18
-Georgia,sugarcane,
 Georgia,sugarbeet,
-Georgia,oilpalm,
 Georgia,rapeseed,
-Georgia,millet,
 Georgia,cotton,
-Georgia,rice,
-Georgia,sorghum,
 Georgia,cassava,
-Germany,sugarbeet,1
+Georgia,sugarcane,
+Georgia,rice,
+Georgia,oilpalm,
+Georgia,sorghum,
+Georgia,millet,
+Germany,sugarbeet,1.0
 Germany,potato,0.98
-Germany,wheat,0.96
-Germany,rapeseed,0.96
 Germany,maize,0.96
+Germany,rapeseed,0.96
 Germany,sunflower,0.96
+Germany,wheat,0.96
 Germany,barley,0.95
 Germany,rye,0.92
 Germany,soybean,0.67
+Germany,millet,
+Germany,cotton,
+Germany,cassava,
 Germany,sugarcane,
-Germany,sorghum,
 Germany,groundnut,
 Germany,rice,
-Germany,cotton,
-Germany,millet,
+Germany,sorghum,
 Germany,oilpalm,
-Germany,cassava,
 Ghana,cassava,0.96
 Ghana,millet,0.88
 Ghana,groundnut,0.71
@@ -893,14 +893,14 @@ Ghana,maize,0.49
 Ghana,oilpalm,0.41
 Ghana,sugarcane,0.27
 Ghana,rye,
-Ghana,barley,
 Ghana,potato,
-Ghana,soybean,
 Ghana,sugarbeet,
+Ghana,rapeseed,
 Ghana,sunflower,
 Ghana,wheat,
-Ghana,rapeseed,
-Greece,maize,1
+Ghana,soybean,
+Ghana,barley,
+Greece,maize,1.0
 Greece,sunflower,0.99
 Greece,millet,0.97
 Greece,sugarbeet,0.89
@@ -914,31 +914,31 @@ Greece,barley,0.68
 Greece,wheat,0.54
 Greece,sorghum,0.47
 Greece,rye,0.43
-Greece,sugarcane,
-Greece,cassava,
 Greece,oilpalm,
-Grenada,soybean,
-Grenada,sugarbeet,
-Grenada,cassava,
-Grenada,rice,
-Grenada,groundnut,
-Grenada,potato,
-Grenada,rye,
-Grenada,sunflower,
-Grenada,oilpalm,
-Grenada,rapeseed,
-Grenada,wheat,
-Grenada,sorghum,
-Grenada,millet,
-Grenada,maize,
-Grenada,sugarcane,
+Greece,cassava,
+Greece,sugarcane,
 Grenada,barley,
 Grenada,cotton,
-Guatemala,groundnut,1
-Guatemala,potato,1
+Grenada,maize,
+Grenada,sugarcane,
+Grenada,potato,
+Grenada,wheat,
+Grenada,millet,
+Grenada,sugarbeet,
+Grenada,soybean,
+Grenada,cassava,
+Grenada,groundnut,
+Grenada,rye,
+Grenada,sunflower,
+Grenada,rapeseed,
+Grenada,rice,
+Grenada,sorghum,
+Grenada,oilpalm,
+Guatemala,potato,1.0
+Guatemala,groundnut,1.0
 Guatemala,sugarcane,0.99
-Guatemala,soybean,0.96
 Guatemala,cotton,0.96
+Guatemala,soybean,0.96
 Guatemala,oilpalm,0.78
 Guatemala,sorghum,0.65
 Guatemala,wheat,0.49
@@ -947,10 +947,10 @@ Guatemala,barley,0.4
 Guatemala,maize,0.38
 Guatemala,cassava,0.06
 Guatemala,millet,
-Guatemala,rapeseed,
+Guatemala,sugarbeet,
 Guatemala,sunflower,
 Guatemala,rye,
-Guatemala,sugarbeet,
+Guatemala,rapeseed,
 Guinea,millet,0.81
 Guinea,sugarcane,0.57
 Guinea,groundnut,0.55
@@ -960,31 +960,31 @@ Guinea,cotton,0.4
 Guinea,maize,0.35
 Guinea,rice,0.25
 Guinea,oilpalm,0.15
-Guinea,rye,
-Guinea,soybean,
-Guinea,wheat,
-Guinea,barley,
-Guinea,sunflower,
-Guinea,rapeseed,
-Guinea,potato,
 Guinea,sugarbeet,
+Guinea,wheat,
+Guinea,rye,
+Guinea,sunflower,
+Guinea,soybean,
+Guinea,barley,
+Guinea,potato,
+Guinea,rapeseed,
 Guyana,rice,0.86
 Guyana,sugarcane,0.62
 Guyana,groundnut,0.6
 Guyana,cassava,0.5
 Guyana,maize,0.38
-Guyana,cotton,
-Guyana,sorghum,
 Guyana,barley,
 Guyana,sugarbeet,
+Guyana,cotton,
 Guyana,millet,
-Guyana,soybean,
-Guyana,oilpalm,
-Guyana,rapeseed,
-Guyana,rye,
 Guyana,wheat,
 Guyana,potato,
 Guyana,sunflower,
+Guyana,soybean,
+Guyana,rye,
+Guyana,oilpalm,
+Guyana,rapeseed,
+Guyana,sorghum,
 Honduras,sugarcane,0.92
 Honduras,oilpalm,0.79
 Honduras,soybean,0.77
@@ -996,13 +996,13 @@ Honduras,maize,0.4
 Honduras,sorghum,0.35
 Honduras,groundnut,0.21
 Honduras,wheat,0.15
-Honduras,barley,
-Honduras,sugarbeet,
-Honduras,millet,
-Honduras,rapeseed,
-Honduras,rye,
 Honduras,sunflower,
-Hungary,sunflower,1
+Honduras,sugarbeet,
+Honduras,barley,
+Honduras,millet,
+Honduras,rye,
+Honduras,rapeseed,
+Hungary,sunflower,1.0
 Hungary,rapeseed,0.89
 Hungary,sugarbeet,0.89
 Hungary,barley,0.87
@@ -1014,47 +1014,47 @@ Hungary,millet,0.7
 Hungary,maize,0.69
 Hungary,rye,0.63
 Hungary,rice,0.39
-Hungary,cassava,
-Hungary,groundnut,
-Hungary,cotton,
-Hungary,sugarcane,
 Hungary,oilpalm,
-Iceland,rapeseed,
-Iceland,cotton,
-Iceland,oilpalm,
-Iceland,sorghum,
+Hungary,groundnut,
+Hungary,sugarcane,
+Hungary,cotton,
+Hungary,cassava,
+Iceland,millet,
+Iceland,sugarcane,
+Iceland,rice,
 Iceland,groundnut,
-Iceland,wheat,
+Iceland,potato,
+Iceland,sorghum,
+Iceland,cotton,
+Iceland,soybean,
+Iceland,oilpalm,
 Iceland,sugarbeet,
 Iceland,sunflower,
-Iceland,potato,
-Iceland,millet,
+Iceland,rapeseed,
+Iceland,wheat,
 Iceland,rye,
-Iceland,cassava,
 Iceland,barley,
 Iceland,maize,
-Iceland,rice,
-Iceland,soybean,
-Iceland,sugarcane,
-India,cotton,1
+Iceland,cassava,
+India,cotton,1.0
 India,potato,0.95
+India,rapeseed,0.91
 India,cassava,0.91
 India,groundnut,0.91
-India,rapeseed,0.91
 India,millet,0.88
+India,sugarcane,0.76
 India,maize,0.76
 India,rice,0.76
-India,sugarcane,0.76
 India,wheat,0.69
 India,soybean,0.6
 India,sorghum,0.59
 India,sunflower,0.53
 India,barley,0.47
+India,sugarbeet,
 India,oilpalm,
 India,rye,
-India,sugarbeet,
-Indonesia,cassava,1
-Indonesia,maize,1
+Indonesia,cassava,1.0
+Indonesia,maize,1.0
 Indonesia,rice,0.97
 Indonesia,oilpalm,0.82
 Indonesia,groundnut,0.78
@@ -1062,14 +1062,14 @@ Indonesia,potato,0.74
 Indonesia,sugarcane,0.61
 Indonesia,soybean,0.51
 Indonesia,cotton,0.11
-Indonesia,millet,
 Indonesia,rapeseed,
-Indonesia,sorghum,
+Indonesia,sugarbeet,
+Indonesia,millet,
 Indonesia,wheat,
+Indonesia,sorghum,
+Indonesia,barley,
 Indonesia,rye,
 Indonesia,sunflower,
-Indonesia,barley,
-Indonesia,sugarbeet,
 Iran,millet,0.97
 Iran,groundnut,0.89
 Iran,soybean,0.77
@@ -1079,14 +1079,14 @@ Iran,sugarbeet,0.62
 Iran,potato,0.61
 Iran,barley,0.58
 Iran,cotton,0.56
+Iran,rapeseed,0.51
 Iran,sunflower,0.51
 Iran,rice,0.51
-Iran,rapeseed,0.51
 Iran,wheat,0.39
+Iran,sorghum,
 Iran,rye,
 Iran,oilpalm,
 Iran,cassava,
-Iran,sorghum,
 Iraq,sunflower,0.92
 Iraq,cotton,0.9
 Iraq,groundnut,0.68
@@ -1101,46 +1101,46 @@ Iraq,sugarcane,0.19
 Iraq,sugarbeet,0.12
 Iraq,oilpalm,
 Iraq,cassava,
-Iraq,rye,
 Iraq,rapeseed,
+Iraq,rye,
 Iraq,sorghum,
-Ireland,rapeseed,1
+Ireland,rapeseed,1.0
 Ireland,barley,0.99
 Ireland,wheat,0.98
 Ireland,potato,0.77
 Ireland,sugarbeet,0.75
 Ireland,rye,0.48
-Ireland,sorghum,
-Ireland,sugarcane,
 Ireland,groundnut,
 Ireland,maize,
 Ireland,cassava,
 Ireland,cotton,
-Ireland,soybean,
-Ireland,rice,
-Ireland,millet,
 Ireland,sunflower,
+Ireland,millet,
+Ireland,sugarcane,
+Ireland,sorghum,
+Ireland,rice,
 Ireland,oilpalm,
-Israel,sunflower,1
-Israel,sorghum,1
-Israel,maize,1
-Israel,groundnut,1
+Ireland,soybean,
+Israel,sunflower,1.0
+Israel,maize,1.0
+Israel,groundnut,1.0
+Israel,sorghum,1.0
 Israel,cotton,0.99
 Israel,potato,0.99
 Israel,barley,0.76
 Israel,wheat,0.53
-Israel,rye,
 Israel,rapeseed,
 Israel,sugarcane,
-Israel,oilpalm,
-Israel,cassava,
-Israel,millet,
-Israel,sugarbeet,
 Israel,rice,
 Israel,soybean,
+Israel,rye,
+Israel,millet,
+Israel,sugarbeet,
+Israel,cassava,
+Israel,oilpalm,
+Italy,soybean,0.98
 Italy,sorghum,0.98
 Italy,sunflower,0.98
-Italy,soybean,0.98
 Italy,maize,0.95
 Italy,sugarbeet,0.86
 Italy,rapeseed,0.85
@@ -1149,29 +1149,29 @@ Italy,barley,0.8
 Italy,rice,0.7
 Italy,wheat,0.7
 Italy,rye,0.51
-Italy,sugarcane,
-Italy,oilpalm,
-Italy,cotton,
-Italy,millet,
-Italy,cassava,
 Italy,groundnut,
-Jamaica,cassava,1
+Italy,sugarcane,
+Italy,cassava,
+Italy,cotton,
+Italy,oilpalm,
+Italy,millet,
+Jamaica,cassava,1.0
 Jamaica,potato,0.74
-Jamaica,sugarcane,0.63
 Jamaica,rice,0.63
+Jamaica,sugarcane,0.63
 Jamaica,groundnut,0.54
 Jamaica,maize,0.31
-Jamaica,barley,
-Jamaica,soybean,
-Jamaica,oilpalm,
-Jamaica,rye,
-Jamaica,sorghum,
-Jamaica,rapeseed,
-Jamaica,sugarbeet,
-Jamaica,cotton,
 Jamaica,millet,
-Jamaica,wheat,
 Jamaica,sunflower,
+Jamaica,wheat,
+Jamaica,soybean,
+Jamaica,barley,
+Jamaica,sorghum,
+Jamaica,oilpalm,
+Jamaica,sugarbeet,
+Jamaica,rye,
+Jamaica,rapeseed,
+Jamaica,cotton,
 Japan,rice,0.98
 Japan,sugarbeet,0.87
 Japan,potato,0.86
@@ -1184,28 +1184,28 @@ Japan,wheat,0.53
 Japan,barley,0.46
 Japan,maize,0.29
 Japan,sunflower,
-Japan,rye,
 Japan,oilpalm,
 Japan,cotton,
+Japan,rye,
 Japan,cassava,
 Japan,sorghum,
-Jordan,maize,1
-Jordan,sorghum,1
+Jordan,sorghum,1.0
+Jordan,maize,1.0
 Jordan,potato,0.87
 Jordan,millet,0.83
 Jordan,barley,0.33
 Jordan,wheat,0.3
-Jordan,cassava,
+Jordan,groundnut,
 Jordan,cotton,
 Jordan,rice,
-Jordan,sunflower,
+Jordan,cassava,
 Jordan,sugarbeet,
-Jordan,rye,
-Jordan,sugarcane,
 Jordan,soybean,
-Jordan,rapeseed,
 Jordan,oilpalm,
-Jordan,groundnut,
+Jordan,rye,
+Jordan,rapeseed,
+Jordan,sugarcane,
+Jordan,sunflower,
 Kazakhstan,soybean,0.89
 Kazakhstan,cotton,0.65
 Kazakhstan,maize,0.48
@@ -1215,14 +1215,14 @@ Kazakhstan,rice,0.43
 Kazakhstan,wheat,0.41
 Kazakhstan,potato,0.39
 Kazakhstan,sugarbeet,0.36
+Kazakhstan,barley,0.35
 Kazakhstan,rye,0.35
 Kazakhstan,sunflower,0.35
-Kazakhstan,barley,0.35
 Kazakhstan,groundnut,0.33
 Kazakhstan,sorghum,0.13
+Kazakhstan,sugarcane,
 Kazakhstan,cassava,
 Kazakhstan,oilpalm,
-Kazakhstan,sugarcane,
 Kenya,barley,0.98
 Kenya,sugarcane,0.85
 Kenya,groundnut,0.76
@@ -1235,28 +1235,28 @@ Kenya,wheat,0.49
 Kenya,maize,0.39
 Kenya,sorghum,0.24
 Kenya,cotton,0.2
-Kenya,oilpalm,
 Kenya,sugarbeet,
-Kenya,rye,
+Kenya,oilpalm,
 Kenya,soybean,
 Kenya,rapeseed,
-Kuwait,maize,
-Kuwait,sorghum,
-Kuwait,oilpalm,
-Kuwait,wheat,
+Kenya,rye,
 Kuwait,barley,
-Kuwait,sugarcane,
+Kuwait,wheat,
+Kuwait,sorghum,
 Kuwait,soybean,
-Kuwait,sugarbeet,
+Kuwait,maize,
 Kuwait,cassava,
-Kuwait,millet,
-Kuwait,rice,
+Kuwait,sugarcane,
 Kuwait,rye,
-Kuwait,groundnut,
 Kuwait,sunflower,
-Kuwait,potato,
+Kuwait,sugarbeet,
 Kuwait,cotton,
+Kuwait,rice,
 Kuwait,rapeseed,
+Kuwait,millet,
+Kuwait,potato,
+Kuwait,oilpalm,
+Kuwait,groundnut,
 Kyrgyzstan,cotton,0.98
 Kyrgyzstan,millet,0.94
 Kyrgyzstan,rye,0.88
@@ -1271,26 +1271,26 @@ Kyrgyzstan,potato,0.44
 Kyrgyzstan,groundnut,0.37
 Kyrgyzstan,rice,0.36
 Kyrgyzstan,sorghum,0.33
-Kyrgyzstan,oilpalm,
 Kyrgyzstan,cassava,
 Kyrgyzstan,sugarcane,
+Kyrgyzstan,oilpalm,
 Latvia,potato,0.83
 Latvia,rye,0.79
 Latvia,rapeseed,0.73
 Latvia,wheat,0.58
 Latvia,barley,0.56
-Latvia,sugarbeet,
-Latvia,cotton,
-Latvia,rice,
-Latvia,cassava,
-Latvia,sorghum,
-Latvia,maize,
-Latvia,sugarcane,
 Latvia,soybean,
-Latvia,groundnut,
-Latvia,millet,
-Latvia,sunflower,
+Latvia,rice,
 Latvia,oilpalm,
+Latvia,sugarbeet,
+Latvia,cassava,
+Latvia,cotton,
+Latvia,maize,
+Latvia,sorghum,
+Latvia,sunflower,
+Latvia,millet,
+Latvia,sugarcane,
+Latvia,groundnut,
 Lebanon,groundnut,0.88
 Lebanon,potato,0.8
 Lebanon,barley,0.73
@@ -1299,66 +1299,66 @@ Lebanon,sugarbeet,0.48
 Lebanon,maize,0.39
 Lebanon,sorghum,0.38
 Lebanon,sugarcane,0.24
-Lebanon,millet,
-Lebanon,rye,
-Lebanon,sunflower,
-Lebanon,rice,
-Lebanon,cassava,
-Lebanon,oilpalm,
-Lebanon,cotton,
 Lebanon,rapeseed,
 Lebanon,soybean,
+Lebanon,cassava,
+Lebanon,sunflower,
+Lebanon,cotton,
+Lebanon,millet,
+Lebanon,rye,
+Lebanon,oilpalm,
+Lebanon,rice,
 Libya,millet,0.66
 Libya,potato,0.58
 Libya,groundnut,0.4
 Libya,maize,0.25
 Libya,barley,0.22
 Libya,wheat,0.19
-Libya,soybean,
-Libya,sugarcane,
-Libya,cotton,
-Libya,sunflower,
-Libya,sugarbeet,
 Libya,rice,
-Libya,rye,
-Libya,rapeseed,
-Libya,oilpalm,
 Libya,sorghum,
+Libya,rapeseed,
+Libya,sugarcane,
+Libya,soybean,
+Libya,cotton,
 Libya,cassava,
+Libya,sugarbeet,
+Libya,oilpalm,
+Libya,sunflower,
+Libya,rye,
 Lithuania,sugarbeet,0.95
 Lithuania,rapeseed,0.67
 Lithuania,wheat,0.66
 Lithuania,barley,0.6
 Lithuania,potato,0.59
 Lithuania,rye,0.52
-Lithuania,rice,
-Lithuania,cassava,
-Lithuania,oilpalm,
-Lithuania,sunflower,
 Lithuania,maize,
-Lithuania,groundnut,
-Lithuania,cotton,
-Lithuania,millet,
-Lithuania,sorghum,
+Lithuania,cassava,
 Lithuania,soybean,
+Lithuania,oilpalm,
 Lithuania,sugarcane,
+Lithuania,rice,
+Lithuania,millet,
+Lithuania,cotton,
+Lithuania,groundnut,
+Lithuania,sunflower,
+Lithuania,sorghum,
 Luxembourg,rapeseed,0.96
 Luxembourg,rye,0.88
 Luxembourg,barley,0.79
 Luxembourg,maize,0.75
 Luxembourg,wheat,0.7
 Luxembourg,potato,0.64
-Luxembourg,millet,
 Luxembourg,groundnut,
+Luxembourg,millet,
 Luxembourg,sunflower,
-Luxembourg,sugarcane,
-Luxembourg,soybean,
-Luxembourg,sugarbeet,
-Luxembourg,oilpalm,
-Luxembourg,cassava,
-Luxembourg,sorghum,
-Luxembourg,cotton,
 Luxembourg,rice,
+Luxembourg,cassava,
+Luxembourg,sugarbeet,
+Luxembourg,sugarcane,
+Luxembourg,cotton,
+Luxembourg,sorghum,
+Luxembourg,oilpalm,
+Luxembourg,soybean,
 Madagascar,rice,0.64
 Madagascar,oilpalm,0.63
 Madagascar,wheat,0.56
@@ -1370,63 +1370,63 @@ Madagascar,groundnut,0.29
 Madagascar,potato,0.25
 Madagascar,soybean,0.22
 Madagascar,sorghum,0.18
-Madagascar,millet,
-Madagascar,barley,
+Madagascar,rapeseed,
 Madagascar,rye,
 Madagascar,sugarbeet,
-Madagascar,rapeseed,
 Madagascar,sunflower,
-Malawi,sugarcane,1
-Malawi,cassava,1
+Madagascar,barley,
+Madagascar,millet,
+Malawi,sugarcane,1.0
+Malawi,cassava,1.0
 Malawi,potato,0.71
 Malawi,sunflower,0.54
 Malawi,groundnut,0.39
-Malawi,maize,0.36
 Malawi,millet,0.36
-Malawi,wheat,0.32
+Malawi,maize,0.36
 Malawi,soybean,0.32
+Malawi,wheat,0.32
 Malawi,rice,0.27
 Malawi,cotton,0.25
 Malawi,sorghum,0.2
 Malawi,rapeseed,
+Malawi,barley,
 Malawi,oilpalm,
 Malawi,rye,
-Malawi,barley,
 Malawi,sugarbeet,
-Malaysia,groundnut,1
-Malaysia,maize,1
+Malaysia,maize,1.0
+Malaysia,groundnut,1.0
 Malaysia,oilpalm,0.91
 Malaysia,cassava,0.85
 Malaysia,rice,0.74
 Malaysia,sugarcane,0.36
-Malaysia,sunflower,
-Malaysia,soybean,
 Malaysia,sorghum,
+Malaysia,cotton,
+Malaysia,soybean,
+Malaysia,potato,
+Malaysia,rye,
+Malaysia,sunflower,
 Malaysia,sugarbeet,
+Malaysia,barley,
 Malaysia,wheat,
 Malaysia,millet,
 Malaysia,rapeseed,
-Malaysia,barley,
-Malaysia,potato,
-Malaysia,rye,
-Malaysia,cotton,
-Maldives,millet,
-Maldives,barley,
-Maldives,rice,
-Maldives,maize,
-Maldives,groundnut,
-Maldives,sorghum,
-Maldives,rye,
-Maldives,cassava,
+Maldives,potato,
 Maldives,oilpalm,
-Maldives,sugarcane,
-Maldives,rapeseed,
-Maldives,sugarbeet,
-Maldives,sunflower,
-Maldives,wheat,
+Maldives,rice,
 Maldives,cotton,
 Maldives,soybean,
-Maldives,potato,
+Maldives,millet,
+Maldives,maize,
+Maldives,rye,
+Maldives,barley,
+Maldives,sugarcane,
+Maldives,sugarbeet,
+Maldives,sunflower,
+Maldives,rapeseed,
+Maldives,groundnut,
+Maldives,sorghum,
+Maldives,wheat,
+Maldives,cassava,
 Mali,potato,0.94
 Mali,cotton,0.87
 Mali,millet,0.82
@@ -1437,50 +1437,50 @@ Mali,sugarcane,0.65
 Mali,rice,0.58
 Mali,cassava,0.51
 Mali,soybean,0.3
+Mali,rapeseed,
 Mali,sugarbeet,
 Mali,rye,
 Mali,wheat,
-Mali,rapeseed,
 Mali,barley,
-Mali,oilpalm,
 Mali,sunflower,
-Malta,sugarcane,
+Mali,oilpalm,
+Malta,cotton,
 Malta,rye,
 Malta,sunflower,
-Malta,wheat,
-Malta,cassava,
-Malta,maize,
-Malta,millet,
-Malta,barley,
-Malta,soybean,
-Malta,rapeseed,
-Malta,cotton,
-Malta,sorghum,
 Malta,rice,
+Malta,potato,
+Malta,sugarcane,
+Malta,maize,
+Malta,cassava,
+Malta,rapeseed,
+Malta,wheat,
+Malta,barley,
+Malta,millet,
 Malta,oilpalm,
 Malta,groundnut,
+Malta,soybean,
 Malta,sugarbeet,
-Malta,potato,
+Malta,sorghum,
+Mauritius,millet,
 Mauritius,rye,
 Mauritius,rapeseed,
+Mauritius,rice,
 Mauritius,sugarcane,
-Mauritius,sunflower,
-Mauritius,cotton,
-Mauritius,potato,
-Mauritius,sorghum,
+Mauritius,barley,
+Mauritius,oilpalm,
 Mauritius,soybean,
+Mauritius,potato,
 Mauritius,cassava,
 Mauritius,sugarbeet,
-Mauritius,barley,
-Mauritius,rice,
+Mauritius,sunflower,
+Mauritius,sorghum,
 Mauritius,groundnut,
 Mauritius,wheat,
-Mauritius,oilpalm,
 Mauritius,maize,
-Mauritius,millet,
-Mexico,cotton,1
-Mexico,wheat,1
-Mexico,potato,1
+Mauritius,cotton,
+Mexico,potato,1.0
+Mexico,cotton,1.0
+Mexico,wheat,1.0
 Mexico,sorghum,0.95
 Mexico,rice,0.95
 Mexico,sugarcane,0.78
@@ -1499,37 +1499,37 @@ Moldova,sunflower,0.89
 Moldova,soybean,0.55
 Moldova,rye,0.54
 Moldova,rapeseed,0.5
-Moldova,millet,0.5
 Moldova,sorghum,0.5
+Moldova,millet,0.5
 Moldova,sugarbeet,0.48
 Moldova,barley,0.46
 Moldova,wheat,0.42
 Moldova,maize,0.36
 Moldova,potato,0.33
+Moldova,cassava,
+Moldova,sugarcane,
+Moldova,cotton,
+Moldova,groundnut,
 Moldova,rice,
 Moldova,oilpalm,
-Moldova,cotton,
-Moldova,sugarcane,
-Moldova,groundnut,
-Moldova,cassava,
 Mongolia,rapeseed,0.87
 Mongolia,wheat,0.55
 Mongolia,barley,0.34
 Mongolia,potato,0.29
-Mongolia,rye,
 Mongolia,cotton,
 Mongolia,rice,
+Mongolia,rye,
+Mongolia,sugarcane,
+Mongolia,sunflower,
 Mongolia,cassava,
 Mongolia,oilpalm,
-Mongolia,groundnut,
-Mongolia,sugarbeet,
-Mongolia,maize,
 Mongolia,sorghum,
 Mongolia,soybean,
-Mongolia,sunflower,
+Mongolia,groundnut,
+Mongolia,sugarbeet,
 Mongolia,millet,
-Mongolia,sugarcane,
-Morocco,millet,1
+Mongolia,maize,
+Morocco,millet,1.0
 Morocco,potato,0.87
 Morocco,sugarbeet,0.83
 Morocco,rice,0.78
@@ -1544,8 +1544,8 @@ Morocco,soybean,0.38
 Morocco,sorghum,0.2
 Morocco,rye,0.15
 Morocco,maize,0.12
-Morocco,oilpalm,
 Morocco,cassava,
+Morocco,oilpalm,
 Mozambique,sugarcane,0.73
 Mozambique,potato,0.65
 Mozambique,cassava,0.48
@@ -1558,10 +1558,10 @@ Mozambique,sorghum,0.17
 Mozambique,groundnut,0.14
 Mozambique,rice,0.12
 Mozambique,oilpalm,
-Mozambique,barley,
 Mozambique,sugarbeet,
-Mozambique,rapeseed,
+Mozambique,barley,
 Mozambique,soybean,
+Mozambique,rapeseed,
 Mozambique,rye,
 Myanmar,cotton,0.98
 Myanmar,maize,0.8
@@ -1575,28 +1575,28 @@ Myanmar,cassava,0.56
 Myanmar,soybean,0.46
 Myanmar,wheat,0.41
 Myanmar,sorghum,0.36
+Myanmar,rye,
 Myanmar,oilpalm,
+Myanmar,barley,
 Myanmar,rapeseed,
 Myanmar,sugarbeet,
-Myanmar,barley,
-Myanmar,rye,
-Namibia,wheat,1
+Namibia,wheat,1.0
 Namibia,sunflower,0.62
 Namibia,maize,0.5
 Namibia,potato,0.37
 Namibia,groundnut,0.11
 Namibia,millet,0.09
 Namibia,sorghum,0.07
-Namibia,sugarbeet,
-Namibia,cassava,
-Namibia,sugarcane,
-Namibia,rice,
-Namibia,rye,
-Namibia,cotton,
-Namibia,rapeseed,
-Namibia,soybean,
-Namibia,oilpalm,
 Namibia,barley,
+Namibia,rye,
+Namibia,soybean,
+Namibia,sugarcane,
+Namibia,oilpalm,
+Namibia,cassava,
+Namibia,sugarbeet,
+Namibia,rice,
+Namibia,rapeseed,
+Namibia,cotton,
 Nepal,millet,0.74
 Nepal,potato,0.58
 Nepal,rice,0.53
@@ -1609,12 +1609,12 @@ Nepal,barley,0.21
 Nepal,rye,
 Nepal,rapeseed,
 Nepal,sunflower,
-Nepal,sugarbeet,
-Nepal,sorghum,
-Nepal,oilpalm,
 Nepal,groundnut,
+Nepal,sugarbeet,
+Nepal,oilpalm,
+Nepal,sorghum,
 Nepal,cassava,
-Netherlands,sugarbeet,1
+Netherlands,sugarbeet,1.0
 Netherlands,maize,0.99
 Netherlands,wheat,0.99
 Netherlands,rapeseed,0.96
@@ -1622,50 +1622,50 @@ Netherlands,barley,0.96
 Netherlands,potato,0.89
 Netherlands,rye,0.63
 Netherlands,soybean,
-Netherlands,sunflower,
 Netherlands,cassava,
 Netherlands,sugarcane,
 Netherlands,groundnut,
+Netherlands,sunflower,
 Netherlands,rice,
-Netherlands,sorghum,
-Netherlands,oilpalm,
-Netherlands,millet,
 Netherlands,cotton,
+Netherlands,sorghum,
+Netherlands,millet,
+Netherlands,oilpalm,
+New Caledonia,sorghum,
+New Caledonia,wheat,
+New Caledonia,rapeseed,
+New Caledonia,rice,
+New Caledonia,cassava,
+New Caledonia,sugarcane,
+New Caledonia,groundnut,
 New Caledonia,sunflower,
 New Caledonia,maize,
 New Caledonia,rye,
-New Caledonia,sorghum,
-New Caledonia,wheat,
-New Caledonia,sugarcane,
-New Caledonia,soybean,
 New Caledonia,cotton,
-New Caledonia,sugarbeet,
 New Caledonia,barley,
 New Caledonia,millet,
-New Caledonia,potato,
+New Caledonia,sugarbeet,
+New Caledonia,soybean,
 New Caledonia,oilpalm,
-New Caledonia,groundnut,
-New Caledonia,rice,
-New Caledonia,cassava,
-New Caledonia,rapeseed,
-New Zealand,maize,1
-New Zealand,potato,1
-New Zealand,wheat,1
+New Caledonia,potato,
+New Zealand,maize,1.0
+New Zealand,potato,1.0
+New Zealand,wheat,1.0
 New Zealand,barley,0.98
 New Zealand,rapeseed,0.68
-New Zealand,soybean,
-New Zealand,millet,
-New Zealand,sunflower,
-New Zealand,sugarbeet,
-New Zealand,rye,
-New Zealand,oilpalm,
-New Zealand,sugarcane,
-New Zealand,groundnut,
-New Zealand,sorghum,
 New Zealand,cassava,
 New Zealand,cotton,
 New Zealand,rice,
-Nicaragua,groundnut,1
+New Zealand,soybean,
+New Zealand,millet,
+New Zealand,rye,
+New Zealand,sunflower,
+New Zealand,sugarbeet,
+New Zealand,groundnut,
+New Zealand,sorghum,
+New Zealand,sugarcane,
+New Zealand,oilpalm,
+Nicaragua,groundnut,1.0
 Nicaragua,oilpalm,0.99
 Nicaragua,sugarcane,0.97
 Nicaragua,rice,0.92
@@ -1675,13 +1675,13 @@ Nicaragua,potato,0.72
 Nicaragua,sorghum,0.66
 Nicaragua,cassava,0.49
 Nicaragua,maize,0.31
+Nicaragua,rapeseed,
+Nicaragua,millet,
 Nicaragua,rye,
 Nicaragua,barley,
-Nicaragua,rapeseed,
 Nicaragua,wheat,
-Nicaragua,sunflower,
 Nicaragua,sugarbeet,
-Nicaragua,millet,
+Nicaragua,sunflower,
 Niger,potato,0.91
 Niger,millet,0.73
 Niger,sugarcane,0.7
@@ -1696,13 +1696,13 @@ Niger,barley,
 Niger,rapeseed,
 Niger,sugarbeet,
 Niger,soybean,
-Niger,oilpalm,
 Niger,rye,
 Niger,sunflower,
-Nigeria,groundnut,0.74
+Niger,oilpalm,
 Nigeria,sorghum,0.74
-Nigeria,millet,0.7
+Nigeria,groundnut,0.74
 Nigeria,cotton,0.7
+Nigeria,millet,0.7
 Nigeria,cassava,0.58
 Nigeria,maize,0.51
 Nigeria,rice,0.41
@@ -1711,11 +1711,11 @@ Nigeria,wheat,0.29
 Nigeria,sugarcane,0.21
 Nigeria,potato,0.16
 Nigeria,oilpalm,0.14
+Nigeria,sunflower,
+Nigeria,barley,
 Nigeria,sugarbeet,
 Nigeria,rye,
-Nigeria,sunflower,
 Nigeria,rapeseed,
-Nigeria,barley,
 North Macedonia,rapeseed,0.88
 North Macedonia,sunflower,0.82
 North Macedonia,millet,0.72
@@ -1727,46 +1727,46 @@ North Macedonia,sugarbeet,0.44
 North Macedonia,maize,0.44
 North Macedonia,potato,0.42
 North Macedonia,sorghum,0.29
-North Macedonia,soybean,
-North Macedonia,cotton,
-North Macedonia,cassava,
-North Macedonia,groundnut,
-North Macedonia,oilpalm,
 North Macedonia,sugarcane,
+North Macedonia,oilpalm,
+North Macedonia,cotton,
+North Macedonia,soybean,
+North Macedonia,groundnut,
+North Macedonia,cassava,
 Norway,rye,0.93
 Norway,barley,0.84
 Norway,rapeseed,0.78
 Norway,potato,0.75
 Norway,wheat,0.74
-Norway,oilpalm,
-Norway,millet,
-Norway,rice,
 Norway,groundnut,
-Norway,cassava,
-Norway,sorghum,
-Norway,soybean,
-Norway,cotton,
-Norway,maize,
+Norway,rice,
+Norway,sugarbeet,
 Norway,sunflower,
 Norway,sugarcane,
-Norway,sugarbeet,
-Oman,sorghum,1
+Norway,oilpalm,
+Norway,millet,
+Norway,cassava,
+Norway,cotton,
+Norway,maize,
+Norway,soybean,
+Norway,sorghum,
+Oman,sorghum,1.0
 Oman,wheat,0.77
 Oman,potato,0.69
-Oman,rye,
-Oman,soybean,
-Oman,rapeseed,
-Oman,cassava,
-Oman,oilpalm,
-Oman,sugarcane,
-Oman,millet,
-Oman,sugarbeet,
-Oman,sunflower,
-Oman,cotton,
-Oman,groundnut,
 Oman,barley,
 Oman,maize,
+Oman,cassava,
+Oman,rye,
+Oman,oilpalm,
+Oman,groundnut,
 Oman,rice,
+Oman,rapeseed,
+Oman,sugarbeet,
+Oman,millet,
+Oman,soybean,
+Oman,sunflower,
+Oman,cotton,
+Oman,sugarcane,
 Pakistan,cotton,0.99
 Pakistan,maize,0.95
 Pakistan,potato,0.89
@@ -1782,9 +1782,9 @@ Pakistan,barley,0.31
 Pakistan,sorghum,0.29
 Pakistan,soybean,0.27
 Pakistan,cassava,
-Pakistan,oilpalm,
 Pakistan,rye,
-Panama,sorghum,1
+Pakistan,oilpalm,
+Panama,sorghum,1.0
 Panama,potato,0.99
 Panama,cassava,0.9
 Panama,sugarcane,0.71
@@ -1792,17 +1792,17 @@ Panama,rice,0.61
 Panama,maize,0.55
 Panama,oilpalm,0.53
 Panama,soybean,0.16
-Panama,rapeseed,
 Panama,barley,
+Panama,rapeseed,
 Panama,wheat,
-Panama,sugarbeet,
-Panama,sunflower,
 Panama,millet,
+Panama,sugarbeet,
 Panama,groundnut,
-Panama,cotton,
+Panama,sunflower,
 Panama,rye,
-Papua New Guinea,maize,1
-Papua New Guinea,sorghum,1
+Panama,cotton,
+Papua New Guinea,maize,1.0
+Papua New Guinea,sorghum,1.0
 Papua New Guinea,oilpalm,0.71
 Papua New Guinea,cassava,0.57
 Papua New Guinea,groundnut,0.52
@@ -1811,14 +1811,14 @@ Papua New Guinea,sugarcane,0.38
 Papua New Guinea,potato,0.24
 Papua New Guinea,barley,
 Papua New Guinea,rapeseed,
+Papua New Guinea,millet,
 Papua New Guinea,rye,
-Papua New Guinea,sunflower,
+Papua New Guinea,soybean,
+Papua New Guinea,wheat,
 Papua New Guinea,cotton,
 Papua New Guinea,sugarbeet,
-Papua New Guinea,soybean,
-Papua New Guinea,millet,
-Papua New Guinea,wheat,
-Paraguay,rapeseed,1
+Papua New Guinea,sunflower,
+Paraguay,rapeseed,1.0
 Paraguay,sunflower,0.97
 Paraguay,sorghum,0.89
 Paraguay,soybean,0.86
@@ -1829,14 +1829,14 @@ Paraguay,sugarcane,0.59
 Paraguay,potato,0.56
 Paraguay,oilpalm,0.48
 Paraguay,wheat,0.46
-Paraguay,groundnut,0.33
 Paraguay,cotton,0.33
-Paraguay,rye,
-Paraguay,millet,
-Paraguay,sugarbeet,
+Paraguay,groundnut,0.33
 Paraguay,barley,
-Peru,sugarcane,1
-Peru,rice,1
+Paraguay,millet,
+Paraguay,rye,
+Paraguay,sugarbeet,
+Peru,sugarcane,1.0
+Peru,rice,1.0
 Peru,sorghum,0.88
 Peru,cotton,0.76
 Peru,oilpalm,0.76
@@ -1850,25 +1850,25 @@ Peru,wheat,0.26
 Peru,rye,0.21
 Peru,sunflower,
 Peru,millet,
-Peru,rapeseed,
 Peru,sugarbeet,
+Peru,rapeseed,
 Philippines,maize,0.81
 Philippines,rice,0.74
 Philippines,potato,0.66
 Philippines,sugarcane,0.66
 Philippines,groundnut,0.59
 Philippines,cassava,0.58
-Philippines,oilpalm,0.47
 Philippines,soybean,0.47
+Philippines,oilpalm,0.47
 Philippines,cotton,0.44
-Philippines,millet,
-Philippines,barley,
-Philippines,sorghum,
 Philippines,rapeseed,
-Philippines,wheat,
-Philippines,rye,
-Philippines,sugarbeet,
+Philippines,millet,
 Philippines,sunflower,
+Philippines,rye,
+Philippines,barley,
+Philippines,sugarbeet,
+Philippines,wheat,
+Philippines,sorghum,
 Poland,sugarbeet,0.99
 Poland,potato,0.84
 Poland,rapeseed,0.79
@@ -1878,14 +1878,14 @@ Poland,wheat,0.63
 Poland,soybean,0.59
 Poland,barley,0.57
 Poland,rye,0.56
+Poland,millet,
 Poland,cotton,
+Poland,oilpalm,
 Poland,cassava,
 Poland,rice,
-Poland,sugarcane,
 Poland,groundnut,
+Poland,sugarcane,
 Poland,sorghum,
-Poland,oilpalm,
-Poland,millet,
 Portugal,maize,0.93
 Portugal,sugarcane,0.78
 Portugal,potato,0.64
@@ -1895,31 +1895,31 @@ Portugal,sugarbeet,0.61
 Portugal,wheat,0.55
 Portugal,sunflower,0.54
 Portugal,rye,0.17
-Portugal,soybean,
-Portugal,groundnut,
-Portugal,rapeseed,
-Portugal,cotton,
-Portugal,millet,
 Portugal,oilpalm,
 Portugal,cassava,
 Portugal,sorghum,
+Portugal,groundnut,
+Portugal,millet,
+Portugal,rapeseed,
+Portugal,soybean,
+Portugal,cotton,
+Qatar,rapeseed,
+Qatar,barley,
+Qatar,rice,
+Qatar,sugarcane,
+Qatar,sorghum,
+Qatar,oilpalm,
+Qatar,soybean,
 Qatar,rye,
 Qatar,sugarbeet,
-Qatar,oilpalm,
-Qatar,sorghum,
-Qatar,rapeseed,
+Qatar,cassava,
 Qatar,groundnut,
-Qatar,soybean,
+Qatar,maize,
 Qatar,millet,
 Qatar,sunflower,
-Qatar,cassava,
-Qatar,maize,
 Qatar,potato,
 Qatar,wheat,
 Qatar,cotton,
-Qatar,sugarcane,
-Qatar,rice,
-Qatar,barley,
 Romania,sunflower,0.93
 Romania,rapeseed,0.87
 Romania,soybean,0.69
@@ -1931,98 +1931,98 @@ Romania,rye,0.51
 Romania,rice,0.51
 Romania,maize,0.45
 Romania,potato,0.42
-Romania,sugarcane,
 Romania,cassava,
 Romania,cotton,
 Romania,groundnut,
 Romania,millet,
+Romania,sugarcane,
 Romania,oilpalm,
 Russia,sugarbeet,0.72
 Russia,sunflower,0.71
 Russia,wheat,0.63
 Russia,millet,0.61
 Russia,potato,0.58
-Russia,rice,0.56
 Russia,barley,0.56
+Russia,rice,0.56
 Russia,rye,0.54
 Russia,soybean,0.48
 Russia,maize,0.47
 Russia,rapeseed,0.46
 Russia,sorghum,0.27
+Russia,oilpalm,
 Russia,cotton,
 Russia,groundnut,
 Russia,sugarcane,
 Russia,cassava,
-Russia,oilpalm,
 Rwanda,cassava,0.68
 Rwanda,rice,0.59
 Rwanda,potato,0.41
 Rwanda,wheat,0.35
 Rwanda,millet,0.29
 Rwanda,maize,0.27
-Rwanda,groundnut,0.23
 Rwanda,soybean,0.23
+Rwanda,groundnut,0.23
 Rwanda,sorghum,0.22
 Rwanda,sugarcane,0.17
-Rwanda,rye,
+Rwanda,sugarbeet,
 Rwanda,barley,
-Rwanda,oilpalm,
+Rwanda,rye,
 Rwanda,cotton,
 Rwanda,rapeseed,
-Rwanda,sugarbeet,
+Rwanda,oilpalm,
 Rwanda,sunflower,
-Saint Kitts and Nevis,potato,
+Saint Kitts and Nevis,sugarbeet,
+Saint Kitts and Nevis,cotton,
+Saint Kitts and Nevis,millet,
+Saint Kitts and Nevis,rye,
+Saint Kitts and Nevis,wheat,
+Saint Kitts and Nevis,sugarcane,
 Saint Kitts and Nevis,rapeseed,
 Saint Kitts and Nevis,rice,
-Saint Kitts and Nevis,cotton,
-Saint Kitts and Nevis,sugarcane,
-Saint Kitts and Nevis,soybean,
-Saint Kitts and Nevis,sunflower,
-Saint Kitts and Nevis,oilpalm,
-Saint Kitts and Nevis,sugarbeet,
+Saint Kitts and Nevis,potato,
 Saint Kitts and Nevis,maize,
-Saint Kitts and Nevis,rye,
+Saint Kitts and Nevis,soybean,
+Saint Kitts and Nevis,oilpalm,
+Saint Kitts and Nevis,sunflower,
 Saint Kitts and Nevis,groundnut,
-Saint Kitts and Nevis,sorghum,
 Saint Kitts and Nevis,barley,
 Saint Kitts and Nevis,cassava,
-Saint Kitts and Nevis,wheat,
-Saint Kitts and Nevis,millet,
-Samoa,cassava,
-Samoa,maize,
-Samoa,groundnut,
-Samoa,soybean,
-Samoa,millet,
-Samoa,oilpalm,
-Samoa,sorghum,
-Samoa,rice,
-Samoa,sugarbeet,
+Saint Kitts and Nevis,sorghum,
 Samoa,sunflower,
-Samoa,potato,
-Samoa,wheat,
-Samoa,cotton,
 Samoa,rye,
+Samoa,rice,
+Samoa,millet,
+Samoa,soybean,
 Samoa,rapeseed,
+Samoa,cotton,
 Samoa,barley,
 Samoa,sugarcane,
-Saudi Arabia,potato,1
-Saudi Arabia,barley,1
-Saudi Arabia,millet,1
-Saudi Arabia,groundnut,1
-Saudi Arabia,wheat,1
-Saudi Arabia,maize,1
-Saudi Arabia,sorghum,1
+Samoa,cassava,
+Samoa,maize,
+Samoa,sorghum,
+Samoa,oilpalm,
+Samoa,groundnut,
+Samoa,wheat,
+Samoa,potato,
+Samoa,sugarbeet,
+Saudi Arabia,potato,1.0
+Saudi Arabia,millet,1.0
+Saudi Arabia,barley,1.0
+Saudi Arabia,groundnut,1.0
+Saudi Arabia,wheat,1.0
+Saudi Arabia,sorghum,1.0
+Saudi Arabia,maize,1.0
+Saudi Arabia,sunflower,
 Saudi Arabia,cotton,
+Saudi Arabia,cassava,
+Saudi Arabia,rapeseed,
 Saudi Arabia,soybean,
 Saudi Arabia,sugarcane,
-Saudi Arabia,cassava,
-Saudi Arabia,oilpalm,
-Saudi Arabia,sunflower,
-Saudi Arabia,sugarbeet,
-Saudi Arabia,rice,
 Saudi Arabia,rye,
-Saudi Arabia,rapeseed,
-Senegal,sugarcane,1
+Saudi Arabia,sugarbeet,
+Saudi Arabia,oilpalm,
+Saudi Arabia,rice,
+Senegal,sugarcane,1.0
 Senegal,cotton,0.96
 Senegal,potato,0.93
 Senegal,rice,0.79
@@ -2032,47 +2032,47 @@ Senegal,groundnut,0.65
 Senegal,millet,0.62
 Senegal,maize,0.51
 Senegal,cassava,0.41
+Senegal,rye,
+Senegal,soybean,
 Senegal,barley,
 Senegal,rapeseed,
 Senegal,wheat,
-Senegal,sugarbeet,
 Senegal,sunflower,
-Senegal,soybean,
-Senegal,rye,
+Senegal,sugarbeet,
+Seychelles,barley,
 Seychelles,sugarbeet,
-Seychelles,groundnut,
-Seychelles,maize,
-Seychelles,oilpalm,
-Seychelles,potato,
-Seychelles,sugarcane,
 Seychelles,rapeseed,
 Seychelles,wheat,
-Seychelles,barley,
-Seychelles,rice,
-Seychelles,rye,
+Seychelles,potato,
+Seychelles,soybean,
+Seychelles,sorghum,
+Seychelles,sunflower,
+Seychelles,maize,
+Seychelles,oilpalm,
+Seychelles,sugarcane,
+Seychelles,groundnut,
 Seychelles,millet,
+Seychelles,rice,
 Seychelles,cotton,
 Seychelles,cassava,
-Seychelles,sorghum,
-Seychelles,soybean,
-Seychelles,sunflower,
+Seychelles,rye,
+Singapore,oilpalm,
 Singapore,maize,
-Singapore,sorghum,
-Singapore,sugarcane,
-Singapore,rapeseed,
+Singapore,millet,
 Singapore,sugarbeet,
 Singapore,sunflower,
-Singapore,cotton,
-Singapore,soybean,
-Singapore,oilpalm,
-Singapore,potato,
-Singapore,cassava,
-Singapore,rice,
-Singapore,millet,
-Singapore,wheat,
-Singapore,groundnut,
-Singapore,barley,
 Singapore,rye,
+Singapore,rapeseed,
+Singapore,barley,
+Singapore,sugarcane,
+Singapore,rice,
+Singapore,soybean,
+Singapore,groundnut,
+Singapore,cassava,
+Singapore,sorghum,
+Singapore,potato,
+Singapore,wheat,
+Singapore,cotton,
 Slovakia,sunflower,0.98
 Slovakia,sugarbeet,0.85
 Slovakia,rapeseed,0.78
@@ -2084,30 +2084,30 @@ Slovakia,millet,0.61
 Slovakia,wheat,0.58
 Slovakia,sorghum,0.54
 Slovakia,potato,0.45
-Slovakia,oilpalm,
-Slovakia,cassava,
 Slovakia,rice,
+Slovakia,oilpalm,
 Slovakia,sugarcane,
-Slovakia,groundnut,
+Slovakia,cassava,
 Slovakia,cotton,
+Slovakia,groundnut,
 Slovenia,soybean,0.86
-Slovenia,maize,0.84
 Slovenia,sunflower,0.84
+Slovenia,maize,0.84
 Slovenia,rapeseed,0.83
 Slovenia,barley,0.66
 Slovenia,wheat,0.61
 Slovenia,potato,0.59
 Slovenia,rye,0.57
-Slovenia,cassava,
 Slovenia,cotton,
-Slovenia,oilpalm,
-Slovenia,rice,
-Slovenia,millet,
-Slovenia,sugarcane,
-Slovenia,sugarbeet,
+Slovenia,cassava,
 Slovenia,groundnut,
 Slovenia,sorghum,
-South Africa,potato,1
+Slovenia,sugarcane,
+Slovenia,millet,
+Slovenia,rice,
+Slovenia,sugarbeet,
+Slovenia,oilpalm,
+South Africa,potato,1.0
 South Africa,barley,0.98
 South Africa,wheat,0.84
 South Africa,cotton,0.76
@@ -2121,9 +2121,9 @@ South Africa,groundnut,0.28
 South Africa,millet,0.25
 South Africa,rye,0.2
 South Africa,oilpalm,
+South Africa,sugarbeet,
 South Africa,rapeseed,
 South Africa,cassava,
-South Africa,sugarbeet,
 South Korea,rice,0.95
 South Korea,potato,0.86
 South Korea,groundnut,0.66
@@ -2133,16 +2133,16 @@ South Korea,maize,0.56
 South Korea,rapeseed,0.5
 South Korea,barley,0.45
 South Korea,sorghum,0.27
+South Korea,sunflower,
+South Korea,sugarcane,
+South Korea,millet,
+South Korea,sugarbeet,
+South Korea,cotton,
 South Korea,oilpalm,
 South Korea,rye,
-South Korea,sugarbeet,
-South Korea,millet,
-South Korea,sugarcane,
-South Korea,cotton,
 South Korea,cassava,
-South Korea,sunflower,
-Spain,sugarbeet,1
-Spain,maize,1
+Spain,maize,1.0
+Spain,sugarbeet,1.0
 Spain,potato,0.96
 Spain,sorghum,0.96
 Spain,soybean,0.95
@@ -2156,25 +2156,25 @@ Spain,sunflower,0.61
 Spain,cotton,0.58
 Spain,rye,0.56
 Spain,sugarcane,0.43
-Spain,cassava,
 Spain,oilpalm,
+Spain,cassava,
 Sri Lanka,millet,0.89
 Sri Lanka,maize,0.87
 Sri Lanka,groundnut,0.8
 Sri Lanka,rice,0.75
 Sri Lanka,sorghum,0.72
-Sri Lanka,potato,0.67
 Sri Lanka,cassava,0.67
+Sri Lanka,potato,0.67
 Sri Lanka,soybean,0.62
 Sri Lanka,sugarcane,0.52
-Sri Lanka,rye,
+Sri Lanka,cotton,
 Sri Lanka,rapeseed,
 Sri Lanka,barley,
-Sri Lanka,sunflower,
-Sri Lanka,cotton,
-Sri Lanka,wheat,
-Sri Lanka,sugarbeet,
 Sri Lanka,oilpalm,
+Sri Lanka,rye,
+Sri Lanka,sugarbeet,
+Sri Lanka,sunflower,
+Sri Lanka,wheat,
 Sudan,cotton,0.95
 Sudan,sugarcane,0.89
 Sudan,potato,0.66
@@ -2185,49 +2185,49 @@ Sudan,wheat,0.56
 Sudan,groundnut,0.54
 Sudan,maize,0.46
 Sudan,millet,0.37
-Sudan,soybean,
 Sudan,rye,
-Sudan,barley,
-Sudan,sugarbeet,
 Sudan,cassava,
-Sudan,oilpalm,
+Sudan,sugarbeet,
+Sudan,barley,
+Sudan,soybean,
 Sudan,rapeseed,
-Suriname,cassava,1
+Sudan,oilpalm,
+Suriname,cassava,1.0
 Suriname,rice,0.87
 Suriname,groundnut,0.72
 Suriname,maize,0.68
 Suriname,sugarcane,0.44
 Suriname,oilpalm,0.11
 Suriname,potato,
-Suriname,millet,
-Suriname,wheat,
-Suriname,sorghum,
+Suriname,sunflower,
 Suriname,rapeseed,
-Suriname,barley,
+Suriname,sorghum,
+Suriname,wheat,
+Suriname,millet,
 Suriname,sugarbeet,
 Suriname,cotton,
+Suriname,barley,
 Suriname,soybean,
 Suriname,rye,
-Suriname,sunflower,
-Sweden,potato,1
-Sweden,rye,1
-Sweden,sugarbeet,1
+Sweden,potato,1.0
+Sweden,sugarbeet,1.0
+Sweden,rye,1.0
 Sweden,wheat,0.98
 Sweden,barley,0.96
 Sweden,rapeseed,0.88
-Sweden,sugarcane,
 Sweden,millet,
-Sweden,soybean,
+Sweden,sugarcane,
+Sweden,cassava,
+Sweden,sunflower,
+Sweden,maize,
+Sweden,cotton,
 Sweden,rice,
 Sweden,sorghum,
-Sweden,cotton,
-Sweden,sunflower,
+Sweden,soybean,
 Sweden,groundnut,
-Sweden,cassava,
-Sweden,maize,
 Sweden,oilpalm,
-Switzerland,sugarbeet,0.99
 Switzerland,maize,0.99
+Switzerland,sugarbeet,0.99
 Switzerland,rapeseed,0.97
 Switzerland,sunflower,0.96
 Switzerland,soybean,0.95
@@ -2235,14 +2235,14 @@ Switzerland,barley,0.95
 Switzerland,rye,0.93
 Switzerland,potato,0.86
 Switzerland,wheat,0.72
-Switzerland,sorghum,
-Switzerland,sugarcane,
 Switzerland,groundnut,
-Switzerland,oilpalm,
 Switzerland,millet,
-Switzerland,rice,
-Switzerland,cassava,
 Switzerland,cotton,
+Switzerland,sugarcane,
+Switzerland,sorghum,
+Switzerland,cassava,
+Switzerland,oilpalm,
+Switzerland,rice,
 Syria,soybean,0.81
 Syria,sunflower,0.8
 Syria,millet,0.75
@@ -2256,10 +2256,10 @@ Syria,maize,0.5
 Syria,sorghum,0.37
 Syria,barley,0.24
 Syria,rice,
-Syria,cassava,
-Syria,oilpalm,
-Syria,rye,
 Syria,rapeseed,
+Syria,rye,
+Syria,oilpalm,
+Syria,cassava,
 Tajikistan,maize,0.99
 Tajikistan,sunflower,0.88
 Tajikistan,rice,0.68
@@ -2294,8 +2294,8 @@ Tanzania,wheat,0.23
 Tanzania,rye,
 Tanzania,rapeseed,
 Tanzania,sugarbeet,
-Thailand,cassava,1
-Thailand,maize,1
+Thailand,maize,1.0
+Thailand,cassava,1.0
 Thailand,oilpalm,0.98
 Thailand,sorghum,0.95
 Thailand,cotton,0.8
@@ -2306,11 +2306,11 @@ Thailand,soybean,0.68
 Thailand,rice,0.67
 Thailand,sunflower,0.59
 Thailand,wheat,0.25
-Thailand,rapeseed,
+Thailand,sugarbeet,
 Thailand,barley,
 Thailand,millet,
+Thailand,rapeseed,
 Thailand,rye,
-Thailand,sugarbeet,
 Togo,millet,0.59
 Togo,oilpalm,0.54
 Togo,sorghum,0.52
@@ -2322,46 +2322,46 @@ Togo,cassava,0.29
 Togo,soybean,0.19
 Togo,sugarcane,
 Togo,wheat,
+Togo,sunflower,
+Togo,rye,
 Togo,potato,
 Togo,sugarbeet,
 Togo,barley,
 Togo,rapeseed,
-Togo,sunflower,
-Togo,rye,
-Tonga,groundnut,
-Tonga,cassava,
+Tonga,maize,
 Tonga,barley,
-Tonga,wheat,
+Tonga,soybean,
+Tonga,cassava,
+Tonga,sunflower,
+Tonga,groundnut,
+Tonga,potato,
 Tonga,rapeseed,
-Tonga,cotton,
 Tonga,millet,
 Tonga,sugarcane,
-Tonga,sugarbeet,
-Tonga,sunflower,
-Tonga,sorghum,
-Tonga,potato,
-Tonga,rice,
 Tonga,rye,
+Tonga,sugarbeet,
+Tonga,wheat,
 Tonga,oilpalm,
-Tonga,soybean,
-Tonga,maize,
+Tonga,sorghum,
+Tonga,cotton,
+Tonga,rice,
 Trinidad and Tobago,maize,0.7
 Trinidad and Tobago,cassava,0.33
 Trinidad and Tobago,rice,0.2
-Trinidad and Tobago,barley,
-Trinidad and Tobago,cotton,
-Trinidad and Tobago,potato,
 Trinidad and Tobago,rapeseed,
-Trinidad and Tobago,oilpalm,
-Trinidad and Tobago,sugarcane,
-Trinidad and Tobago,wheat,
-Trinidad and Tobago,sorghum,
-Trinidad and Tobago,sunflower,
-Trinidad and Tobago,rye,
-Trinidad and Tobago,millet,
-Trinidad and Tobago,soybean,
-Trinidad and Tobago,groundnut,
 Trinidad and Tobago,sugarbeet,
+Trinidad and Tobago,barley,
+Trinidad and Tobago,oilpalm,
+Trinidad and Tobago,sunflower,
+Trinidad and Tobago,sugarcane,
+Trinidad and Tobago,millet,
+Trinidad and Tobago,potato,
+Trinidad and Tobago,cotton,
+Trinidad and Tobago,sorghum,
+Trinidad and Tobago,wheat,
+Trinidad and Tobago,groundnut,
+Trinidad and Tobago,soybean,
+Trinidad and Tobago,rye,
 Tunisia,sugarbeet,0.82
 Tunisia,wheat,0.54
 Tunisia,sunflower,0.5
@@ -2370,32 +2370,32 @@ Tunisia,barley,0.44
 Tunisia,rapeseed,0.33
 Tunisia,cotton,0.18
 Tunisia,sorghum,0.12
-Tunisia,cassava,
-Tunisia,maize,
 Tunisia,millet,
-Tunisia,groundnut,
-Tunisia,rice,
 Tunisia,oilpalm,
-Tunisia,rye,
+Tunisia,rice,
+Tunisia,groundnut,
+Tunisia,maize,
+Tunisia,cassava,
 Tunisia,soybean,
+Tunisia,rye,
 Tunisia,sugarcane,
-Turkey,soybean,1
-Turkey,rapeseed,1
+Turkey,soybean,1.0
+Turkey,rapeseed,1.0
+Turkey,millet,0.98
 Turkey,cotton,0.98
 Turkey,sunflower,0.98
-Turkey,millet,0.98
 Turkey,groundnut,0.96
-Turkey,sugarbeet,0.91
 Turkey,maize,0.91
+Turkey,sugarbeet,0.91
 Turkey,rice,0.86
 Turkey,potato,0.84
 Turkey,sorghum,0.83
 Turkey,rye,0.78
 Turkey,barley,0.73
 Turkey,wheat,0.57
-Turkey,sugarcane,
-Turkey,oilpalm,
 Turkey,cassava,
+Turkey,oilpalm,
+Turkey,sugarcane,
 Uganda,millet,0.84
 Uganda,sugarcane,0.73
 Uganda,sunflower,0.66
@@ -2408,9 +2408,9 @@ Uganda,groundnut,0.29
 Uganda,sorghum,0.28
 Uganda,soybean,0.22
 Uganda,potato,0.2
-Uganda,sugarbeet,
 Uganda,barley,
 Uganda,rapeseed,
+Uganda,sugarbeet,
 Uganda,oilpalm,
 Uganda,rye,
 Ukraine,sunflower,0.99
@@ -2426,47 +2426,47 @@ Ukraine,wheat,0.57
 Ukraine,potato,0.52
 Ukraine,rye,0.44
 Ukraine,oilpalm,
-Ukraine,cotton,
 Ukraine,sugarcane,
-Ukraine,cassava,
 Ukraine,groundnut,
+Ukraine,cassava,
+Ukraine,cotton,
 United Arab Emirates,wheat,0.65
-United Arab Emirates,groundnut,
-United Arab Emirates,barley,
+United Arab Emirates,rice,
 United Arab Emirates,sugarcane,
-United Arab Emirates,oilpalm,
 United Arab Emirates,cotton,
+United Arab Emirates,millet,
+United Arab Emirates,sunflower,
+United Arab Emirates,sugarbeet,
+United Arab Emirates,oilpalm,
 United Arab Emirates,cassava,
 United Arab Emirates,maize,
 United Arab Emirates,rapeseed,
-United Arab Emirates,rye,
-United Arab Emirates,sugarbeet,
-United Arab Emirates,potato,
+United Arab Emirates,groundnut,
 United Arab Emirates,sorghum,
+United Arab Emirates,potato,
+United Arab Emirates,barley,
+United Arab Emirates,rye,
 United Arab Emirates,soybean,
-United Arab Emirates,rice,
-United Arab Emirates,millet,
-United Arab Emirates,sunflower,
 United Kingdom,sugarbeet,0.98
 United Kingdom,rapeseed,0.97
 United Kingdom,wheat,0.95
 United Kingdom,potato,0.94
 United Kingdom,barley,0.9
 United Kingdom,rye,0.78
-United Kingdom,maize,
-United Kingdom,rice,
-United Kingdom,groundnut,
-United Kingdom,sorghum,
-United Kingdom,sugarcane,
-United Kingdom,cotton,
-United Kingdom,sunflower,
-United Kingdom,millet,
-United Kingdom,oilpalm,
 United Kingdom,soybean,
 United Kingdom,cassava,
-United States,groundnut,1
-United States,rice,1
-United States,potato,1
+United Kingdom,rice,
+United Kingdom,sugarcane,
+United Kingdom,cotton,
+United Kingdom,maize,
+United Kingdom,sorghum,
+United Kingdom,groundnut,
+United Kingdom,millet,
+United Kingdom,oilpalm,
+United Kingdom,sunflower,
+United States,potato,1.0
+United States,rice,1.0
+United States,groundnut,1.0
 United States,sugarbeet,0.99
 United States,barley,0.98
 United States,maize,0.97
@@ -2479,9 +2479,9 @@ United States,sorghum,0.84
 United States,cotton,0.71
 United States,wheat,0.7
 United States,rye,0.35
-United States,cassava,
 United States,oilpalm,
-Uruguay,rice,1
+United States,cassava,
+Uruguay,rice,1.0
 Uruguay,potato,0.92
 Uruguay,barley,0.91
 Uruguay,rapeseed,0.78
@@ -2493,45 +2493,45 @@ Uruguay,sunflower,0.65
 Uruguay,sugarcane,0.58
 Uruguay,groundnut,0.15
 Uruguay,cassava,
-Uruguay,millet,
 Uruguay,rye,
+Uruguay,sugarbeet,
 Uruguay,cotton,
 Uruguay,oilpalm,
-Uruguay,sugarbeet,
-Venezuela,groundnut,1
+Uruguay,millet,
+Venezuela,groundnut,1.0
 Venezuela,sorghum,0.96
 Venezuela,rice,0.93
 Venezuela,maize,0.88
 Venezuela,potato,0.81
 Venezuela,cotton,0.71
 Venezuela,oilpalm,0.66
-Venezuela,cassava,0.66
 Venezuela,sugarcane,0.66
+Venezuela,cassava,0.66
 Venezuela,wheat,0.65
 Venezuela,soybean,0.57
 Venezuela,sunflower,0.56
 Venezuela,sugarbeet,0.28
-Venezuela,rapeseed,
-Venezuela,barley,
-Venezuela,rye,
 Venezuela,millet,
-Vietnam,cassava,1
+Venezuela,rye,
+Venezuela,barley,
+Venezuela,rapeseed,
+Vietnam,cassava,1.0
 Vietnam,rice,0.99
 Vietnam,maize,0.97
-Vietnam,groundnut,0.92
 Vietnam,millet,0.92
+Vietnam,groundnut,0.92
 Vietnam,sugarcane,0.68
 Vietnam,potato,0.6
 Vietnam,soybean,0.52
 Vietnam,cotton,0.47
-Vietnam,sorghum,
-Vietnam,sunflower,
-Vietnam,sugarbeet,
 Vietnam,rye,
-Vietnam,oilpalm,
-Vietnam,wheat,
+Vietnam,sugarbeet,
 Vietnam,barley,
 Vietnam,rapeseed,
+Vietnam,oilpalm,
+Vietnam,wheat,
+Vietnam,sorghum,
+Vietnam,sunflower,
 World,rapeseed,0.93
 World,sugarbeet,0.92
 World,soybean,0.91
@@ -2543,8 +2543,8 @@ World,maize,0.73
 World,oilpalm,0.72
 World,groundnut,0.72
 World,millet,0.72
-World,wheat,0.7
 World,barley,0.7
+World,wheat,0.7
 World,cassava,0.68
 World,potato,0.67
 World,rye,0.64
@@ -2556,34 +2556,34 @@ Yemen,wheat,0.43
 Yemen,sorghum,0.34
 Yemen,barley,0.29
 Yemen,maize,0.17
-Yemen,rapeseed,
-Yemen,oilpalm,
 Yemen,rice,
+Yemen,groundnut,
+Yemen,sunflower,
+Yemen,oilpalm,
+Yemen,cassava,
 Yemen,sugarbeet,
-Yemen,soybean,
+Yemen,rapeseed,
 Yemen,rye,
 Yemen,sugarcane,
-Yemen,sunflower,
-Yemen,cassava,
-Yemen,groundnut,
-Zambia,sugarcane,1
-Zambia,wheat,1
+Yemen,soybean,
+Zambia,wheat,1.0
+Zambia,sugarcane,1.0
 Zambia,soybean,0.78
 Zambia,potato,0.7
 Zambia,maize,0.49
 Zambia,millet,0.46
 Zambia,sunflower,0.36
-Zambia,barley,0.34
 Zambia,cotton,0.34
+Zambia,barley,0.34
 Zambia,cassava,0.33
 Zambia,groundnut,0.27
 Zambia,rice,0.2
 Zambia,sorghum,0.14
+Zambia,rye,
 Zambia,rapeseed,
 Zambia,oilpalm,
 Zambia,sugarbeet,
-Zambia,rye,
-Zimbabwe,barley,1
+Zimbabwe,barley,1.0
 Zimbabwe,sugarcane,0.7
 Zimbabwe,potato,0.59
 Zimbabwe,soybean,0.56

@@ -1,0 +1,1302 @@
+Entity,crop,total_yield_per_crop,total_yield_per_country,global_yield,pct_yield_share
+United States,wheat_yield,3.2,235.18,12893.35,0.0182
+United States,sunflower_yield,1.78,235.18,12893.35,0.0182
+United States,soybean_yield,3.02,235.18,12893.35,0.0182
+United States,sugarcane_yield,86.07,235.18,12893.35,0.0182
+United States,potato_yield,44.22,235.18,12893.35,0.0182
+United States,sorghum_yield,4.53,235.18,12893.35,0.0182
+United States,rice_yield,7.43,235.18,12893.35,0.0182
+United States,groundnut_yield,3.72,235.18,12893.35,0.0182
+United States,cotton_yield,2.68,235.18,12893.35,0.0182
+United States,sugarbeet_yield,59.04,235.18,12893.35,0.0182
+United States,rye_yield,1.94,235.18,12893.35,0.0182
+United States,millet_yield,1.98,235.18,12893.35,0.0182
+United States,barley_yield,3.8,235.18,12893.35,0.0182
+United States,rapeseed_yield,1.97,235.18,12893.35,0.0182
+United States,maize_yield,9.8,235.18,12893.35,0.0182
+China,sugarcane_yield,76.83,227.2,12893.35,0.0176
+China,sunflower_yield,2.08,227.2,12893.35,0.0176
+China,barley_yield,3.86,227.2,12893.35,0.0176
+China,groundnut_yield,3.75,227.2,12893.35,0.0176
+China,rye_yield,3.78,227.2,12893.35,0.0176
+China,cotton_yield,4.11,227.2,12893.35,0.0176
+China,rapeseed_yield,2.03,227.2,12893.35,0.0176
+China,oilpalm_yield,12.93,227.2,12893.35,0.0176
+China,sorghum_yield,4.47,227.2,12893.35,0.0176
+China,maize_yield,6.1,227.2,12893.35,0.0176
+China,cassava_yield,16.56,227.2,12893.35,0.0176
+China,soybean_yield,1.78,227.2,12893.35,0.0176
+China,rice_yield,7.03,227.2,12893.35,0.0176
+China,wheat_yield,5.26,227.2,12893.35,0.0176
+China,millet_yield,1.99,227.2,12893.35,0.0176
+China,sugarbeet_yield,55.88,227.2,12893.35,0.0176
+China,potato_yield,18.76,227.2,12893.35,0.0176
+Spain,barley_yield,3.43,210.3,12893.35,0.0163
+Spain,rice_yield,7.7,210.3,12893.35,0.0163
+Spain,wheat_yield,3.87,210.3,12893.35,0.0163
+Spain,soybean_yield,2.79,210.3,12893.35,0.0163
+Spain,sorghum_yield,4.29,210.3,12893.35,0.0163
+Spain,maize_yield,10.02,210.3,12893.35,0.0163
+Spain,rapeseed_yield,2.18,210.3,12893.35,0.0163
+Spain,groundnut_yield,3.44,210.3,12893.35,0.0163
+Spain,potato_yield,29.8,210.3,12893.35,0.0163
+Spain,rye_yield,2.85,210.3,12893.35,0.0163
+Spain,sugarbeet_yield,69.99,210.3,12893.35,0.0163
+Spain,millet_yield,1.99,210.3,12893.35,0.0163
+Spain,sugarcane_yield,64.18,210.3,12893.35,0.0163
+Spain,cotton_yield,2.4,210.3,12893.35,0.0163
+Spain,sunflower_yield,1.37,210.3,12893.35,0.0163
+Iran,sunflower_yield,1.0,196.49,12893.35,0.0152
+Iran,rice_yield,3.43,196.49,12893.35,0.0152
+Iran,sugarbeet_yield,55.9,196.49,12893.35,0.0152
+Iran,cotton_yield,2.28,196.49,12893.35,0.0152
+Iran,sugarcane_yield,80.19,196.49,12893.35,0.0152
+Iran,wheat_yield,2.16,196.49,12893.35,0.0152
+Iran,barley_yield,1.87,196.49,12893.35,0.0152
+Iran,rapeseed_yield,1.82,196.49,12893.35,0.0152
+Iran,soybean_yield,2.47,196.49,12893.35,0.0152
+Iran,potato_yield,32.37,196.49,12893.35,0.0152
+Iran,groundnut_yield,4.17,196.49,12893.35,0.0152
+Iran,maize_yield,6.96,196.49,12893.35,0.0152
+Iran,millet_yield,1.87,196.49,12893.35,0.0152
+Morocco,maize_yield,0.8,194.2,12893.35,0.0151
+Morocco,wheat_yield,2.58,194.2,12893.35,0.0151
+Morocco,rice_yield,7.79,194.2,12893.35,0.0151
+Morocco,groundnut_yield,2.5,194.2,12893.35,0.0151
+Morocco,rapeseed_yield,1.06,194.2,12893.35,0.0151
+Morocco,barley_yield,1.82,194.2,12893.35,0.0151
+Morocco,sugarbeet_yield,68.76,194.2,12893.35,0.0151
+Morocco,rye_yield,0.64,194.2,12893.35,0.0151
+Morocco,potato_yield,30.13,194.2,12893.35,0.0151
+Morocco,sunflower_yield,1.73,194.2,12893.35,0.0151
+Morocco,soybean_yield,0.96,194.2,12893.35,0.0151
+Morocco,sugarcane_yield,70.45,194.2,12893.35,0.0151
+Morocco,millet_yield,1.99,194.2,12893.35,0.0151
+Morocco,cotton_yield,2.09,194.2,12893.35,0.0151
+Morocco,sorghum_yield,0.9,194.2,12893.35,0.0151
+Colombia,cotton_yield,2.33,188.53,12893.35,0.0146
+Colombia,barley_yield,2.15,188.53,12893.35,0.0146
+Colombia,groundnut_yield,1.08,188.53,12893.35,0.0146
+Colombia,rice_yield,5.22,188.53,12893.35,0.0146
+Colombia,sorghum_yield,2.22,188.53,12893.35,0.0146
+Colombia,cassava_yield,9.88,188.53,12893.35,0.0146
+Colombia,oilpalm_yield,19.79,188.53,12893.35,0.0146
+Colombia,sugarcane_yield,88.76,188.53,12893.35,0.0146
+Colombia,sugarbeet_yield,27.17,188.53,12893.35,0.0146
+Colombia,maize_yield,3.55,188.53,12893.35,0.0146
+Colombia,soybean_yield,2.75,188.53,12893.35,0.0146
+Colombia,wheat_yield,1.64,188.53,12893.35,0.0146
+Colombia,potato_yield,21.99,188.53,12893.35,0.0146
+Mexico,rice_yield,5.61,174.7,12893.35,0.0135
+Mexico,cassava_yield,13.01,174.7,12893.35,0.0135
+Mexico,oilpalm_yield,13.5,174.7,12893.35,0.0135
+Mexico,groundnut_yield,1.75,174.7,12893.35,0.0135
+Mexico,sugarcane_yield,72.33,174.7,12893.35,0.0135
+Mexico,potato_yield,26.54,174.7,12893.35,0.0135
+Mexico,sunflower_yield,1.43,174.7,12893.35,0.0135
+Mexico,barley_yield,2.86,174.7,12893.35,0.0135
+Mexico,soybean_yield,1.7,174.7,12893.35,0.0135
+Mexico,sorghum_yield,3.48,174.7,12893.35,0.0135
+Mexico,rapeseed_yield,1.0,174.7,12893.35,0.0135
+Mexico,millet_yield,1.74,174.7,12893.35,0.0135
+Mexico,sugarbeet_yield,18.53,174.7,12893.35,0.0135
+Mexico,cotton_yield,2.74,174.7,12893.35,0.0135
+Mexico,maize_yield,3.81,174.7,12893.35,0.0135
+Mexico,wheat_yield,4.67,174.7,12893.35,0.0135
+Japan,maize_yield,2.66,168.29,12893.35,0.0131
+Japan,potato_yield,30.87,168.29,12893.35,0.0131
+Japan,groundnut_yield,2.45,168.29,12893.35,0.0131
+Japan,rapeseed_yield,1.63,168.29,12893.35,0.0131
+Japan,wheat_yield,3.61,168.29,12893.35,0.0131
+Japan,millet_yield,0.79,168.29,12893.35,0.0131
+Japan,sugarbeet_yield,63.02,168.29,12893.35,0.0131
+Japan,sugarcane_yield,52.34,168.29,12893.35,0.0131
+Japan,soybean_yield,1.44,168.29,12893.35,0.0131
+Japan,rice_yield,6.62,168.29,12893.35,0.0131
+Japan,barley_yield,2.86,168.29,12893.35,0.0131
+Portugal,rice_yield,5.47,163.43,12893.35,0.0127
+Portugal,maize_yield,8.45,163.43,12893.35,0.0127
+Portugal,wheat_yield,2.51,163.43,12893.35,0.0127
+Portugal,sugarcane_yield,89.29,163.43,12893.35,0.0127
+Portugal,sugarbeet_yield,31.69,163.43,12893.35,0.0127
+Portugal,barley_yield,2.42,163.43,12893.35,0.0127
+Portugal,rye_yield,1.06,163.43,12893.35,0.0127
+Portugal,potato_yield,20.75,163.43,12893.35,0.0127
+Portugal,sunflower_yield,1.79,163.43,12893.35,0.0127
+Peru,maize_yield,3.44,162.69,12893.35,0.0126
+Peru,cotton_yield,2.94,162.69,12893.35,0.0126
+Peru,soybean_yield,1.84,162.69,12893.35,0.0126
+Peru,rice_yield,7.36,162.69,12893.35,0.0126
+Peru,cassava_yield,12.18,162.69,12893.35,0.0126
+Peru,sorghum_yield,3.86,162.69,12893.35,0.0126
+Peru,rye_yield,1.09,162.69,12893.35,0.0126
+Peru,barley_yield,1.56,162.69,12893.35,0.0126
+Peru,potato_yield,15.85,162.69,12893.35,0.0126
+Peru,groundnut_yield,1.53,162.69,12893.35,0.0126
+Peru,sugarcane_yield,95.58,162.69,12893.35,0.0126
+Peru,oilpalm_yield,13.92,162.69,12893.35,0.0126
+Peru,wheat_yield,1.54,162.69,12893.35,0.0126
+France,sunflower_yield,2.26,161.57,12893.35,0.0125
+France,rapeseed_yield,3.06,161.57,12893.35,0.0125
+France,millet_yield,2.01,161.57,12893.35,0.0125
+France,soybean_yield,2.6,161.57,12893.35,0.0125
+France,rye_yield,4.5,161.57,12893.35,0.0125
+France,wheat_yield,6.84,161.57,12893.35,0.0125
+France,potato_yield,39.38,161.57,12893.35,0.0125
+France,rice_yield,5.48,161.57,12893.35,0.0125
+France,sorghum_yield,5.03,161.57,12893.35,0.0125
+France,barley_yield,6.33,161.57,12893.35,0.0125
+France,sugarbeet_yield,75.17,161.57,12893.35,0.0125
+France,maize_yield,8.91,161.57,12893.35,0.0125
+Pakistan,wheat_yield,2.85,159.97,12893.35,0.0124
+Pakistan,millet_yield,0.77,159.97,12893.35,0.0124
+Pakistan,groundnut_yield,0.99,159.97,12893.35,0.0124
+Pakistan,rapeseed_yield,1.17,159.97,12893.35,0.0124
+Pakistan,maize_yield,4.16,159.97,12893.35,0.0124
+Pakistan,barley_yield,0.96,159.97,12893.35,0.0124
+Pakistan,sunflower_yield,1.41,159.97,12893.35,0.0124
+Pakistan,cotton_yield,1.87,159.97,12893.35,0.0124
+Pakistan,sugarbeet_yield,55.79,159.97,12893.35,0.0124
+Pakistan,rice_yield,3.84,159.97,12893.35,0.0124
+Pakistan,sorghum_yield,0.62,159.97,12893.35,0.0124
+Pakistan,sugarcane_yield,60.96,159.97,12893.35,0.0124
+Pakistan,soybean_yield,0.97,159.97,12893.35,0.0124
+Pakistan,potato_yield,23.61,159.97,12893.35,0.0124
+Syria,sunflower_yield,1.37,159.48,12893.35,0.0124
+Syria,soybean_yield,2.22,159.48,12893.35,0.0124
+Syria,sugarbeet_yield,48.62,159.48,12893.35,0.0124
+Syria,cotton_yield,0.63,159.48,12893.35,0.0124
+Syria,maize_yield,3.8,159.48,12893.35,0.0124
+Syria,sorghum_yield,1.61,159.48,12893.35,0.0124
+Syria,barley_yield,0.87,159.48,12893.35,0.0124
+Syria,potato_yield,19.69,159.48,12893.35,0.0124
+Syria,groundnut_yield,2.57,159.48,12893.35,0.0124
+Syria,sugarcane_yield,74.25,159.48,12893.35,0.0124
+Syria,millet_yield,1.73,159.48,12893.35,0.0124
+Syria,wheat_yield,2.12,159.48,12893.35,0.0124
+Brazil,cassava_yield,14.64,155.26,12893.35,0.012
+Brazil,rice_yield,5.95,155.26,12893.35,0.012
+Brazil,cotton_yield,2.84,155.26,12893.35,0.012
+Brazil,wheat_yield,2.62,155.26,12893.35,0.012
+Brazil,groundnut_yield,2.88,155.26,12893.35,0.012
+Brazil,soybean_yield,2.87,155.26,12893.35,0.012
+Brazil,rapeseed_yield,1.25,155.26,12893.35,0.012
+Brazil,sugarcane_yield,74.37,155.26,12893.35,0.012
+Brazil,sunflower_yield,1.47,155.26,12893.35,0.012
+Brazil,maize_yield,5.06,155.26,12893.35,0.012
+Brazil,sorghum_yield,2.86,155.26,12893.35,0.012
+Brazil,potato_yield,24.1,155.26,12893.35,0.012
+Brazil,oilpalm_yield,14.35,155.26,12893.35,0.012
+Nicaragua,sorghum_yield,1.61,154.92,12893.35,0.012
+Nicaragua,potato_yield,19.29,154.92,12893.35,0.012
+Nicaragua,cotton_yield,2.23,154.92,12893.35,0.012
+Nicaragua,groundnut_yield,2.22,154.92,12893.35,0.012
+Nicaragua,sugarcane_yield,92.32,154.92,12893.35,0.012
+Nicaragua,soybean_yield,2.5,154.92,12893.35,0.012
+Nicaragua,cassava_yield,9.07,154.92,12893.35,0.012
+Nicaragua,rice_yield,5.18,154.92,12893.35,0.012
+Nicaragua,oilpalm_yield,19.1,154.92,12893.35,0.012
+Nicaragua,maize_yield,1.4,154.92,12893.35,0.012
+Guatemala,cotton_yield,2.84,150.18,12893.35,0.0116
+Guatemala,oilpalm_yield,13.04,150.18,12893.35,0.0116
+Guatemala,potato_yield,23.37,150.18,12893.35,0.0116
+Guatemala,sugarcane_yield,93.92,150.18,12893.35,0.0116
+Guatemala,wheat_yield,2.16,150.18,12893.35,0.0116
+Guatemala,soybean_yield,2.53,150.18,12893.35,0.0116
+Guatemala,maize_yield,2.16,150.18,12893.35,0.0116
+Guatemala,rice_yield,2.88,150.18,12893.35,0.0116
+Guatemala,sorghum_yield,1.9,150.18,12893.35,0.0116
+Guatemala,groundnut_yield,2.52,150.18,12893.35,0.0116
+Guatemala,barley_yield,1.84,150.18,12893.35,0.0116
+Guatemala,cassava_yield,1.02,150.18,12893.35,0.0116
+Australia,rice_yield,9.38,144.91,12893.35,0.0112
+Australia,rye_yield,0.7,144.91,12893.35,0.0112
+Australia,wheat_yield,1.92,144.91,12893.35,0.0112
+Australia,sorghum_yield,2.72,144.91,12893.35,0.0112
+Australia,maize_yield,7.2,144.91,12893.35,0.0112
+Australia,cotton_yield,4.48,144.91,12893.35,0.0112
+Australia,potato_yield,32.23,144.91,12893.35,0.0112
+Australia,rapeseed_yield,1.23,144.91,12893.35,0.0112
+Australia,sunflower_yield,1.67,144.91,12893.35,0.0112
+Australia,millet_yield,1.02,144.91,12893.35,0.0112
+Australia,barley_yield,2.24,144.91,12893.35,0.0112
+Australia,groundnut_yield,2.78,144.91,12893.35,0.0112
+Australia,sugarcane_yield,75.64,144.91,12893.35,0.0112
+Australia,soybean_yield,1.7,144.91,12893.35,0.0112
+Switzerland,soybean_yield,2.83,144.68,12893.35,0.0112
+Switzerland,sugarbeet_yield,69.76,144.68,12893.35,0.0112
+Switzerland,potato_yield,39.31,144.68,12893.35,0.0112
+Switzerland,rapeseed_yield,3.31,144.68,12893.35,0.0112
+Switzerland,sunflower_yield,2.62,144.68,12893.35,0.0112
+Switzerland,wheat_yield,5.64,144.68,12893.35,0.0112
+Switzerland,barley_yield,6.43,144.68,12893.35,0.0112
+Switzerland,maize_yield,9.33,144.68,12893.35,0.0112
+Switzerland,rye_yield,5.45,144.68,12893.35,0.0112
+India,barley_yield,2.69,143.47,12893.35,0.0111
+India,cotton_yield,1.15,143.47,12893.35,0.0111
+India,potato_yield,22.49,143.47,12893.35,0.0111
+India,groundnut_yield,1.36,143.47,12893.35,0.0111
+India,millet_yield,1.28,143.47,12893.35,0.0111
+India,cassava_yield,20.4,143.47,12893.35,0.0111
+India,wheat_yield,3.37,143.47,12893.35,0.0111
+India,sorghum_yield,0.97,143.47,12893.35,0.0111
+India,maize_yield,3.02,143.47,12893.35,0.0111
+India,rice_yield,3.88,143.47,12893.35,0.0111
+India,sunflower_yield,0.71,143.47,12893.35,0.0111
+India,sugarcane_yield,79.68,143.47,12893.35,0.0111
+India,rapeseed_yield,1.26,143.47,12893.35,0.0111
+India,soybean_yield,1.21,143.47,12893.35,0.0111
+Thailand,oilpalm_yield,17.23,142.6,12893.35,0.0111
+Thailand,sugarcane_yield,76.06,142.6,12893.35,0.0111
+Thailand,sorghum_yield,2.0,142.6,12893.35,0.0111
+Thailand,maize_yield,3.77,142.6,12893.35,0.0111
+Thailand,wheat_yield,1.11,142.6,12893.35,0.0111
+Thailand,potato_yield,16.38,142.6,12893.35,0.0111
+Thailand,soybean_yield,1.75,142.6,12893.35,0.0111
+Thailand,rice_yield,3.09,142.6,12893.35,0.0111
+Thailand,sunflower_yield,0.81,142.6,12893.35,0.0111
+Thailand,cotton_yield,1.5,142.6,12893.35,0.0111
+Thailand,groundnut_yield,1.07,142.6,12893.35,0.0111
+Thailand,cassava_yield,17.83,142.6,12893.35,0.0111
+Malawi,sorghum_yield,0.78,141.75,12893.35,0.011
+Malawi,cassava_yield,15.46,141.75,12893.35,0.011
+Malawi,potato_yield,16.52,141.75,12893.35,0.011
+Malawi,sugarcane_yield,100.39,141.75,12893.35,0.011
+Malawi,rice_yield,1.76,141.75,12893.35,0.011
+Malawi,soybean_yield,0.98,141.75,12893.35,0.011
+Malawi,millet_yield,0.58,141.75,12893.35,0.011
+Malawi,sunflower_yield,1.06,141.75,12893.35,0.011
+Malawi,maize_yield,1.6,141.75,12893.35,0.011
+Malawi,wheat_yield,1.23,141.75,12893.35,0.011
+Malawi,groundnut_yield,0.85,141.75,12893.35,0.011
+Malawi,cotton_yield,0.54,141.75,12893.35,0.011
+El Salvador,cassava_yield,16.9,141.4,12893.35,0.011
+El Salvador,sugarcane_yield,88.31,141.4,12893.35,0.011
+El Salvador,maize_yield,2.53,141.4,12893.35,0.011
+El Salvador,rice_yield,6.39,141.4,12893.35,0.011
+El Salvador,potato_yield,22.65,141.4,12893.35,0.011
+El Salvador,sorghum_yield,1.58,141.4,12893.35,0.011
+El Salvador,soybean_yield,1.82,141.4,12893.35,0.011
+El Salvador,cotton_yield,1.22,141.4,12893.35,0.011
+Venezuela,sunflower_yield,0.89,141.22,12893.35,0.011
+Venezuela,wheat_yield,2.97,141.22,12893.35,0.011
+Venezuela,soybean_yield,1.0,141.22,12893.35,0.011
+Venezuela,potato_yield,18.84,141.22,12893.35,0.011
+Venezuela,groundnut_yield,2.0,141.22,12893.35,0.011
+Venezuela,maize_yield,3.24,141.22,12893.35,0.011
+Venezuela,oilpalm_yield,10.29,141.22,12893.35,0.011
+Venezuela,sorghum_yield,2.02,141.22,12893.35,0.011
+Venezuela,sugarcane_yield,61.53,141.22,12893.35,0.011
+Venezuela,cassava_yield,12.24,141.22,12893.35,0.011
+Venezuela,cotton_yield,1.07,141.22,12893.35,0.011
+Venezuela,rice_yield,4.16,141.22,12893.35,0.011
+Venezuela,sugarbeet_yield,20.97,141.22,12893.35,0.011
+Turkey,maize_yield,8.92,140.36,12893.35,0.0109
+Turkey,millet_yield,2.01,140.36,12893.35,0.0109
+Turkey,sunflower_yield,1.95,140.36,12893.35,0.0109
+Turkey,soybean_yield,2.64,140.36,12893.35,0.0109
+Turkey,potato_yield,33.48,140.36,12893.35,0.0109
+Turkey,sugarbeet_yield,61.55,140.36,12893.35,0.0109
+Turkey,groundnut_yield,3.79,140.36,12893.35,0.0109
+Turkey,sorghum_yield,3.0,140.36,12893.35,0.0109
+Turkey,rye_yield,2.89,140.36,12893.35,0.0109
+Turkey,cotton_yield,4.26,140.36,12893.35,0.0109
+Turkey,barley_yield,2.69,140.36,12893.35,0.0109
+Turkey,rapeseed_yield,2.62,140.36,12893.35,0.0109
+Turkey,rice_yield,7.82,140.36,12893.35,0.0109
+Turkey,wheat_yield,2.74,140.36,12893.35,0.0109
+Netherlands,barley_yield,7.03,138.83,12893.35,0.0108
+Netherlands,wheat_yield,8.5,138.83,12893.35,0.0108
+Netherlands,rapeseed_yield,2.9,138.83,12893.35,0.0108
+Netherlands,sugarbeet_yield,71.92,138.83,12893.35,0.0108
+Netherlands,maize_yield,9.01,138.83,12893.35,0.0108
+Netherlands,potato_yield,36.61,138.83,12893.35,0.0108
+Netherlands,rye_yield,2.86,138.83,12893.35,0.0108
+Senegal,sorghum_yield,0.86,135.87,12893.35,0.0105
+Senegal,cotton_yield,1.03,135.87,12893.35,0.0105
+Senegal,potato_yield,22.11,135.87,12893.35,0.0105
+Senegal,rice_yield,4.38,135.87,12893.35,0.0105
+Senegal,millet_yield,0.7,135.87,12893.35,0.0105
+Senegal,cassava_yield,9.59,135.87,12893.35,0.0105
+Senegal,sugarcane_yield,83.6,135.87,12893.35,0.0105
+Senegal,maize_yield,1.47,135.87,12893.35,0.0105
+Senegal,groundnut_yield,0.88,135.87,12893.35,0.0105
+Senegal,oilpalm_yield,11.25,135.87,12893.35,0.0105
+Chile,rye_yield,4.87,133.97,12893.35,0.0104
+Chile,sugarbeet_yield,69.39,133.97,12893.35,0.0104
+Chile,wheat_yield,5.52,133.97,12893.35,0.0104
+Chile,potato_yield,28.67,133.97,12893.35,0.0104
+Chile,rice_yield,6.53,133.97,12893.35,0.0104
+Chile,maize_yield,10.56,133.97,12893.35,0.0104
+Chile,rapeseed_yield,2.41,133.97,12893.35,0.0104
+Chile,sunflower_yield,1.29,133.97,12893.35,0.0104
+Chile,barley_yield,4.73,133.97,12893.35,0.0104
+Costa Rica,oilpalm_yield,14.14,133.64,12893.35,0.0104
+Costa Rica,sugarcane_yield,73.69,133.64,12893.35,0.0104
+Costa Rica,groundnut_yield,1.09,133.64,12893.35,0.0104
+Costa Rica,cotton_yield,0.71,133.64,12893.35,0.0104
+Costa Rica,cassava_yield,15.0,133.64,12893.35,0.0104
+Costa Rica,maize_yield,1.62,133.64,12893.35,0.0104
+Costa Rica,potato_yield,22.84,133.64,12893.35,0.0104
+Costa Rica,rice_yield,4.55,133.64,12893.35,0.0104
+Panama,potato_yield,22.86,132.81,12893.35,0.0103
+Panama,sorghum_yield,2.05,132.81,12893.35,0.0103
+Panama,maize_yield,2.17,132.81,12893.35,0.0103
+Panama,rice_yield,3.34,132.81,12893.35,0.0103
+Panama,cassava_yield,16.2,132.81,12893.35,0.0103
+Panama,oilpalm_yield,10.16,132.81,12893.35,0.0103
+Panama,sugarcane_yield,75.65,132.81,12893.35,0.0103
+Panama,soybean_yield,0.38,132.81,12893.35,0.0103
+Honduras,potato_yield,14.82,132.17,12893.35,0.0103
+Honduras,soybean_yield,2.11,132.17,12893.35,0.0103
+Honduras,wheat_yield,0.56,132.17,12893.35,0.0103
+Honduras,sugarcane_yield,83.16,132.17,12893.35,0.0103
+Honduras,rice_yield,4.03,132.17,12893.35,0.0103
+Honduras,groundnut_yield,0.54,132.17,12893.35,0.0103
+Honduras,maize_yield,1.8,132.17,12893.35,0.0103
+Honduras,cassava_yield,9.09,132.17,12893.35,0.0103
+Honduras,sorghum_yield,1.11,132.17,12893.35,0.0103
+Honduras,oilpalm_yield,13.13,132.17,12893.35,0.0103
+Honduras,cotton_yield,1.82,132.17,12893.35,0.0103
+Austria,wheat_yield,4.68,131.9,12893.35,0.0102
+Austria,sugarbeet_yield,68.82,131.9,12893.35,0.0102
+Austria,millet_yield,2.01,131.9,12893.35,0.0102
+Austria,potato_yield,29.38,131.9,12893.35,0.0102
+Austria,rye_yield,4.36,131.9,12893.35,0.0102
+Austria,barley_yield,4.99,131.9,12893.35,0.0102
+Austria,rapeseed_yield,2.98,131.9,12893.35,0.0102
+Austria,maize_yield,9.55,131.9,12893.35,0.0102
+Austria,sunflower_yield,2.4,131.9,12893.35,0.0102
+Austria,soybean_yield,2.73,131.9,12893.35,0.0102
+Greece,barley_yield,2.67,131.59,12893.35,0.0102
+Greece,cotton_yield,3.15,131.59,12893.35,0.0102
+Greece,sorghum_yield,2.33,131.59,12893.35,0.0102
+Greece,groundnut_yield,3.32,131.59,12893.35,0.0102
+Greece,sugarbeet_yield,62.26,131.59,12893.35,0.0102
+Greece,potato_yield,27.68,131.59,12893.35,0.0102
+Greece,rapeseed_yield,1.87,131.59,12893.35,0.0102
+Greece,rye_yield,1.86,131.59,12893.35,0.0102
+Greece,rice_yield,7.34,131.59,12893.35,0.0102
+Greece,wheat_yield,2.65,131.59,12893.35,0.0102
+Greece,soybean_yield,2.82,131.59,12893.35,0.0102
+Greece,sunflower_yield,1.85,131.59,12893.35,0.0102
+Greece,maize_yield,9.78,131.59,12893.35,0.0102
+Greece,millet_yield,2.01,131.59,12893.35,0.0102
+Ethiopia,cotton_yield,1.32,131.26,12893.35,0.0102
+Ethiopia,sugarcane_yield,97.46,131.26,12893.35,0.0102
+Ethiopia,barley_yield,2.17,131.26,12893.35,0.0102
+Ethiopia,millet_yield,1.76,131.26,12893.35,0.0102
+Ethiopia,rapeseed_yield,1.8,131.26,12893.35,0.0102
+Ethiopia,rice_yield,3.04,131.26,12893.35,0.0102
+Ethiopia,potato_yield,11.1,131.26,12893.35,0.0102
+Ethiopia,groundnut_yield,1.75,131.26,12893.35,0.0102
+Ethiopia,maize_yield,3.29,131.26,12893.35,0.0102
+Ethiopia,wheat_yield,2.42,131.26,12893.35,0.0102
+Ethiopia,sorghum_yield,2.7,131.26,12893.35,0.0102
+Ethiopia,soybean_yield,2.45,131.26,12893.35,0.0102
+Ecuador,barley_yield,1.44,129.93,12893.35,0.0101
+Ecuador,potato_yield,12.18,129.93,12893.35,0.0101
+Ecuador,cotton_yield,1.29,129.93,12893.35,0.0101
+Ecuador,sugarcane_yield,75.89,129.93,12893.35,0.0101
+Ecuador,cassava_yield,6.03,129.93,12893.35,0.0101
+Ecuador,soybean_yield,1.1,129.93,12893.35,0.0101
+Ecuador,rye_yield,0.63,129.93,12893.35,0.0101
+Ecuador,oilpalm_yield,12.44,129.93,12893.35,0.0101
+Ecuador,maize_yield,3.62,129.93,12893.35,0.0101
+Ecuador,sugarbeet_yield,6.2,129.93,12893.35,0.0101
+Ecuador,groundnut_yield,1.25,129.93,12893.35,0.0101
+Ecuador,sorghum_yield,1.62,129.93,12893.35,0.0101
+Ecuador,rice_yield,4.53,129.93,12893.35,0.0101
+Ecuador,wheat_yield,1.71,129.93,12893.35,0.0101
+Germany,sunflower_yield,1.59,129.0,12893.35,0.01
+Germany,maize_yield,8.14,129.0,12893.35,0.01
+Germany,sugarbeet_yield,61.65,129.0,12893.35,0.01
+Germany,barley_yield,5.91,129.0,12893.35,0.01
+Germany,potato_yield,35.37,129.0,12893.35,0.01
+Germany,soybean_yield,2.46,129.0,12893.35,0.01
+Germany,wheat_yield,6.67,129.0,12893.35,0.01
+Germany,rye_yield,4.21,129.0,12893.35,0.01
+Germany,rapeseed_yield,3.0,129.0,12893.35,0.01
+Zambia,barley_yield,1.04,127.06,12893.35,0.0099
+Zambia,sorghum_yield,0.65,127.06,12893.35,0.0099
+Zambia,millet_yield,0.78,127.06,12893.35,0.0099
+Zambia,wheat_yield,4.57,127.06,12893.35,0.0099
+Zambia,sunflower_yield,0.52,127.06,12893.35,0.0099
+Zambia,soybean_yield,1.58,127.06,12893.35,0.0099
+Zambia,sugarcane_yield,99.48,127.06,12893.35,0.0099
+Zambia,maize_yield,2.21,127.06,12893.35,0.0099
+Zambia,cassava_yield,5.79,127.06,12893.35,0.0099
+Zambia,potato_yield,7.49,127.06,12893.35,0.0099
+Zambia,cotton_yield,0.83,127.06,12893.35,0.0099
+Zambia,groundnut_yield,0.7,127.06,12893.35,0.0099
+Zambia,rice_yield,1.42,127.06,12893.35,0.0099
+South Africa,sorghum_yield,3.99,126.19,12893.35,0.0098
+South Africa,barley_yield,2.83,126.19,12893.35,0.0098
+South Africa,sugarcane_yield,67.55,126.19,12893.35,0.0098
+South Africa,maize_yield,5.39,126.19,12893.35,0.0098
+South Africa,sunflower_yield,1.43,126.19,12893.35,0.0098
+South Africa,rye_yield,1.22,126.19,12893.35,0.0098
+South Africa,rice_yield,2.79,126.19,12893.35,0.0098
+South Africa,wheat_yield,3.71,126.19,12893.35,0.0098
+South Africa,potato_yield,31.07,126.19,12893.35,0.0098
+South Africa,groundnut_yield,1.01,126.19,12893.35,0.0098
+South Africa,millet_yield,0.49,126.19,12893.35,0.0098
+South Africa,soybean_yield,1.96,126.19,12893.35,0.0098
+South Africa,cotton_yield,2.75,126.19,12893.35,0.0098
+Italy,rapeseed_yield,2.72,125.04,12893.35,0.0097
+Italy,wheat_yield,3.81,125.04,12893.35,0.0097
+Italy,sunflower_yield,2.15,125.04,12893.35,0.0097
+Italy,soybean_yield,3.24,125.04,12893.35,0.0097
+Italy,rice_yield,6.59,125.04,12893.35,0.0097
+Italy,maize_yield,9.8,125.04,12893.35,0.0097
+Italy,rye_yield,3.01,125.04,12893.35,0.0097
+Italy,potato_yield,28.16,125.04,12893.35,0.0097
+Italy,sorghum_yield,5.28,125.04,12893.35,0.0097
+Italy,barley_yield,3.85,125.04,12893.35,0.0097
+Italy,sugarbeet_yield,56.43,125.04,12893.35,0.0097
+Argentina,millet_yield,1.25,124.08,12893.35,0.0096
+Argentina,rapeseed_yield,1.95,124.08,12893.35,0.0096
+Argentina,maize_yield,6.09,124.08,12893.35,0.0096
+Argentina,groundnut_yield,2.08,124.08,12893.35,0.0096
+Argentina,wheat_yield,3.18,124.08,12893.35,0.0096
+Argentina,cotton_yield,2.55,124.08,12893.35,0.0096
+Argentina,sugarcane_yield,44.67,124.08,12893.35,0.0096
+Argentina,sorghum_yield,3.57,124.08,12893.35,0.0096
+Argentina,barley_yield,3.53,124.08,12893.35,0.0096
+Argentina,soybean_yield,2.32,124.08,12893.35,0.0096
+Argentina,rye_yield,1.91,124.08,12893.35,0.0096
+Argentina,potato_yield,32.2,124.08,12893.35,0.0096
+Argentina,cassava_yield,10.01,124.08,12893.35,0.0096
+Argentina,sunflower_yield,1.87,124.08,12893.35,0.0096
+Argentina,rice_yield,6.9,124.08,12893.35,0.0096
+Paraguay,rapeseed_yield,1.14,123.08,12893.35,0.0095
+Paraguay,rice_yield,6.3,123.08,12893.35,0.0095
+Paraguay,oilpalm_yield,9.46,123.08,12893.35,0.0095
+Paraguay,potato_yield,14.48,123.08,12893.35,0.0095
+Paraguay,cotton_yield,2.0,123.08,12893.35,0.0095
+Paraguay,maize_yield,5.0,123.08,12893.35,0.0095
+Paraguay,soybean_yield,3.0,123.08,12893.35,0.0095
+Paraguay,sugarcane_yield,56.0,123.08,12893.35,0.0095
+Paraguay,groundnut_yield,1.04,123.08,12893.35,0.0095
+Paraguay,sorghum_yield,3.48,123.08,12893.35,0.0095
+Paraguay,wheat_yield,1.68,123.08,12893.35,0.0095
+Paraguay,sunflower_yield,1.5,123.08,12893.35,0.0095
+Paraguay,cassava_yield,18.0,123.08,12893.35,0.0095
+Hungary,rice_yield,3.96,122.15,12893.35,0.0095
+Hungary,sorghum_yield,3.54,122.15,12893.35,0.0095
+Hungary,rye_yield,3.26,122.15,12893.35,0.0095
+Hungary,soybean_yield,2.83,122.15,12893.35,0.0095
+Hungary,barley_yield,4.67,122.15,12893.35,0.0095
+Hungary,sugarbeet_yield,59.3,122.15,12893.35,0.0095
+Hungary,rapeseed_yield,2.97,122.15,12893.35,0.0095
+Hungary,sunflower_yield,2.03,122.15,12893.35,0.0095
+Hungary,potato_yield,24.69,122.15,12893.35,0.0095
+Hungary,maize_yield,8.44,122.15,12893.35,0.0095
+Hungary,wheat_yield,5.1,122.15,12893.35,0.0095
+Hungary,millet_yield,1.36,122.15,12893.35,0.0095
+Mali,potato_yield,21.73,120.98,12893.35,0.0094
+Mali,sugarcane_yield,72.46,120.98,12893.35,0.0094
+Mali,rice_yield,3.27,120.98,12893.35,0.0094
+Mali,groundnut_yield,0.95,120.98,12893.35,0.0094
+Mali,cotton_yield,1.16,120.98,12893.35,0.0094
+Mali,maize_yield,3.21,120.98,12893.35,0.0094
+Mali,millet_yield,0.85,120.98,12893.35,0.0094
+Mali,soybean_yield,0.48,120.98,12893.35,0.0094
+Mali,cassava_yield,15.78,120.98,12893.35,0.0094
+Mali,sorghum_yield,1.09,120.98,12893.35,0.0094
+Egypt,sugarcane_yield,111.33,119.81,12893.35,0.0093
+Egypt,barley_yield,1.61,119.81,12893.35,0.0093
+Egypt,wheat_yield,4.65,119.81,12893.35,0.0093
+Egypt,cotton_yield,2.22,119.81,12893.35,0.0093
+United Kingdom,rye_yield,3.02,119.63,12893.35,0.0093
+United Kingdom,potato_yield,35.91,119.63,12893.35,0.0093
+United Kingdom,sugarbeet_yield,63.78,119.63,12893.35,0.0093
+United Kingdom,rapeseed_yield,3.45,119.63,12893.35,0.0093
+United Kingdom,barley_yield,5.72,119.63,12893.35,0.0093
+United Kingdom,wheat_yield,7.75,119.63,12893.35,0.0093
+Indonesia,rice_yield,5.19,117.89,12893.35,0.0091
+Indonesia,cassava_yield,18.51,117.89,12893.35,0.0091
+Indonesia,potato_yield,18.71,117.89,12893.35,0.0091
+Indonesia,cotton_yield,0.08,117.89,12893.35,0.0091
+Indonesia,sugarcane_yield,52.19,117.89,12893.35,0.0091
+Indonesia,oilpalm_yield,17.01,117.89,12893.35,0.0091
+Indonesia,groundnut_yield,1.29,117.89,12893.35,0.0091
+Indonesia,maize_yield,3.59,117.89,12893.35,0.0091
+Indonesia,soybean_yield,1.32,117.89,12893.35,0.0091
+Canada,barley_yield,3.37,115.78,12893.35,0.009
+Canada,wheat_yield,2.81,115.78,12893.35,0.009
+Canada,soybean_yield,2.86,115.78,12893.35,0.009
+Canada,potato_yield,39.34,115.78,12893.35,0.009
+Canada,sunflower_yield,1.85,115.78,12893.35,0.009
+Canada,sugarbeet_yield,51.22,115.78,12893.35,0.009
+Canada,maize_yield,9.69,115.78,12893.35,0.009
+Canada,rye_yield,2.99,115.78,12893.35,0.009
+Canada,rapeseed_yield,1.65,115.78,12893.35,0.009
+Vietnam,cotton_yield,0.55,114.51,12893.35,0.0089
+Slovakia,rye_yield,3.36,114.51,12893.35,0.0089
+Vietnam,soybean_yield,1.52,114.51,12893.35,0.0089
+Slovakia,maize_yield,8.47,114.51,12893.35,0.0089
+Slovakia,sugarbeet_yield,59.88,114.51,12893.35,0.0089
+Vietnam,cassava_yield,16.89,114.51,12893.35,0.0089
+Slovakia,wheat_yield,4.78,114.51,12893.35,0.0089
+Vietnam,rice_yield,5.53,114.51,12893.35,0.0089
+Slovakia,rapeseed_yield,3.11,114.51,12893.35,0.0089
+Slovakia,potato_yield,21.9,114.51,12893.35,0.0089
+Slovakia,millet_yield,1.55,114.51,12893.35,0.0089
+Slovakia,sunflower_yield,2.22,114.51,12893.35,0.0089
+Vietnam,groundnut_yield,2.41,114.51,12893.35,0.0089
+Vietnam,sugarcane_yield,66.6,114.51,12893.35,0.0089
+Slovakia,barley_yield,3.92,114.51,12893.35,0.0089
+Vietnam,maize_yield,4.2,114.51,12893.35,0.0089
+Vietnam,potato_yield,15.25,114.51,12893.35,0.0089
+Vietnam,millet_yield,1.56,114.51,12893.35,0.0089
+Slovakia,soybean_yield,2.31,114.51,12893.35,0.0089
+Slovakia,sorghum_yield,3.01,114.51,12893.35,0.0089
+Zimbabwe,cassava_yield,4.77,114.44,12893.35,0.0089
+Zimbabwe,groundnut_yield,0.27,114.44,12893.35,0.0089
+Zimbabwe,cotton_yield,0.56,114.44,12893.35,0.0089
+Zimbabwe,millet_yield,0.17,114.44,12893.35,0.0089
+Zimbabwe,potato_yield,17.11,114.44,12893.35,0.0089
+Zimbabwe,rice_yield,2.26,114.44,12893.35,0.0089
+Zimbabwe,sorghum_yield,0.42,114.44,12893.35,0.0089
+Zimbabwe,sugarcane_yield,81.03,114.44,12893.35,0.0089
+Zimbabwe,barley_yield,2.79,114.44,12893.35,0.0089
+Zimbabwe,sunflower_yield,0.95,114.44,12893.35,0.0089
+Zimbabwe,soybean_yield,1.5,114.44,12893.35,0.0089
+Zimbabwe,wheat_yield,2.0,114.44,12893.35,0.0089
+Zimbabwe,maize_yield,0.61,114.44,12893.35,0.0089
+Kenya,sorghum_yield,0.9,112.92,12893.35,0.0088
+Kenya,cassava_yield,15.36,112.92,12893.35,0.0088
+Kenya,groundnut_yield,2.14,112.92,12893.35,0.0088
+Kenya,millet_yield,0.72,112.92,12893.35,0.0088
+Kenya,potato_yield,8.61,112.92,12893.35,0.0088
+Kenya,sunflower_yield,0.94,112.92,12893.35,0.0088
+Kenya,wheat_yield,2.53,112.92,12893.35,0.0088
+Kenya,barley_yield,3.14,112.92,12893.35,0.0088
+Kenya,cotton_yield,0.44,112.92,12893.35,0.0088
+Kenya,rice_yield,4.25,112.92,12893.35,0.0088
+Kenya,maize_yield,1.87,112.92,12893.35,0.0088
+Kenya,sugarcane_yield,72.02,112.92,12893.35,0.0088
+Ireland,sugarbeet_yield,56.55,111.77,12893.35,0.0087
+Ireland,rye_yield,3.4,111.77,12893.35,0.0087
+Ireland,wheat_yield,8.5,111.77,12893.35,0.0087
+Ireland,barley_yield,6.61,111.77,12893.35,0.0087
+Ireland,potato_yield,33.29,111.77,12893.35,0.0087
+Ireland,rapeseed_yield,3.42,111.77,12893.35,0.0087
+Croatia,maize_yield,9.12,110.75,12893.35,0.0086
+Croatia,sugarbeet_yield,55.2,110.75,12893.35,0.0086
+Croatia,sunflower_yield,2.41,110.75,12893.35,0.0086
+Croatia,rapeseed_yield,2.83,110.75,12893.35,0.0086
+Croatia,millet_yield,2.01,110.75,12893.35,0.0086
+Croatia,soybean_yield,3.18,110.75,12893.35,0.0086
+Croatia,potato_yield,19.66,110.75,12893.35,0.0086
+Croatia,sorghum_yield,3.33,110.75,12893.35,0.0086
+Croatia,wheat_yield,5.38,110.75,12893.35,0.0086
+Croatia,barley_yield,4.46,110.75,12893.35,0.0086
+Croatia,rye_yield,3.17,110.75,12893.35,0.0086
+Denmark,barley_yield,4.38,110.55,12893.35,0.0086
+Denmark,rye_yield,5.2,110.55,12893.35,0.0086
+Denmark,potato_yield,33.73,110.55,12893.35,0.0086
+Denmark,wheat_yield,6.23,110.55,12893.35,0.0086
+Denmark,sugarbeet_yield,57.58,110.55,12893.35,0.0086
+Denmark,rapeseed_yield,3.43,110.55,12893.35,0.0086
+Myanmar,millet_yield,1.02,107.97,12893.35,0.0084
+Myanmar,wheat_yield,1.81,107.97,12893.35,0.0084
+Myanmar,maize_yield,3.84,107.97,12893.35,0.0084
+Myanmar,rice_yield,3.79,107.97,12893.35,0.0084
+Myanmar,cotton_yield,1.85,107.97,12893.35,0.0084
+Myanmar,sugarcane_yield,63.62,107.97,12893.35,0.0084
+Myanmar,sunflower_yield,0.94,107.97,12893.35,0.0084
+Myanmar,potato_yield,15.31,107.97,12893.35,0.0084
+Myanmar,groundnut_yield,1.55,107.97,12893.35,0.0084
+Myanmar,cassava_yield,12.04,107.97,12893.35,0.0084
+Myanmar,sorghum_yield,1.01,107.97,12893.35,0.0084
+Myanmar,soybean_yield,1.19,107.97,12893.35,0.0084
+Czechia,rapeseed_yield,3.43,107.38,12893.35,0.0083
+Czechia,sunflower_yield,2.14,107.38,12893.35,0.0083
+Czechia,sugarbeet_yield,53.59,107.38,12893.35,0.0083
+Czechia,potato_yield,25.5,107.38,12893.35,0.0083
+Czechia,wheat_yield,5.39,107.38,12893.35,0.0083
+Czechia,barley_yield,4.95,107.38,12893.35,0.0083
+Czechia,rye_yield,4.74,107.38,12893.35,0.0083
+Czechia,soybean_yield,1.66,107.38,12893.35,0.0083
+Czechia,maize_yield,5.98,107.38,12893.35,0.0083
+Burkina Faso,millet_yield,0.85,106.07,12893.35,0.0082
+Burkina Faso,rice_yield,0.95,106.07,12893.35,0.0082
+Burkina Faso,cassava_yield,1.09,106.07,12893.35,0.0082
+Burkina Faso,cotton_yield,1.02,106.07,12893.35,0.0082
+Burkina Faso,maize_yield,1.67,106.07,12893.35,0.0082
+Burkina Faso,sugarcane_yield,95.65,106.07,12893.35,0.0082
+Burkina Faso,potato_yield,1.88,106.07,12893.35,0.0082
+Burkina Faso,soybean_yield,1.11,106.07,12893.35,0.0082
+Burkina Faso,sorghum_yield,1.01,106.07,12893.35,0.0082
+Burkina Faso,groundnut_yield,0.84,106.07,12893.35,0.0082
+Cote d'Ivoire,cassava_yield,6.18,104.85,12893.35,0.0081
+Cote d'Ivoire,soybean_yield,1.48,104.85,12893.35,0.0081
+Cote d'Ivoire,sugarcane_yield,82.07,104.85,12893.35,0.0081
+Cote d'Ivoire,oilpalm_yield,6.44,104.85,12893.35,0.0081
+Cote d'Ivoire,maize_yield,2.13,104.85,12893.35,0.0081
+Cote d'Ivoire,millet_yield,0.83,104.85,12893.35,0.0081
+Cote d'Ivoire,rice_yield,2.72,104.85,12893.35,0.0081
+Cote d'Ivoire,sorghum_yield,0.71,104.85,12893.35,0.0081
+Cote d'Ivoire,cotton_yield,0.85,104.85,12893.35,0.0081
+Cote d'Ivoire,groundnut_yield,1.44,104.85,12893.35,0.0081
+Ukraine,millet_yield,1.47,103.06,12893.35,0.008
+Ukraine,rye_yield,2.65,103.06,12893.35,0.008
+Ukraine,barley_yield,2.96,103.06,12893.35,0.008
+Ukraine,sunflower_yield,1.56,103.06,12893.35,0.008
+Ukraine,potato_yield,17.05,103.06,12893.35,0.008
+Ukraine,sorghum_yield,4.24,103.06,12893.35,0.008
+Ukraine,maize_yield,7.84,103.06,12893.35,0.008
+Ukraine,rice_yield,5.49,103.06,12893.35,0.008
+Ukraine,soybean_yield,2.58,103.06,12893.35,0.008
+Ukraine,wheat_yield,3.72,103.06,12893.35,0.008
+Ukraine,rapeseed_yield,2.65,103.06,12893.35,0.008
+Ukraine,sugarbeet_yield,50.85,103.06,12893.35,0.008
+Mozambique,groundnut_yield,0.26,102.41,12893.35,0.0079
+Mozambique,maize_yield,0.91,102.41,12893.35,0.0079
+Mozambique,sugarcane_yield,74.1,102.41,12893.35,0.0079
+Mozambique,millet_yield,0.45,102.41,12893.35,0.0079
+Mozambique,cassava_yield,8.06,102.41,12893.35,0.0079
+Mozambique,sorghum_yield,0.49,102.41,12893.35,0.0079
+Mozambique,cotton_yield,0.52,102.41,12893.35,0.0079
+Mozambique,sunflower_yield,0.7,102.41,12893.35,0.0079
+Mozambique,potato_yield,15.17,102.41,12893.35,0.0079
+Mozambique,wheat_yield,1.16,102.41,12893.35,0.0079
+Mozambique,rice_yield,0.59,102.41,12893.35,0.0079
+Philippines,potato_yield,15.51,101.97,12893.35,0.0079
+Philippines,cotton_yield,0.35,101.97,12893.35,0.0079
+Philippines,soybean_yield,1.34,101.97,12893.35,0.0079
+Philippines,sugarcane_yield,56.53,101.97,12893.35,0.0079
+Philippines,oilpalm_yield,7.99,101.97,12893.35,0.0079
+Philippines,groundnut_yield,1.23,101.97,12893.35,0.0079
+Philippines,rice_yield,3.97,101.97,12893.35,0.0079
+Philippines,cassava_yield,11.96,101.97,12893.35,0.0079
+Philippines,maize_yield,3.09,101.97,12893.35,0.0079
+Uruguay,maize_yield,7.38,101.76,12893.35,0.0079
+Uruguay,sorghum_yield,2.64,101.76,12893.35,0.0079
+Uruguay,rapeseed_yield,1.65,101.76,12893.35,0.0079
+Uruguay,sugarcane_yield,54.8,101.76,12893.35,0.0079
+Uruguay,groundnut_yield,0.54,101.76,12893.35,0.0079
+Uruguay,soybean_yield,1.21,101.76,12893.35,0.0079
+Uruguay,rice_yield,7.29,101.76,12893.35,0.0079
+Uruguay,potato_yield,20.88,101.76,12893.35,0.0079
+Uruguay,wheat_yield,2.37,101.76,12893.35,0.0079
+Uruguay,barley_yield,3.0,101.76,12893.35,0.0079
+Sudan,rice_yield,3.49,98.85,12893.35,0.0077
+Sudan,millet_yield,0.71,98.85,12893.35,0.0077
+Sudan,cotton_yield,1.46,98.85,12893.35,0.0077
+Sudan,sugarcane_yield,74.14,98.85,12893.35,0.0077
+Sudan,wheat_yield,2.63,98.85,12893.35,0.0077
+Sudan,maize_yield,1.27,98.85,12893.35,0.0077
+Sudan,potato_yield,12.45,98.85,12893.35,0.0077
+Sudan,sunflower_yield,1.06,98.85,12893.35,0.0077
+Sudan,sorghum_yield,0.7,98.85,12893.35,0.0077
+Sudan,groundnut_yield,0.94,98.85,12893.35,0.0077
+Poland,sugarbeet_yield,50.88,97.85,12893.35,0.0076
+Poland,maize_yield,5.99,97.85,12893.35,0.0076
+Poland,potato_yield,25.14,97.85,12893.35,0.0076
+Poland,rapeseed_yield,2.64,97.85,12893.35,0.0076
+Poland,wheat_yield,4.06,97.85,12893.35,0.0076
+Poland,barley_yield,3.12,97.85,12893.35,0.0076
+Poland,sunflower_yield,1.71,97.85,12893.35,0.0076
+Poland,soybean_yield,1.89,97.85,12893.35,0.0076
+Poland,rye_yield,2.42,97.85,12893.35,0.0076
+Kyrgyzstan,rice_yield,3.59,95.78,12893.35,0.0074
+Kyrgyzstan,sugarbeet_yield,47.54,95.78,12893.35,0.0074
+Kyrgyzstan,groundnut_yield,2.0,95.78,12893.35,0.0074
+Kyrgyzstan,millet_yield,1.99,95.78,12893.35,0.0074
+Kyrgyzstan,soybean_yield,1.77,95.78,12893.35,0.0074
+Kyrgyzstan,cotton_yield,2.96,95.78,12893.35,0.0074
+Kyrgyzstan,potato_yield,17.13,95.78,12893.35,0.0074
+Kyrgyzstan,maize_yield,6.59,95.78,12893.35,0.0074
+Kyrgyzstan,sunflower_yield,1.28,95.78,12893.35,0.0074
+Kyrgyzstan,wheat_yield,2.43,95.78,12893.35,0.0074
+Kyrgyzstan,rapeseed_yield,1.5,95.78,12893.35,0.0074
+Kyrgyzstan,sorghum_yield,1.79,95.78,12893.35,0.0074
+Kyrgyzstan,barley_yield,2.24,95.78,12893.35,0.0074
+Kyrgyzstan,rye_yield,2.97,95.78,12893.35,0.0074
+Burundi,rice_yield,1.27,95.33,12893.35,0.0074
+Burundi,millet_yield,1.13,95.33,12893.35,0.0074
+Burundi,soybean_yield,0.52,95.33,12893.35,0.0074
+Burundi,potato_yield,11.17,95.33,12893.35,0.0074
+Burundi,cassava_yield,8.07,95.33,12893.35,0.0074
+Burundi,sugarcane_yield,58.37,95.33,12893.35,0.0074
+Burundi,sorghum_yield,0.67,95.33,12893.35,0.0074
+Burundi,cotton_yield,0.68,95.33,12893.35,0.0074
+Burundi,wheat_yield,1.41,95.33,12893.35,0.0074
+Burundi,groundnut_yield,0.64,95.33,12893.35,0.0074
+Burundi,maize_yield,1.53,95.33,12893.35,0.0074
+Burundi,oilpalm_yield,9.87,95.33,12893.35,0.0074
+Niger,sugarcane_yield,38.09,94.49,12893.35,0.0073
+Niger,potato_yield,22.69,94.49,12893.35,0.0073
+Niger,millet_yield,0.55,94.49,12893.35,0.0073
+Niger,maize_yield,1.46,94.49,12893.35,0.0073
+Niger,rice_yield,3.39,94.49,12893.35,0.0073
+Niger,sorghum_yield,0.54,94.49,12893.35,0.0073
+Niger,groundnut_yield,0.65,94.49,12893.35,0.0073
+Niger,cotton_yield,0.7,94.49,12893.35,0.0073
+Niger,wheat_yield,2.96,94.49,12893.35,0.0073
+Niger,cassava_yield,23.46,94.49,12893.35,0.0073
+Romania,maize_yield,7.64,92.43,12893.35,0.0072
+Romania,potato_yield,17.44,92.43,12893.35,0.0072
+Romania,sunflower_yield,1.77,92.43,12893.35,0.0072
+Romania,barley_yield,4.43,92.43,12893.35,0.0072
+Romania,rapeseed_yield,2.42,92.43,12893.35,0.0072
+Romania,sorghum_yield,4.34,92.43,12893.35,0.0072
+Romania,soybean_yield,2.76,92.43,12893.35,0.0072
+Romania,sugarbeet_yield,38.76,92.43,12893.35,0.0072
+Romania,wheat_yield,4.8,92.43,12893.35,0.0072
+Romania,rye_yield,2.82,92.43,12893.35,0.0072
+Romania,rice_yield,5.25,92.43,12893.35,0.0072
+Sweden,potato_yield,25.43,92.42,12893.35,0.0072
+Sweden,rye_yield,4.16,92.42,12893.35,0.0072
+Sweden,sugarbeet_yield,53.21,92.42,12893.35,0.0072
+Sweden,barley_yield,3.03,92.42,12893.35,0.0072
+Sweden,wheat_yield,4.35,92.42,12893.35,0.0072
+Sweden,rapeseed_yield,2.24,92.42,12893.35,0.0072
+Lebanon,sugarcane_yield,23.2,92.11,12893.35,0.0071
+Lebanon,groundnut_yield,3.83,92.11,12893.35,0.0071
+Lebanon,wheat_yield,3.37,92.11,12893.35,0.0071
+Lebanon,maize_yield,3.79,92.11,12893.35,0.0071
+Lebanon,potato_yield,25.26,92.11,12893.35,0.0071
+Lebanon,sugarbeet_yield,28.12,92.11,12893.35,0.0071
+Lebanon,barley_yield,2.48,92.11,12893.35,0.0071
+Lebanon,sorghum_yield,2.06,92.11,12893.35,0.0071
+Tanzania,barley_yield,1.64,90.84,12893.35,0.007
+Tanzania,groundnut_yield,0.98,90.84,12893.35,0.007
+Tanzania,cotton_yield,0.68,90.84,12893.35,0.007
+Tanzania,maize_yield,1.46,90.84,12893.35,0.007
+Tanzania,oilpalm_yield,13.7,90.84,12893.35,0.007
+Tanzania,potato_yield,9.3,90.84,12893.35,0.007
+Tanzania,wheat_yield,1.11,90.84,12893.35,0.007
+Tanzania,sorghum_yield,1.02,90.84,12893.35,0.007
+Tanzania,sugarcane_yield,49.67,90.84,12893.35,0.007
+Tanzania,millet_yield,0.98,90.84,12893.35,0.007
+Tanzania,rice_yield,2.51,90.84,12893.35,0.007
+Tanzania,sunflower_yield,1.03,90.84,12893.35,0.007
+Tanzania,cassava_yield,5.71,90.84,12893.35,0.007
+Tanzania,soybean_yield,1.05,90.84,12893.35,0.007
+Uganda,wheat_yield,1.54,89.82,12893.35,0.007
+Uganda,groundnut_yield,0.52,89.82,12893.35,0.007
+Uganda,sugarcane_yield,67.67,89.82,12893.35,0.007
+Uganda,cotton_yield,1.37,89.82,12893.35,0.007
+Uganda,maize_yield,2.62,89.82,12893.35,0.007
+Uganda,rice_yield,2.81,89.82,12893.35,0.007
+Uganda,sunflower_yield,0.98,89.82,12893.35,0.007
+Uganda,soybean_yield,0.6,89.82,12893.35,0.007
+Uganda,cassava_yield,5.33,89.82,12893.35,0.007
+Uganda,potato_yield,4.29,89.82,12893.35,0.007
+Uganda,millet_yield,1.42,89.82,12893.35,0.007
+Uganda,sorghum_yield,0.67,89.82,12893.35,0.007
+Tunisia,barley_yield,1.0,88.75,12893.35,0.0069
+Tunisia,sorghum_yield,0.52,88.75,12893.35,0.0069
+Tunisia,cotton_yield,0.6,88.75,12893.35,0.0069
+Tunisia,rapeseed_yield,0.72,88.75,12893.35,0.0069
+Tunisia,sugarbeet_yield,66.45,88.75,12893.35,0.0069
+Tunisia,wheat_yield,1.77,88.75,12893.35,0.0069
+Tunisia,sunflower_yield,0.79,88.75,12893.35,0.0069
+Tunisia,potato_yield,16.9,88.75,12893.35,0.0069
+Jamaica,maize_yield,1.15,88.46,12893.35,0.0069
+Jamaica,potato_yield,14.42,88.46,12893.35,0.0069
+Jamaica,cassava_yield,16.55,88.46,12893.35,0.0069
+Jamaica,sugarcane_yield,55.29,88.46,12893.35,0.0069
+Jamaica,groundnut_yield,1.05,88.46,12893.35,0.0069
+Bolivia,rye_yield,0.79,87.78,12893.35,0.0068
+Bolivia,soybean_yield,2.16,87.78,12893.35,0.0068
+Bolivia,groundnut_yield,1.4,87.78,12893.35,0.0068
+Bolivia,sunflower_yield,1.11,87.78,12893.35,0.0068
+Bolivia,potato_yield,6.42,87.78,12893.35,0.0068
+Bolivia,rice_yield,3.19,87.78,12893.35,0.0068
+Bolivia,maize_yield,2.73,87.78,12893.35,0.0068
+Bolivia,cotton_yield,0.93,87.78,12893.35,0.0068
+Bolivia,cassava_yield,6.85,87.78,12893.35,0.0068
+Bolivia,barley_yield,0.87,87.78,12893.35,0.0068
+Bolivia,wheat_yield,1.51,87.78,12893.35,0.0068
+Bolivia,sorghum_yield,2.64,87.78,12893.35,0.0068
+Bolivia,sugarcane_yield,57.18,87.78,12893.35,0.0068
+Albania,wheat_yield,3.69,87.14,12893.35,0.0068
+Albania,potato_yield,26.17,87.14,12893.35,0.0068
+Albania,soybean_yield,2.55,87.14,12893.35,0.0068
+Albania,rye_yield,2.31,87.14,12893.35,0.0068
+Albania,barley_yield,2.84,87.14,12893.35,0.0068
+Albania,cotton_yield,1.11,87.14,12893.35,0.0068
+Albania,sugarbeet_yield,39.15,87.14,12893.35,0.0068
+Albania,maize_yield,7.23,87.14,12893.35,0.0068
+Albania,sunflower_yield,2.09,87.14,12893.35,0.0068
+Sri Lanka,soybean_yield,1.65,86.69,12893.35,0.0067
+Sri Lanka,rice_yield,3.78,86.69,12893.35,0.0067
+Sri Lanka,maize_yield,3.71,86.69,12893.35,0.0067
+Sri Lanka,millet_yield,1.19,86.69,12893.35,0.0067
+Sri Lanka,sugarcane_yield,40.99,86.69,12893.35,0.0067
+Sri Lanka,potato_yield,17.18,86.69,12893.35,0.0067
+Sri Lanka,groundnut_yield,1.75,86.69,12893.35,0.0067
+Sri Lanka,sorghum_yield,1.99,86.69,12893.35,0.0067
+Sri Lanka,cassava_yield,14.45,86.69,12893.35,0.0067
+Belarus,barley_yield,2.2,84.63,12893.35,0.0066
+Belarus,sunflower_yield,1.45,84.63,12893.35,0.0066
+Belarus,rapeseed_yield,1.31,84.63,12893.35,0.0066
+Belarus,wheat_yield,2.75,84.63,12893.35,0.0066
+Belarus,potato_yield,20.77,84.63,12893.35,0.0066
+Belarus,sugarbeet_yield,47.63,84.63,12893.35,0.0066
+Belarus,maize_yield,6.52,84.63,12893.35,0.0066
+Belarus,rye_yield,2.0,84.63,12893.35,0.0066
+Malaysia,sugarcane_yield,36.28,82.98,12893.35,0.0064
+Malaysia,oilpalm_yield,18.8,82.98,12893.35,0.0064
+Malaysia,cassava_yield,18.42,82.98,12893.35,0.0064
+Malaysia,rice_yield,4.08,82.98,12893.35,0.0064
+Malaysia,maize_yield,3.43,82.98,12893.35,0.0064
+Malaysia,groundnut_yield,1.97,82.98,12893.35,0.0064
+Belize,maize_yield,3.88,80.55,12893.35,0.0062
+Belize,cassava_yield,11.76,80.55,12893.35,0.0062
+Belize,soybean_yield,1.84,80.55,12893.35,0.0062
+Belize,rice_yield,4.75,80.55,12893.35,0.0062
+Belize,sugarcane_yield,42.52,80.55,12893.35,0.0062
+Belize,sorghum_yield,2.44,80.55,12893.35,0.0062
+Belize,potato_yield,12.03,80.55,12893.35,0.0062
+Belize,groundnut_yield,1.33,80.55,12893.35,0.0062
+Russia,rye_yield,2.0,79.24,12893.35,0.0061
+Russia,sunflower_yield,1.6,79.24,12893.35,0.0061
+Russia,maize_yield,4.81,79.24,12893.35,0.0061
+Russia,rice_yield,5.76,79.24,12893.35,0.0061
+Russia,sorghum_yield,1.11,79.24,12893.35,0.0061
+Russia,wheat_yield,2.73,79.24,12893.35,0.0061
+Russia,soybean_yield,1.47,79.24,12893.35,0.0061
+Russia,barley_yield,2.16,79.24,12893.35,0.0061
+Russia,potato_yield,17.05,79.24,12893.35,0.0061
+Russia,sugarbeet_yield,38.06,79.24,12893.35,0.0061
+Russia,rapeseed_yield,1.33,79.24,12893.35,0.0061
+Russia,millet_yield,1.16,79.24,12893.35,0.0061
+Lithuania,barley_yield,2.74,78.14,12893.35,0.0061
+Lithuania,wheat_yield,3.67,78.14,12893.35,0.0061
+Lithuania,sugarbeet_yield,52.09,78.14,12893.35,0.0061
+Lithuania,rye_yield,2.07,78.14,12893.35,0.0061
+Lithuania,potato_yield,15.46,78.14,12893.35,0.0061
+Lithuania,rapeseed_yield,2.11,78.14,12893.35,0.0061
+Gabon,sugarcane_yield,61.7,77.69,12893.35,0.006
+Gabon,cassava_yield,5.25,77.69,12893.35,0.006
+Gabon,rice_yield,2.99,77.69,12893.35,0.006
+Gabon,soybean_yield,0.87,77.69,12893.35,0.006
+Gabon,maize_yield,1.57,77.69,12893.35,0.006
+Gabon,oilpalm_yield,4.28,77.69,12893.35,0.006
+Gabon,groundnut_yield,1.03,77.69,12893.35,0.006
+Guyana,rice_yield,4.85,77.61,12893.35,0.006
+Guyana,cassava_yield,10.78,77.61,12893.35,0.006
+Guyana,groundnut_yield,1.95,77.61,12893.35,0.006
+Guyana,sugarcane_yield,58.66,77.61,12893.35,0.006
+Guyana,maize_yield,1.37,77.61,12893.35,0.006
+Cuba,potato_yield,21.93,75.77,12893.35,0.0059
+Cuba,cassava_yield,5.76,75.77,12893.35,0.0059
+Cuba,rice_yield,3.45,75.77,12893.35,0.0059
+Cuba,sorghum_yield,1.4,75.77,12893.35,0.0059
+Cuba,maize_yield,2.39,75.77,12893.35,0.0059
+Cuba,groundnut_yield,1.06,75.77,12893.35,0.0059
+Cuba,sugarcane_yield,39.78,75.77,12893.35,0.0059
+Bangladesh,cotton_yield,2.26,75.66,12893.35,0.0059
+Bangladesh,rapeseed_yield,0.93,75.66,12893.35,0.0059
+Bangladesh,sugarcane_yield,40.36,75.66,12893.35,0.0059
+Bangladesh,maize_yield,3.62,75.66,12893.35,0.0059
+Bangladesh,rice_yield,4.74,75.66,12893.35,0.0059
+Bangladesh,groundnut_yield,1.76,75.66,12893.35,0.0059
+Bangladesh,millet_yield,0.39,75.66,12893.35,0.0059
+Bangladesh,sorghum_yield,1.19,75.66,12893.35,0.0059
+Bangladesh,potato_yield,20.41,75.66,12893.35,0.0059
+Angola,wheat_yield,1.09,75.03,12893.35,0.0058
+Angola,oilpalm_yield,12.04,75.03,12893.35,0.0058
+Angola,sorghum_yield,0.23,75.03,12893.35,0.0058
+Angola,groundnut_yield,0.46,75.03,12893.35,0.0058
+Angola,maize_yield,0.86,75.03,12893.35,0.0058
+Angola,millet_yield,0.22,75.03,12893.35,0.0058
+Angola,sugarcane_yield,39.18,75.03,12893.35,0.0058
+Angola,sunflower_yield,0.71,75.03,12893.35,0.0058
+Angola,rice_yield,0.72,75.03,12893.35,0.0058
+Angola,cotton_yield,1.83,75.03,12893.35,0.0058
+Angola,potato_yield,6.14,75.03,12893.35,0.0058
+Angola,cassava_yield,11.11,75.03,12893.35,0.0058
+Angola,soybean_yield,0.44,75.03,12893.35,0.0058
+Azerbaijan,rice_yield,2.97,74.89,12893.35,0.0058
+Azerbaijan,sorghum_yield,1.8,74.89,12893.35,0.0058
+Azerbaijan,maize_yield,7.82,74.89,12893.35,0.0058
+Azerbaijan,wheat_yield,2.94,74.89,12893.35,0.0058
+Azerbaijan,cotton_yield,1.76,74.89,12893.35,0.0058
+Azerbaijan,millet_yield,1.99,74.89,12893.35,0.0058
+Azerbaijan,rye_yield,2.87,74.89,12893.35,0.0058
+Azerbaijan,soybean_yield,0.6,74.89,12893.35,0.0058
+Azerbaijan,potato_yield,15.16,74.89,12893.35,0.0058
+Azerbaijan,sugarbeet_yield,32.38,74.89,12893.35,0.0058
+Azerbaijan,barley_yield,2.72,74.89,12893.35,0.0058
+Azerbaijan,sunflower_yield,1.88,74.89,12893.35,0.0058
+Kazakhstan,wheat_yield,1.23,74.58,12893.35,0.0058
+Nepal,barley_yield,1.24,74.58,12893.35,0.0058
+Nepal,soybean_yield,1.26,74.58,12893.35,0.0058
+Kazakhstan,maize_yield,5.74,74.58,12893.35,0.0058
+Kazakhstan,sugarbeet_yield,30.53,74.58,12893.35,0.0058
+Nepal,wheat_yield,2.76,74.58,12893.35,0.0058
+Nepal,cotton_yield,0.96,74.58,12893.35,0.0058
+Nepal,potato_yield,15.81,74.58,12893.35,0.0058
+Kazakhstan,barley_yield,1.58,74.58,12893.35,0.0058
+Kazakhstan,cotton_yield,2.59,74.58,12893.35,0.0058
+Kazakhstan,groundnut_yield,1.45,74.58,12893.35,0.0058
+Nepal,millet_yield,1.19,74.58,12893.35,0.0058
+Kazakhstan,millet_yield,0.93,74.58,12893.35,0.0058
+Nepal,maize_yield,2.59,74.58,12893.35,0.0058
+Kazakhstan,potato_yield,19.79,74.58,12893.35,0.0058
+Nepal,rice_yield,3.51,74.58,12893.35,0.0058
+Kazakhstan,rapeseed_yield,1.08,74.58,12893.35,0.0058
+Kazakhstan,sorghum_yield,0.78,74.58,12893.35,0.0058
+Kazakhstan,sunflower_yield,1.0,74.58,12893.35,0.0058
+Kazakhstan,rice_yield,4.76,74.58,12893.35,0.0058
+Kazakhstan,rye_yield,1.05,74.58,12893.35,0.0058
+Kazakhstan,soybean_yield,2.07,74.58,12893.35,0.0058
+Nepal,sugarcane_yield,45.26,74.58,12893.35,0.0058
+Democratic Republic of Congo,potato_yield,4.61,71.89,12893.35,0.0056
+Democratic Republic of Congo,sugarcane_yield,46.81,71.89,12893.35,0.0056
+Democratic Republic of Congo,rice_yield,0.76,71.89,12893.35,0.0056
+Democratic Republic of Congo,wheat_yield,1.28,71.89,12893.35,0.0056
+Democratic Republic of Congo,sorghum_yield,0.67,71.89,12893.35,0.0056
+Democratic Republic of Congo,soybean_yield,0.46,71.89,12893.35,0.0056
+Democratic Republic of Congo,cassava_yield,8.14,71.89,12893.35,0.0056
+Democratic Republic of Congo,maize_yield,0.78,71.89,12893.35,0.0056
+Democratic Republic of Congo,millet_yield,0.67,71.89,12893.35,0.0056
+Democratic Republic of Congo,groundnut_yield,0.68,71.89,12893.35,0.0056
+Democratic Republic of Congo,cotton_yield,0.43,71.89,12893.35,0.0056
+Democratic Republic of Congo,oilpalm_yield,6.6,71.89,12893.35,0.0056
+Congo,sugarcane_yield,36.63,71.5,12893.35,0.0055
+Congo,rice_yield,0.59,71.5,12893.35,0.0055
+Congo,potato_yield,8.68,71.5,12893.35,0.0055
+Congo,oilpalm_yield,12.48,71.5,12893.35,0.0055
+Congo,maize_yield,0.84,71.5,12893.35,0.0055
+Congo,groundnut_yield,0.52,71.5,12893.35,0.0055
+Congo,cassava_yield,10.88,71.5,12893.35,0.0055
+Congo,millet_yield,0.88,71.5,12893.35,0.0055
+Guinea,oilpalm_yield,2.67,71.24,12893.35,0.0055
+Guinea,groundnut_yield,0.98,71.24,12893.35,0.0055
+Guinea,maize_yield,1.34,71.24,12893.35,0.0055
+Guinea,millet_yield,1.28,71.24,12893.35,0.0055
+Guinea,sorghum_yield,1.42,71.24,12893.35,0.0055
+Guinea,cotton_yield,0.93,71.24,12893.35,0.0055
+Guinea,rice_yield,1.26,71.24,12893.35,0.0055
+Guinea,sugarcane_yield,53.71,71.24,12893.35,0.0055
+Guinea,cassava_yield,7.65,71.24,12893.35,0.0055
+North Macedonia,potato_yield,14.34,70.93,12893.35,0.0055
+North Macedonia,millet_yield,1.33,70.93,12893.35,0.0055
+North Macedonia,maize_yield,5.15,70.93,12893.35,0.0055
+North Macedonia,sorghum_yield,1.25,70.93,12893.35,0.0055
+North Macedonia,barley_yield,3.07,70.93,12893.35,0.0055
+North Macedonia,sunflower_yield,1.44,70.93,12893.35,0.0055
+North Macedonia,rice_yield,6.12,70.93,12893.35,0.0055
+North Macedonia,sugarbeet_yield,29.76,70.93,12893.35,0.0055
+North Macedonia,rye_yield,2.45,70.93,12893.35,0.0055
+North Macedonia,rapeseed_yield,2.62,70.93,12893.35,0.0055
+North Macedonia,wheat_yield,3.4,70.93,12893.35,0.0055
+Moldova,potato_yield,9.22,70.49,12893.35,0.0055
+Moldova,barley_yield,2.73,70.49,12893.35,0.0055
+Moldova,sorghum_yield,4.04,70.49,12893.35,0.0055
+Moldova,maize_yield,4.24,70.49,12893.35,0.0055
+Moldova,sugarbeet_yield,37.29,70.49,12893.35,0.0055
+Moldova,millet_yield,0.75,70.49,12893.35,0.0055
+Moldova,soybean_yield,2.12,70.49,12893.35,0.0055
+Moldova,wheat_yield,3.13,70.49,12893.35,0.0055
+Moldova,rye_yield,3.21,70.49,12893.35,0.0055
+Moldova,rapeseed_yield,2.0,70.49,12893.35,0.0055
+Moldova,sunflower_yield,1.76,70.49,12893.35,0.0055
+Madagascar,oilpalm_yield,11.64,68.54,12893.35,0.0053
+Madagascar,rice_yield,4.34,68.54,12893.35,0.0053
+Madagascar,maize_yield,1.67,68.54,12893.35,0.0053
+Madagascar,cotton_yield,0.84,68.54,12893.35,0.0053
+Madagascar,soybean_yield,0.59,68.54,12893.35,0.0053
+Madagascar,sorghum_yield,0.58,68.54,12893.35,0.0053
+Madagascar,potato_yield,5.93,68.54,12893.35,0.0053
+Madagascar,sugarcane_yield,32.08,68.54,12893.35,0.0053
+Madagascar,wheat_yield,2.4,68.54,12893.35,0.0053
+Madagascar,groundnut_yield,0.71,68.54,12893.35,0.0053
+Madagascar,cassava_yield,7.76,68.54,12893.35,0.0053
+Papua New Guinea,rice_yield,2.08,68.33,12893.35,0.0053
+Papua New Guinea,maize_yield,3.61,68.33,12893.35,0.0053
+Papua New Guinea,oilpalm_yield,13.63,68.33,12893.35,0.0053
+Papua New Guinea,cassava_yield,9.89,68.33,12893.35,0.0053
+Papua New Guinea,groundnut_yield,1.04,68.33,12893.35,0.0053
+Papua New Guinea,sorghum_yield,2.03,68.33,12893.35,0.0053
+Papua New Guinea,sugarcane_yield,30.27,68.33,12893.35,0.0053
+Papua New Guinea,potato_yield,5.78,68.33,12893.35,0.0053
+Suriname,rice_yield,4.87,68.05,12893.35,0.0053
+Suriname,groundnut_yield,1.19,68.05,12893.35,0.0053
+Suriname,sugarcane_yield,39.79,68.05,12893.35,0.0053
+Suriname,maize_yield,2.5,68.05,12893.35,0.0053
+Suriname,cassava_yield,17.27,68.05,12893.35,0.0053
+Suriname,oilpalm_yield,2.43,68.05,12893.35,0.0053
+Cameroon,groundnut_yield,1.3,68.0,12893.35,0.0053
+Cameroon,millet_yield,1.32,68.0,12893.35,0.0053
+Cameroon,soybean_yield,1.33,68.0,12893.35,0.0053
+Cameroon,rice_yield,1.15,68.0,12893.35,0.0053
+Cameroon,cotton_yield,1.09,68.0,12893.35,0.0053
+Cameroon,wheat_yield,1.33,68.0,12893.35,0.0053
+Cameroon,oilpalm_yield,18.09,68.0,12893.35,0.0053
+Cameroon,cassava_yield,14.74,68.0,12893.35,0.0053
+Cameroon,sorghum_yield,1.63,68.0,12893.35,0.0053
+Cameroon,maize_yield,1.78,68.0,12893.35,0.0053
+Cameroon,potato_yield,14.8,68.0,12893.35,0.0053
+Cameroon,sugarcane_yield,9.44,68.0,12893.35,0.0053
+Benin,potato_yield,8.57,65.68,12893.35,0.0051
+Benin,maize_yield,1.3,65.68,12893.35,0.0051
+Benin,sugarcane_yield,17.52,65.68,12893.35,0.0051
+Benin,sorghum_yield,1.09,65.68,12893.35,0.0051
+Benin,cotton_yield,1.19,65.68,12893.35,0.0051
+Benin,groundnut_yield,1.0,65.68,12893.35,0.0051
+Benin,oilpalm_yield,15.99,65.68,12893.35,0.0051
+Benin,soybean_yield,1.11,65.68,12893.35,0.0051
+Benin,cassava_yield,13.6,65.68,12893.35,0.0051
+Benin,millet_yield,0.91,65.68,12893.35,0.0051
+Benin,rice_yield,3.4,65.68,12893.35,0.0051
+Finland,rye_yield,2.58,65.62,12893.35,0.0051
+Finland,rapeseed_yield,1.33,65.62,12893.35,0.0051
+Finland,potato_yield,19.36,65.62,12893.35,0.0051
+Finland,sugarbeet_yield,36.27,65.62,12893.35,0.0051
+Finland,wheat_yield,2.78,65.62,12893.35,0.0051
+Finland,barley_yield,3.3,65.62,12893.35,0.0051
+Iraq,maize_yield,3.52,65.0,12893.35,0.005
+Iraq,potato_yield,15.7,65.0,12893.35,0.005
+Iraq,wheat_yield,2.72,65.0,12893.35,0.005
+Iraq,soybean_yield,0.78,65.0,12893.35,0.005
+Iraq,millet_yield,1.56,65.0,12893.35,0.005
+Iraq,sunflower_yield,1.84,65.0,12893.35,0.005
+Iraq,sugarcane_yield,19.72,65.0,12893.35,0.005
+Iraq,sugarbeet_yield,7.29,65.0,12893.35,0.005
+Iraq,groundnut_yield,3.41,65.0,12893.35,0.005
+Iraq,rice_yield,4.95,65.0,12893.35,0.005
+Iraq,cotton_yield,1.9,65.0,12893.35,0.005
+Iraq,barley_yield,1.61,65.0,12893.35,0.005
+New Zealand,barley_yield,6.21,63.33,12893.35,0.0049
+New Zealand,wheat_yield,6.87,63.33,12893.35,0.0049
+New Zealand,potato_yield,38.74,63.33,12893.35,0.0049
+New Zealand,rapeseed_yield,2.03,63.33,12893.35,0.0049
+New Zealand,maize_yield,9.48,63.33,12893.35,0.0049
+Tajikistan,cotton_yield,1.62,59.3,12893.35,0.0046
+Tajikistan,rice_yield,7.65,59.3,12893.35,0.0046
+Tajikistan,sorghum_yield,4.42,59.3,12893.35,0.0046
+Tajikistan,soybean_yield,0.34,59.3,12893.35,0.0046
+Tajikistan,rapeseed_yield,0.54,59.3,12893.35,0.0046
+Tajikistan,barley_yield,1.51,59.3,12893.35,0.0046
+Tajikistan,sunflower_yield,2.08,59.3,12893.35,0.0046
+Tajikistan,wheat_yield,3.05,59.3,12893.35,0.0046
+Tajikistan,millet_yield,1.98,59.3,12893.35,0.0046
+Tajikistan,maize_yield,10.15,59.3,12893.35,0.0046
+Tajikistan,groundnut_yield,3.9,59.3,12893.35,0.0046
+Tajikistan,potato_yield,19.43,59.3,12893.35,0.0046
+Tajikistan,rye_yield,2.63,59.3,12893.35,0.0046
+Afghanistan,barley_yield,0.67,58.25,12893.35,0.0045
+Afghanistan,potato_yield,19.0,58.25,12893.35,0.0045
+Afghanistan,rice_yield,3.0,58.25,12893.35,0.0045
+Afghanistan,sunflower_yield,1.56,58.25,12893.35,0.0045
+Afghanistan,wheat_yield,2.21,58.25,12893.35,0.0045
+Afghanistan,millet_yield,1.98,58.25,12893.35,0.0045
+Afghanistan,sugarbeet_yield,27.36,58.25,12893.35,0.0045
+Afghanistan,maize_yield,1.47,58.25,12893.35,0.0045
+Afghanistan,cotton_yield,1.0,58.25,12893.35,0.0045
+Ghana,sorghum_yield,1.13,57.45,12893.35,0.0045
+Ghana,maize_yield,1.95,57.45,12893.35,0.0045
+Ghana,rice_yield,2.82,57.45,12893.35,0.0045
+Ghana,cotton_yield,0.95,57.45,12893.35,0.0045
+Ghana,cassava_yield,16.43,57.45,12893.35,0.0045
+Ghana,groundnut_yield,1.32,57.45,12893.35,0.0045
+Ghana,oilpalm_yield,7.03,57.45,12893.35,0.0045
+Ghana,millet_yield,1.01,57.45,12893.35,0.0045
+Ghana,sugarcane_yield,24.81,57.45,12893.35,0.0045
+Bulgaria,soybean_yield,1.96,57.3,12893.35,0.0044
+Bulgaria,rice_yield,5.76,57.3,12893.35,0.0044
+Bulgaria,potato_yield,18.56,57.3,12893.35,0.0044
+Bulgaria,barley_yield,4.22,57.3,12893.35,0.0044
+Bulgaria,maize_yield,7.82,57.3,12893.35,0.0044
+Bulgaria,cotton_yield,0.76,57.3,12893.35,0.0044
+Bulgaria,sorghum_yield,4.08,57.3,12893.35,0.0044
+Bulgaria,wheat_yield,4.81,57.3,12893.35,0.0044
+Bulgaria,rapeseed_yield,2.58,57.3,12893.35,0.0044
+Bulgaria,rye_yield,1.66,57.3,12893.35,0.0044
+Bulgaria,groundnut_yield,1.13,57.3,12893.35,0.0044
+Bulgaria,millet_yield,2.01,57.3,12893.35,0.0044
+Bulgaria,sunflower_yield,1.95,57.3,12893.35,0.0044
+Bosnia and Herzegovina,sugarbeet_yield,20.43,55.84,12893.35,0.0043
+Bosnia and Herzegovina,soybean_yield,2.72,55.84,12893.35,0.0043
+Bosnia and Herzegovina,barley_yield,3.61,55.84,12893.35,0.0043
+Bosnia and Herzegovina,sunflower_yield,1.52,55.84,12893.35,0.0043
+Bosnia and Herzegovina,rapeseed_yield,2.68,55.84,12893.35,0.0043
+Bosnia and Herzegovina,potato_yield,11.21,55.84,12893.35,0.0043
+Bosnia and Herzegovina,rye_yield,3.01,55.84,12893.35,0.0043
+Bosnia and Herzegovina,wheat_yield,4.02,55.84,12893.35,0.0043
+Bosnia and Herzegovina,maize_yield,6.64,55.84,12893.35,0.0043
+Slovenia,soybean_yield,3.04,55.27,12893.35,0.0043
+Slovenia,maize_yield,9.45,55.27,12893.35,0.0043
+Slovenia,sunflower_yield,2.54,55.27,12893.35,0.0043
+Slovenia,wheat_yield,4.38,55.27,12893.35,0.0043
+Slovenia,rapeseed_yield,2.25,55.27,12893.35,0.0043
+Slovenia,barley_yield,4.19,55.27,12893.35,0.0043
+Slovenia,potato_yield,25.93,55.27,12893.35,0.0043
+Slovenia,rye_yield,3.49,55.27,12893.35,0.0043
+Bhutan,soybean_yield,0.86,55.1,12893.35,0.0043
+Bhutan,millet_yield,1.47,55.1,12893.35,0.0043
+Bhutan,wheat_yield,1.94,55.1,12893.35,0.0043
+Bhutan,rice_yield,4.29,55.1,12893.35,0.0043
+Bhutan,maize_yield,3.4,55.1,12893.35,0.0043
+Bhutan,potato_yield,10.58,55.1,12893.35,0.0043
+Bhutan,barley_yield,1.53,55.1,12893.35,0.0043
+Bhutan,sugarcane_yield,31.03,55.1,12893.35,0.0043
+Israel,sorghum_yield,3.62,54.68,12893.35,0.0042
+Israel,cotton_yield,3.61,54.68,12893.35,0.0042
+Israel,potato_yield,32.85,54.68,12893.35,0.0042
+Israel,barley_yield,2.14,54.68,12893.35,0.0042
+Israel,maize_yield,5.15,54.68,12893.35,0.0042
+Israel,groundnut_yield,4.19,54.68,12893.35,0.0042
+Israel,sunflower_yield,1.79,54.68,12893.35,0.0042
+Israel,wheat_yield,1.33,54.68,12893.35,0.0042
+Luxembourg,rye_yield,5.59,52.69,12893.35,0.0041
+Luxembourg,rapeseed_yield,3.23,52.69,12893.35,0.0041
+Luxembourg,maize_yield,6.21,52.69,12893.35,0.0041
+Luxembourg,barley_yield,5.77,52.69,12893.35,0.0041
+Luxembourg,wheat_yield,6.04,52.69,12893.35,0.0041
+Luxembourg,potato_yield,25.85,52.69,12893.35,0.0041
+Cambodia,soybean_yield,1.62,52.15,12893.35,0.004
+Cambodia,cassava_yield,18.75,52.15,12893.35,0.004
+Cambodia,rice_yield,3.57,52.15,12893.35,0.004
+Cambodia,groundnut_yield,1.11,52.15,12893.35,0.004
+Cambodia,maize_yield,3.84,52.15,12893.35,0.004
+Cambodia,sugarcane_yield,22.15,52.15,12893.35,0.004
+Cambodia,cotton_yield,1.11,52.15,12893.35,0.004
+Jordan,sorghum_yield,3.81,48.87,12893.35,0.0038
+Jordan,maize_yield,11.0,48.87,12893.35,0.0038
+Jordan,barley_yield,0.86,48.87,12893.35,0.0038
+Jordan,millet_yield,1.43,48.87,12893.35,0.0038
+Jordan,potato_yield,30.62,48.87,12893.35,0.0038
+Jordan,wheat_yield,1.15,48.87,12893.35,0.0038
+Algeria,wheat_yield,1.91,48.56,12893.35,0.0038
+Algeria,maize_yield,1.84,48.56,12893.35,0.0038
+Algeria,potato_yield,31.09,48.56,12893.35,0.0038
+Algeria,rapeseed_yield,1.98,48.56,12893.35,0.0038
+Algeria,sunflower_yield,0.45,48.56,12893.35,0.0038
+Algeria,rice_yield,2.09,48.56,12893.35,0.0038
+Algeria,groundnut_yield,2.5,48.56,12893.35,0.0038
+Algeria,sorghum_yield,4.86,48.56,12893.35,0.0038
+Algeria,cotton_yield,0.31,48.56,12893.35,0.0038
+Algeria,barley_yield,1.53,48.56,12893.35,0.0038
+Armenia,potato_yield,18.81,46.73,12893.35,0.0036
+Armenia,maize_yield,5.51,46.73,12893.35,0.0036
+Armenia,wheat_yield,2.82,46.73,12893.35,0.0036
+Armenia,barley_yield,2.38,46.73,12893.35,0.0036
+Armenia,sugarbeet_yield,15.27,46.73,12893.35,0.0036
+Armenia,rye_yield,1.94,46.73,12893.35,0.0036
+South Korea,rice_yield,7.04,46.62,12893.35,0.0036
+South Korea,wheat_yield,3.66,46.62,12893.35,0.0036
+South Korea,barley_yield,2.17,46.62,12893.35,0.0036
+South Korea,potato_yield,21.48,46.62,12893.35,0.0036
+South Korea,groundnut_yield,2.83,46.62,12893.35,0.0036
+South Korea,rapeseed_yield,0.96,46.62,12893.35,0.0036
+South Korea,sorghum_yield,1.76,46.62,12893.35,0.0036
+South Korea,maize_yield,4.95,46.62,12893.35,0.0036
+South Korea,soybean_yield,1.77,46.62,12893.35,0.0036
+Rwanda,sugarcane_yield,16.35,44.87,12893.35,0.0035
+Rwanda,millet_yield,0.45,44.87,12893.35,0.0035
+Rwanda,cassava_yield,11.01,44.87,12893.35,0.0035
+Rwanda,rice_yield,3.51,44.87,12893.35,0.0035
+Rwanda,groundnut_yield,0.45,44.87,12893.35,0.0035
+Rwanda,maize_yield,1.39,44.87,12893.35,0.0035
+Rwanda,sorghum_yield,1.12,44.87,12893.35,0.0035
+Rwanda,soybean_yield,0.45,44.87,12893.35,0.0035
+Rwanda,wheat_yield,1.01,44.87,12893.35,0.0035
+Rwanda,potato_yield,9.13,44.87,12893.35,0.0035
+Nigeria,wheat_yield,0.79,40.09,12893.35,0.0031
+Nigeria,millet_yield,0.8,40.09,12893.35,0.0031
+Nigeria,oilpalm_yield,2.6,40.09,12893.35,0.0031
+Nigeria,maize_yield,2.09,40.09,12893.35,0.0031
+Nigeria,rice_yield,2.04,40.09,12893.35,0.0031
+Nigeria,sorghum_yield,1.12,40.09,12893.35,0.0031
+Nigeria,cassava_yield,8.68,40.09,12893.35,0.0031
+Nigeria,sugarcane_yield,15.48,40.09,12893.35,0.0031
+Nigeria,groundnut_yield,0.99,40.09,12893.35,0.0031
+Nigeria,cotton_yield,0.86,40.09,12893.35,0.0031
+Nigeria,potato_yield,3.67,40.09,12893.35,0.0031
+Nigeria,soybean_yield,0.97,40.09,12893.35,0.0031
+Saudi Arabia,maize_yield,4.12,39.31,12893.35,0.003
+Saudi Arabia,sorghum_yield,1.39,39.31,12893.35,0.003
+Saudi Arabia,groundnut_yield,1.47,39.31,12893.35,0.003
+Saudi Arabia,barley_yield,3.09,39.31,12893.35,0.003
+Saudi Arabia,millet_yield,1.47,39.31,12893.35,0.003
+Saudi Arabia,potato_yield,23.11,39.31,12893.35,0.003
+Saudi Arabia,wheat_yield,4.66,39.31,12893.35,0.003
+Norway,potato_yield,28.1,37.4,12893.35,0.0029
+Norway,rapeseed_yield,2.18,37.4,12893.35,0.0029
+Norway,wheat_yield,2.11,37.4,12893.35,0.0029
+Norway,rye_yield,2.3,37.4,12893.35,0.0029
+Norway,barley_yield,2.71,37.4,12893.35,0.0029
+Oman,potato_yield,27.11,32.25,12893.35,0.0025
+Oman,sorghum_yield,1.29,32.25,12893.35,0.0025
+Oman,wheat_yield,3.85,32.25,12893.35,0.0025
+Latvia,rye_yield,3.76,31.01,12893.35,0.0024
+Latvia,wheat_yield,3.43,31.01,12893.35,0.0024
+Latvia,potato_yield,19.32,31.01,12893.35,0.0024
+Latvia,rapeseed_yield,1.91,31.01,12893.35,0.0024
+Latvia,barley_yield,2.59,31.01,12893.35,0.0024
+Estonia,rapeseed_yield,1.56,26.57,12893.35,0.0021
+Estonia,potato_yield,16.87,26.57,12893.35,0.0021
+Estonia,rye_yield,2.72,26.57,12893.35,0.0021
+Estonia,barley_yield,2.51,26.57,12893.35,0.0021
+Estonia,wheat_yield,2.91,26.57,12893.35,0.0021
+Georgia,maize_yield,2.72,26.04,12893.35,0.002
+Georgia,potato_yield,12.63,26.04,12893.35,0.002
+Georgia,rye_yield,1.11,26.04,12893.35,0.002
+Georgia,soybean_yield,3.06,26.04,12893.35,0.002
+Georgia,sunflower_yield,1.03,26.04,12893.35,0.002
+Georgia,barley_yield,2.16,26.04,12893.35,0.002
+Georgia,wheat_yield,2.47,26.04,12893.35,0.002
+Georgia,groundnut_yield,0.86,26.04,12893.35,0.002
+Libya,potato_yield,19.44,26.01,12893.35,0.002
+Libya,millet_yield,1.39,26.01,12893.35,0.002
+Libya,maize_yield,2.23,26.01,12893.35,0.002
+Libya,groundnut_yield,1.67,26.01,12893.35,0.002
+Libya,barley_yield,0.51,26.01,12893.35,0.002
+Libya,wheat_yield,0.77,26.01,12893.35,0.002
+Yemen,wheat_yield,1.63,21.14,12893.35,0.0016
+Yemen,barley_yield,0.66,21.14,12893.35,0.0016
+Yemen,potato_yield,15.39,21.14,12893.35,0.0016
+Yemen,maize_yield,1.15,21.14,12893.35,0.0016
+Yemen,sorghum_yield,0.63,21.14,12893.35,0.0016
+Yemen,cotton_yield,1.09,21.14,12893.35,0.0016
+Yemen,millet_yield,0.59,21.14,12893.35,0.0016
+Namibia,maize_yield,2.35,21.02,12893.35,0.0016
+Namibia,sunflower_yield,1.16,21.02,12893.35,0.0016
+Namibia,potato_yield,12.09,21.02,12893.35,0.0016
+Namibia,groundnut_yield,0.35,21.02,12893.35,0.0016
+Namibia,sorghum_yield,0.19,21.02,12893.35,0.0016
+Namibia,wheat_yield,4.55,21.02,12893.35,0.0016
+Namibia,millet_yield,0.33,21.02,12893.35,0.0016
+Brunei,rice_yield,2.0,20.94,12893.35,0.0016
+Brunei,cassava_yield,18.94,20.94,12893.35,0.0016
+Gambia,sorghum_yield,0.9,18.99,12893.35,0.0015
+Gambia,rice_yield,0.78,18.99,12893.35,0.0015
+Gambia,oilpalm_yield,9.99,18.99,12893.35,0.0015
+Gambia,maize_yield,0.89,18.99,12893.35,0.0015
+Gambia,millet_yield,0.86,18.99,12893.35,0.0015
+Gambia,cassava_yield,4.29,18.99,12893.35,0.0015
+Gambia,groundnut_yield,0.93,18.99,12893.35,0.0015
+Gambia,cotton_yield,0.35,18.99,12893.35,0.0015
+Togo,rice_yield,1.68,18.8,12893.35,0.0015
+Togo,cotton_yield,0.71,18.8,12893.35,0.0015
+Togo,groundnut_yield,0.74,18.8,12893.35,0.0015
+Togo,soybean_yield,0.44,18.8,12893.35,0.0015
+Togo,millet_yield,0.59,18.8,12893.35,0.0015
+Togo,sorghum_yield,0.87,18.8,12893.35,0.0015
+Togo,maize_yield,1.24,18.8,12893.35,0.0015
+Togo,cassava_yield,3.98,18.8,12893.35,0.0015
+Togo,oilpalm_yield,8.55,18.8,12893.35,0.0015
+Mongolia,potato_yield,13.07,16.49,12893.35,0.0013
+Mongolia,barley_yield,0.76,16.49,12893.35,0.0013
+Mongolia,wheat_yield,1.27,16.49,12893.35,0.0013
+Mongolia,rapeseed_yield,1.39,16.49,12893.35,0.0013
+Trinidad and Tobago,cassava_yield,4.64,8.13,12893.35,0.0006
+Trinidad and Tobago,maize_yield,2.43,8.13,12893.35,0.0006
+Trinidad and Tobago,rice_yield,1.06,8.13,12893.35,0.0006
+Eritrea,maize_yield,1.02,6.43,12893.35,0.0005
+Eritrea,millet_yield,0.34,6.43,12893.35,0.0005
+Eritrea,sorghum_yield,0.5,6.43,12893.35,0.0005
+Eritrea,groundnut_yield,0.74,6.43,12893.35,0.0005
+Eritrea,potato_yield,1.21,6.43,12893.35,0.0005
+Eritrea,barley_yield,1.49,6.43,12893.35,0.0005
+Eritrea,wheat_yield,1.13,6.43,12893.35,0.0005
